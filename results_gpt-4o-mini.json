@@ -1,0 +1,2639 @@
+{
+  "0": {
+    "name": "Number Cross 5",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer to the puzzle is 28749.",
+        "prompt_tokens": 25970,
+        "completion_tokens": 11,
+        "total_tokens": 25981
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer to the puzzle is 28739.",
+        "prompt_tokens": 25970,
+        "completion_tokens": 11,
+        "total_tokens": 25981
+      }
+    ]
+  },
+  "1": {
+    "name": "Sum One, Somewhere",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The value of \\( p \\) for which there is exactly a \\( \\frac{1}{2} \\) probability that there exists an infinite path down the tree that sums to at most 1 is \n\n\\[\np \\approx 0.2928932188.\n\\]",
+        "prompt_tokens": 25638,
+        "completion_tokens": 58,
+        "total_tokens": 25696
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The value of \\( p \\) for which there is exactly a \\( \\frac{1}{2} \\) probability that there exists an infinite path down the tree that sums to at most 1 is approximately \\( 0.5 \\).",
+        "prompt_tokens": 25638,
+        "completion_tokens": 50,
+        "total_tokens": 25688
+      }
+    ]
+  },
+  "2": {
+    "name": "Hall of Mirrors 3",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 180740.",
+        "prompt_tokens": 14384,
+        "completion_tokens": 8,
+        "total_tokens": 14392
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 1807740.",
+        "prompt_tokens": 14384,
+        "completion_tokens": 9,
+        "total_tokens": 14393
+      }
+    ]
+  },
+  "3": {
+    "name": "Top Score (Give or Take)",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "OKRA",
+        "prompt_tokens": 25560,
+        "completion_tokens": 3,
+        "total_tokens": 25563
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "STICKERS",
+        "prompt_tokens": 25560,
+        "completion_tokens": 4,
+        "total_tokens": 25564
+      }
+    ]
+  },
+  "4": {
+    "name": "Somewhat Square Sudoku",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 205202525.",
+        "prompt_tokens": 25681,
+        "completion_tokens": 9,
+        "total_tokens": 25690
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 202345678.",
+        "prompt_tokens": 25681,
+        "completion_tokens": 9,
+        "total_tokens": 25690
+      }
+    ]
+  },
+  "5": {
+    "name": "Games Night!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Games",
+        "prompt_tokens": 25597,
+        "completion_tokens": 2,
+        "total_tokens": 25599
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Six",
+        "prompt_tokens": 25597,
+        "completion_tokens": 2,
+        "total_tokens": 25599
+      }
+    ]
+  },
+  "6": {
+    "name": "Beside the Point",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The probability is \\( 0.5000000000 \\).",
+        "prompt_tokens": 25636,
+        "completion_tokens": 14,
+        "total_tokens": 25650
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The probability is \\(0.5000000000\\).",
+        "prompt_tokens": 25636,
+        "completion_tokens": 13,
+        "total_tokens": 25649
+      }
+    ]
+  },
+  "7": {
+    "name": "Knight Moves 6",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "1,2,3,a1,b3,c5,d3,f4,d5,f6,a6,c5,a4,b2,c4,d2,f1",
+        "prompt_tokens": 25796,
+        "completion_tokens": 34,
+        "total_tokens": 25830
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "1,2,3,a1,b3,c5,d3,f4,d5,f6,a6,c5,a4,b2,c4,d2,f1",
+        "prompt_tokens": 25796,
+        "completion_tokens": 34,
+        "total_tokens": 25830
+      }
+    ]
+  },
+  "8": {
+    "name": "Fences 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "48",
+        "prompt_tokens": 14469,
+        "completion_tokens": 2,
+        "total_tokens": 14471
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 1092. Please try again in 327ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      }
+    ]
+  },
+  "9": {
+    "name": "Tree-edge Triage",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The infimum of the set of all probabilities \\( p \\) for which Aaron has a nonzero probability of winning the game is \\( \\frac{1}{2} \\).",
+        "prompt_tokens": 25828,
+        "completion_tokens": 37,
+        "total_tokens": 25865
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The infimum of the set of all probabilities \\( p \\) for which Aaron has a nonzero probability of winning the game is \\( \\frac{1}{2} \\).",
+        "prompt_tokens": 25828,
+        "completion_tokens": 37,
+        "total_tokens": 25865
+      }
+    ]
+  },
+  "10": {
+    "name": "Many Happy Returns",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 163. Please try again in 48ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 163. Please try again in 48ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      }
+    ]
+  },
+  "11": {
+    "name": "Altered States 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "I'm unable to assist with that.",
+        "prompt_tokens": 25856,
+        "completion_tokens": 8,
+        "total_tokens": 25864
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 1086. Please try again in 325ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      }
+    ]
+  },
+  "12": {
+    "name": "Number Cross 4",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 199305, Requested 1027. Please try again in 99ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 24898.",
+        "prompt_tokens": 25748,
+        "completion_tokens": 8,
+        "total_tokens": 25756
+      }
+    ]
+  },
+  "13": {
+    "name": "Robot Capture-the-Flag",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 335. Please try again in 100ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 335. Please try again in 100ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      }
+    ]
+  },
+  "14": {
+    "name": "Hooks 10",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 144.",
+        "prompt_tokens": 25769,
+        "completion_tokens": 7,
+        "total_tokens": 25776
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 1029. Please try again in 308ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      }
+    ]
+  },
+  "15": {
+    "name": "Some Off Square",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 882. Please try again in 264ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The probability that the circle has a part of it that is off the square is \\( \\frac{1}{4} \\).",
+        "prompt_tokens": 25606,
+        "completion_tokens": 27,
+        "total_tokens": 25633
+      }
+    ]
+  },
+  "16": {
+    "name": "Some F Squares",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 969. Please try again in 290ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 199729, Requested 969. Please try again in 209ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      }
+    ]
+  },
+  "17": {
+    "name": "Hall of Mirrors 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Out of range float values are not JSON compliant: nan"
+      }
+    ]
+  },
+  "18": {
+    "name": "Knight Moves 5",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "(1,b1), (0,c1), (0,c2), (1,d2), (0,e2), (0,e3), (1,f3), (0,g3), (0,g4), (1,h4), (0,h5), (0,h6), (1,h7), (0,h8)",
+        "prompt_tokens": 14975,
+        "completion_tokens": 71,
+        "total_tokens": 15046
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "I'm unable to provide a solution to this puzzle.",
+        "prompt_tokens": 14975,
+        "completion_tokens": 11,
+        "total_tokens": 14986
+      }
+    ]
+  },
+  "19": {
+    "name": "A Weird Tour",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Serious",
+        "prompt_tokens": 431,
+        "completion_tokens": 3,
+        "total_tokens": 434
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "France",
+        "prompt_tokens": 431,
+        "completion_tokens": 2,
+        "total_tokens": 433
+      }
+    ]
+  },
+  "20": {
+    "name": "Getting from a to b",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The first (lowest) row where the piece labeled \"2023\" would make sense to place it is row 8.",
+        "prompt_tokens": 14368,
+        "completion_tokens": 26,
+        "total_tokens": 14394
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The first (lowest) row where the piece labeled \"2023\" would make sense to place is row 10.",
+        "prompt_tokens": 14368,
+        "completion_tokens": 25,
+        "total_tokens": 14393
+      }
+    ]
+  },
+  "21": {
+    "name": "Single-Cross 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "1.0000000000,0.5000000000",
+        "prompt_tokens": 204,
+        "completion_tokens": 14,
+        "total_tokens": 218
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "1.0000000000,0.5000000000",
+        "prompt_tokens": 204,
+        "completion_tokens": 14,
+        "total_tokens": 218
+      }
+    ]
+  },
+  "22": {
+    "name": "Choco Banana",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "9216",
+        "prompt_tokens": 14298,
+        "completion_tokens": 3,
+        "total_tokens": 14301
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "9216",
+        "prompt_tokens": 14298,
+        "completion_tokens": 3,
+        "total_tokens": 14301
+      }
+    ]
+  },
+  "23": {
+    "name": "Hooks 9",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 18.",
+        "prompt_tokens": 25781,
+        "completion_tokens": 7,
+        "total_tokens": 25788
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 18.",
+        "prompt_tokens": 25781,
+        "completion_tokens": 7,
+        "total_tokens": 25788
+      }
+    ]
+  },
+  "24": {
+    "name": "Game Night!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 900. Please try again in 270ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "CATEGORIES",
+        "prompt_tokens": 14290,
+        "completion_tokens": 3,
+        "total_tokens": 14293
+      }
+    ]
+  },
+  "25": {
+    "name": "Arc-edge Acreage",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The number of ways to draw a curve enclosing a region of area exactly 32 is 36.",
+        "prompt_tokens": 25669,
+        "completion_tokens": 21,
+        "total_tokens": 25690
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 924. Please try again in 277ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      }
+    ]
+  },
+  "26": {
+    "name": "Robot Long Jump",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.500000000",
+        "prompt_tokens": 421,
+        "completion_tokens": 6,
+        "total_tokens": 427
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.500000000",
+        "prompt_tokens": 421,
+        "completion_tokens": 6,
+        "total_tokens": 427
+      }
+    ]
+  },
+  "27": {
+    "name": "Twenty Four Seven (Four-in-One)",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The product of the areas of the connected groups of orthogonally adjacent empty squares in the grid is 80.",
+        "prompt_tokens": 25796,
+        "completion_tokens": 24,
+        "total_tokens": 25820
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The product of the areas of the connected groups of orthogonally adjacent empty squares in the grid is 60.",
+        "prompt_tokens": 25796,
+        "completion_tokens": 24,
+        "total_tokens": 25820
+      }
+    ]
+  },
+  "28": {
+    "name": "Lesses More",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 1106. Please try again in 331ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 1106. Please try again in 331ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      }
+    ]
+  },
+  "29": {
+    "name": "Die Agony",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "1864",
+        "prompt_tokens": 25752,
+        "completion_tokens": 3,
+        "total_tokens": 25755
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 1010. Please try again in 303ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      }
+    ]
+  },
+  "30": {
+    "name": "'Pent-up' Frustration 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 210. Please try again in 62ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.6180339",
+        "prompt_tokens": 203,
+        "completion_tokens": 6,
+        "total_tokens": 209
+      }
+    ]
+  },
+  "31": {
+    "name": "The Marshy Mess",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.5000000",
+        "prompt_tokens": 14476,
+        "completion_tokens": 6,
+        "total_tokens": 14482
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.4285714",
+        "prompt_tokens": 14476,
+        "completion_tokens": 6,
+        "total_tokens": 14482
+      }
+    ]
+  },
+  "32": {
+    "name": "Pair Dance 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 183. Please try again in 54ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "(4, 4, 4, 4)",
+        "prompt_tokens": 277,
+        "completion_tokens": 13,
+        "total_tokens": 290
+      }
+    ]
+  },
+  "33": {
+    "name": "New York Minute",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The meeting place is \"Street.\"",
+        "prompt_tokens": 25655,
+        "completion_tokens": 8,
+        "total_tokens": 25663
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 917. Please try again in 275ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      }
+    ]
+  },
+  "34": {
+    "name": "Andy's Morning Stroll",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.5000000",
+        "prompt_tokens": 522,
+        "completion_tokens": 6,
+        "total_tokens": 528
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.5000000",
+        "prompt_tokens": 522,
+        "completion_tokens": 6,
+        "total_tokens": 528
+      }
+    ]
+  },
+  "35": {
+    "name": "Block Party 4",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "430",
+        "prompt_tokens": 25635,
+        "completion_tokens": 2,
+        "total_tokens": 25637
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "430",
+        "prompt_tokens": 25635,
+        "completion_tokens": 2,
+        "total_tokens": 25637
+      }
+    ]
+  },
+  "36": {
+    "name": "Robot Updated Swimming Trials",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 641. Please try again in 192ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 641. Please try again in 192ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      }
+    ]
+  },
+  "37": {
+    "name": "Almost Magic",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131",
+        "prompt_tokens": 14556,
+        "completion_tokens": 83,
+        "total_tokens": 14639
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131",
+        "prompt_tokens": 14556,
+        "completion_tokens": 83,
+        "total_tokens": 14639
+      }
+    ]
+  },
+  "38": {
+    "name": "The Hidden Warning",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "WATERFALLS",
+        "prompt_tokens": 99,
+        "completion_tokens": 6,
+        "total_tokens": 105
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "WATERFALLS",
+        "prompt_tokens": 99,
+        "completion_tokens": 6,
+        "total_tokens": 105
+      }
+    ]
+  },
+  "39": {
+    "name": "Eldrow",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "CRANE, GRASP, TRAMP, TRICK, TRACK, TREAD, TREND, TREAD, TREAD, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND, TREND,",
+        "prompt_tokens": 743,
+        "completion_tokens": 200,
+        "total_tokens": 943
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "CRANE,GRAPE,GRAND,GRIND,GRIND,GRIND",
+        "prompt_tokens": 743,
+        "completion_tokens": 18,
+        "total_tokens": 761
+      }
+    ]
+  },
+  "40": {
+    "name": "Hooks 8",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer to the puzzle is 36.",
+        "prompt_tokens": 14417,
+        "completion_tokens": 10,
+        "total_tokens": 14427
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 36.",
+        "prompt_tokens": 14417,
+        "completion_tokens": 7,
+        "total_tokens": 14424
+      }
+    ]
+  },
+  "41": {
+    "name": "Robot Archery",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.2500000000",
+        "prompt_tokens": 335,
+        "completion_tokens": 7,
+        "total_tokens": 342
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.2500000000",
+        "prompt_tokens": 335,
+        "completion_tokens": 7,
+        "total_tokens": 342
+      }
+    ]
+  },
+  "42": {
+    "name": "Split Division 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 1249999.",
+        "prompt_tokens": 14295,
+        "completion_tokens": 9,
+        "total_tokens": 14304
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 1270666.",
+        "prompt_tokens": 14295,
+        "completion_tokens": 9,
+        "total_tokens": 14304
+      }
+    ]
+  },
+  "43": {
+    "name": "Robot Swimming Trials",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "N, p = 4, 0.666667",
+        "prompt_tokens": 676,
+        "completion_tokens": 13,
+        "total_tokens": 689
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "4,0.666667",
+        "prompt_tokens": 676,
+        "completion_tokens": 7,
+        "total_tokens": 683
+      }
+    ]
+  },
+  "44": {
+    "name": "Knight Moves 4",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 219.",
+        "prompt_tokens": 25689,
+        "completion_tokens": 7,
+        "total_tokens": 25696
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 219.",
+        "prompt_tokens": 25689,
+        "completion_tokens": 7,
+        "total_tokens": 25696
+      }
+    ]
+  },
+  "45": {
+    "name": "Robot Tug-of-War",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "-0.5",
+        "prompt_tokens": 315,
+        "completion_tokens": 5,
+        "total_tokens": 320
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "-0.5",
+        "prompt_tokens": 315,
+        "completion_tokens": 5,
+        "total_tokens": 320
+      }
+    ]
+  },
+  "46": {
+    "name": "It's Symmetric 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 20.",
+        "prompt_tokens": 200,
+        "completion_tokens": 7,
+        "total_tokens": 207
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 20.",
+        "prompt_tokens": 200,
+        "completion_tokens": 7,
+        "total_tokens": 207
+      }
+    ]
+  },
+  "47": {
+    "name": "Robot Weightlifting",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.500000",
+        "prompt_tokens": 302,
+        "completion_tokens": 5,
+        "total_tokens": 307
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.500000",
+        "prompt_tokens": 302,
+        "completion_tokens": 5,
+        "total_tokens": 307
+      }
+    ]
+  },
+  "48": {
+    "name": "Past Tens",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "I can't determine the hidden question or provide an answer based on the image.",
+        "prompt_tokens": 14268,
+        "completion_tokens": 16,
+        "total_tokens": 14284
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "I can't determine the hidden question from the image.",
+        "prompt_tokens": 14268,
+        "completion_tokens": 11,
+        "total_tokens": 14279
+      }
+    ]
+  },
+  "49": {
+    "name": "Bracketology 101",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The optimal seeds for the 2-seed to swap are the 7-seed and the 10-seed. This swap increases the 2-seed's probability of winning the tournament to approximately 0.560000.",
+        "prompt_tokens": 14498,
+        "completion_tokens": 47,
+        "total_tokens": 14545
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The optimal seeds for the 2-seed to swap are the 7-seed and the 10-seed. This swap increases the 2-seed's probability of winning the tournament by approximately 0.024845.",
+        "prompt_tokens": 14498,
+        "completion_tokens": 47,
+        "total_tokens": 14545
+      }
+    ]
+  },
+  "50": {
+    "name": "Tit for Tat",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Baker's dozen",
+        "prompt_tokens": 166,
+        "completion_tokens": 5,
+        "total_tokens": 171
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "BREAD BOWL",
+        "prompt_tokens": 166,
+        "completion_tokens": 5,
+        "total_tokens": 171
+      }
+    ]
+  },
+  "51": {
+    "name": "Hooks #7",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "16",
+        "prompt_tokens": 25760,
+        "completion_tokens": 2,
+        "total_tokens": 25762
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "16",
+        "prompt_tokens": 25760,
+        "completion_tokens": 2,
+        "total_tokens": 25762
+      }
+    ]
+  },
+  "52": {
+    "name": "Figurine Figuring",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "5.5",
+        "prompt_tokens": 232,
+        "completion_tokens": 4,
+        "total_tokens": 236
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "6.0000000",
+        "prompt_tokens": 232,
+        "completion_tokens": 6,
+        "total_tokens": 238
+      }
+    ]
+  },
+  "53": {
+    "name": "Twenty Four Seven 2-by-2 #2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer to this month's puzzle is 194.",
+        "prompt_tokens": 25780,
+        "completion_tokens": 11,
+        "total_tokens": 25791
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer to this month's puzzle is 1540.",
+        "prompt_tokens": 25780,
+        "completion_tokens": 12,
+        "total_tokens": 25792
+      }
+    ]
+  },
+  "54": {
+    "name": "Candy Collectors",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "\\(\\frac{1}{5}\\)",
+        "prompt_tokens": 240,
+        "completion_tokens": 10,
+        "total_tokens": 250
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "\\(\\frac{1}{5}\\)",
+        "prompt_tokens": 240,
+        "completion_tokens": 10,
+        "total_tokens": 250
+      }
+    ]
+  },
+  "55": {
+    "name": "Tangled!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "SSRRSSRRSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
+        "prompt_tokens": 459,
+        "completion_tokens": 200,
+        "total_tokens": 659
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "SRSSRRSSSSS",
+        "prompt_tokens": 459,
+        "completion_tokens": 7,
+        "total_tokens": 466
+      }
+    ]
+  },
+  "56": {
+    "name": "Study and Ponder",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "BAYXAWKCVSFDXDOVFLSFISVAZOHUMAMGNWRBCOOPFGCVXCSXDFS",
+        "prompt_tokens": 544,
+        "completion_tokens": 31,
+        "total_tokens": 575
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "NVIDIA",
+        "prompt_tokens": 544,
+        "completion_tokens": 3,
+        "total_tokens": 547
+      }
+    ]
+  },
+  "57": {
+    "name": "What a Trit!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Yes, it is possible to express 524293 as a quotient of two representable numbers in Terniquaternaria. One possible representation is:\n\n(111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+        "prompt_tokens": 302,
+        "completion_tokens": 200,
+        "total_tokens": 502
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Yes, it is possible to express 524293 as a quotient of two representable numbers in Terniquaternaria. One possible representation is:\n\n(1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111T / 1T)",
+        "prompt_tokens": 302,
+        "completion_tokens": 72,
+        "total_tokens": 374
+      }
+    ]
+  },
+  "58": {
+    "name": "Circle Time",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The maximum proportion of the area of the circle \\( C \\) that can be covered with rings of circles is \\( \\frac{3\\pi}{4} \\).",
+        "prompt_tokens": 14441,
+        "completion_tokens": 35,
+        "total_tokens": 14476
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The maximum proportion of the area of the circle \\( C \\) that can be covered with rings of circles is \\( \\frac{3\\sqrt{3}}{4} \\).",
+        "prompt_tokens": 14441,
+        "completion_tokens": 38,
+        "total_tokens": 14479
+      }
+    ]
+  },
+  "59": {
+    "name": "Expelled",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Out of range float values are not JSON compliant: nan"
+      }
+    ]
+  },
+  "60": {
+    "name": "Triads",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The sum of all values of N < 40 for which it is possible to separate the triangular grid into disjoint triads is 210.",
+        "prompt_tokens": 14374,
+        "completion_tokens": 30,
+        "total_tokens": 14404
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The sum of all values of N < 40 for which it is possible to separate the triangular grid into disjoint triads is **80**.",
+        "prompt_tokens": 14374,
+        "completion_tokens": 31,
+        "total_tokens": 14405
+      }
+    ]
+  },
+  "61": {
+    "name": "Single-Cross",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The length D that maximizes the probability that the segment crosses exactly one line on the checkerboard grid is \\( D = \\sqrt{2} \\), and the maximal probability is \\( \\frac{2}{\\pi} \\).",
+        "prompt_tokens": 111,
+        "completion_tokens": 48,
+        "total_tokens": 159
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The length D that maximizes the probability that the segment crosses exactly one line on the checkerboard grid is \\( D = 1 \\), and the maximal probability is \\( \\frac{1}{2} \\).",
+        "prompt_tokens": 111,
+        "completion_tokens": 44,
+        "total_tokens": 155
+      }
+    ]
+  },
+  "62": {
+    "name": "Alter/Nate",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Alter wins by always picking numbers that keep the total from reaching 11 after Nate's turn.",
+        "prompt_tokens": 292,
+        "completion_tokens": 20,
+        "total_tokens": 312
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Alter wins. His strategy is to always keep the running total at a multiple of 11 after Nate's turn.",
+        "prompt_tokens": 292,
+        "completion_tokens": 24,
+        "total_tokens": 316
+      }
+    ]
+  },
+  "63": {
+    "name": "Poetry in Motion",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is \"checkmate.\"",
+        "prompt_tokens": 167,
+        "completion_tokens": 8,
+        "total_tokens": 175
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is \"checkmate.\"",
+        "prompt_tokens": 167,
+        "completion_tokens": 8,
+        "total_tokens": 175
+      }
+    ]
+  },
+  "64": {
+    "name": "Hooks #6",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer to the puzzle is 36.",
+        "prompt_tokens": 25795,
+        "completion_tokens": 10,
+        "total_tokens": 25805
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 24.",
+        "prompt_tokens": 25795,
+        "completion_tokens": 7,
+        "total_tokens": 25802
+      }
+    ]
+  },
+  "65": {
+    "name": "Tri, Tri Again, Again",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The product of the odd horizontal leg lengths is 105.",
+        "prompt_tokens": 14352,
+        "completion_tokens": 13,
+        "total_tokens": 14365
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The product of the odd horizontal leg lengths is 105.",
+        "prompt_tokens": 14352,
+        "completion_tokens": 13,
+        "total_tokens": 14365
+      }
+    ]
+  },
+  "66": {
+    "name": "Block Party 3",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The sum of the largest horizontally concatenated numbers from each region is **475**.",
+        "prompt_tokens": 14347,
+        "completion_tokens": 18,
+        "total_tokens": 14365
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The sum of the largest horizontally concatenated numbers from each region is **475**.",
+        "prompt_tokens": 14347,
+        "completion_tokens": 18,
+        "total_tokens": 14365
+      }
+    ]
+  },
+  "67": {
+    "name": "Knight Moves 3",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The smallest achievable product of the areas of the connected groups of empty squares in the completed grid is **4**.",
+        "prompt_tokens": 14383,
+        "completion_tokens": 24,
+        "total_tokens": 14407
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 4.",
+        "prompt_tokens": 14383,
+        "completion_tokens": 7,
+        "total_tokens": 14390
+      }
+    ]
+  },
+  "68": {
+    "name": "Scraggle",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The four-word chain is: **EQUINE - ENDEAVOR - ROVER - REBEL**.\n\nThe score for the chain is: **1 \u00d7 12 \u00d7 8 \u00d7 3 = 288**.",
+        "prompt_tokens": 14552,
+        "completion_tokens": 46,
+        "total_tokens": 14598
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The four-word chain is: \n\n**AUDIO - OXIDIZE - ECHO - OLEO**\n\nThe score for the chain is: **1 \u00d7 28 \u00d7 10 \u00d7 4 = 1120**.",
+        "prompt_tokens": 14552,
+        "completion_tokens": 48,
+        "total_tokens": 14600
+      }
+    ]
+  },
+  "69": {
+    "name": "Hooks #5",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 36.",
+        "prompt_tokens": 25766,
+        "completion_tokens": 7,
+        "total_tokens": 25773
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 36.",
+        "prompt_tokens": 25766,
+        "completion_tokens": 7,
+        "total_tokens": 25773
+      }
+    ]
+  },
+  "70": {
+    "name": "Disassembled Rainbow Bagel",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The difference between the enclosed areas of the two loops is \\( 0 \\).",
+        "prompt_tokens": 14294,
+        "completion_tokens": 17,
+        "total_tokens": 14311
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The difference between the enclosed areas of the two loops is 0.",
+        "prompt_tokens": 14294,
+        "completion_tokens": 15,
+        "total_tokens": 14309
+      }
+    ]
+  },
+  "71": {
+    "name": "Remote Sudoku",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 204.",
+        "prompt_tokens": 25676,
+        "completion_tokens": 7,
+        "total_tokens": 25683
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 204.",
+        "prompt_tokens": 25676,
+        "completion_tokens": 7,
+        "total_tokens": 25683
+      }
+    ]
+  },
+  "72": {
+    "name": "Twenty Four Seven 2-by-2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 1036.",
+        "prompt_tokens": 25826,
+        "completion_tokens": 8,
+        "total_tokens": 25834
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 1071. Please try again in 321ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      }
+    ]
+  },
+  "73": {
+    "name": "Tile and Trouble 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 97. Please try again in 29ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 97. Please try again in 29ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      }
+    ]
+  },
+  "74": {
+    "name": "Fences",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer to the puzzle is 240.",
+        "prompt_tokens": 14421,
+        "completion_tokens": 10,
+        "total_tokens": 14431
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 240.",
+        "prompt_tokens": 14421,
+        "completion_tokens": 7,
+        "total_tokens": 14428
+      }
+    ]
+  },
+  "75": {
+    "name": "Block Party 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 199642, Requested 918. Please try again in 168ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The smallest possible sum for the \"product\" cells is 36.",
+        "prompt_tokens": 14324,
+        "completion_tokens": 15,
+        "total_tokens": 14339
+      }
+    ]
+  },
+  "76": {
+    "name": "'Pent-up' Frustration",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "4.0",
+        "prompt_tokens": 239,
+        "completion_tokens": 4,
+        "total_tokens": 243
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "8",
+        "prompt_tokens": 239,
+        "completion_tokens": 2,
+        "total_tokens": 241
+      }
+    ]
+  },
+  "77": {
+    "name": "Subtiles",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer to the puzzle is 144.",
+        "prompt_tokens": 25701,
+        "completion_tokens": 10,
+        "total_tokens": 25711
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The product of the areas of the empty regions in the completed grid is 144.",
+        "prompt_tokens": 25701,
+        "completion_tokens": 18,
+        "total_tokens": 25719
+      }
+    ]
+  },
+  "78": {
+    "name": "Spiral Region",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 199409, Requested 898. Please try again in 92ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "30",
+        "prompt_tokens": 14283,
+        "completion_tokens": 2,
+        "total_tokens": 14285
+      }
+    ]
+  },
+  "79": {
+    "name": "Hooks #4",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The final answer is 144.",
+        "prompt_tokens": 14414,
+        "completion_tokens": 8,
+        "total_tokens": 14422
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 144.",
+        "prompt_tokens": 14414,
+        "completion_tokens": 7,
+        "total_tokens": 14421
+      }
+    ]
+  },
+  "80": {
+    "name": "Triangle Math",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is \\( 0 \\).",
+        "prompt_tokens": 128,
+        "completion_tokens": 9,
+        "total_tokens": 137
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is \\( 0 \\).",
+        "prompt_tokens": 128,
+        "completion_tokens": 9,
+        "total_tokens": 137
+      }
+    ]
+  },
+  "81": {
+    "name": "Twenty Four Seven",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 8.",
+        "prompt_tokens": 25676,
+        "completion_tokens": 7,
+        "total_tokens": 25683
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 12.",
+        "prompt_tokens": 25676,
+        "completion_tokens": 7,
+        "total_tokens": 25683
+      }
+    ]
+  },
+  "82": {
+    "name": "Swing Time 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 59. Please try again in 17ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 59. Please try again in 17ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      }
+    ]
+  },
+  "83": {
+    "name": "Where in the World?",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 87. Please try again in 26ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Ukraine",
+        "prompt_tokens": 88,
+        "completion_tokens": 2,
+        "total_tokens": 90
+      }
+    ]
+  },
+  "84": {
+    "name": "It\u00e2\u0080\u0099s Symmetric!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "1126",
+        "prompt_tokens": 14406,
+        "completion_tokens": 3,
+        "total_tokens": 14409
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "1126",
+        "prompt_tokens": 14406,
+        "completion_tokens": 3,
+        "total_tokens": 14409
+      }
+    ]
+  },
+  "85": {
+    "name": "Hooks #3",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 12.",
+        "prompt_tokens": 25773,
+        "completion_tokens": 7,
+        "total_tokens": 25780
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 1035. Please try again in 310ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      }
+    ]
+  },
+  "86": {
+    "name": "Rather Square Sudoku",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 920. Please try again in 276ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 370.",
+        "prompt_tokens": 25648,
+        "completion_tokens": 7,
+        "total_tokens": 25655
+      }
+    ]
+  },
+  "87": {
+    "name": "Crosswords",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Out of range float values are not JSON compliant: nan"
+      }
+    ]
+  },
+  "88": {
+    "name": "Block Party",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Out of range float values are not JSON compliant: nan"
+      }
+    ]
+  },
+  "89": {
+    "name": "Turn-based Strategy Game",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Out of range float values are not JSON compliant: nan"
+      }
+    ]
+  },
+  "90": {
+    "name": "Square Run",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The largest sum you can obtain is **145**. \n\nThe list of moves is: **a1, a5, b5, b8, h8**.",
+        "prompt_tokens": 25743,
+        "completion_tokens": 36,
+        "total_tokens": 25779
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The largest sum you can obtain is **157**. \n\nThe list of moves is: a1, a2, a3, a4, a5, a6, a7, a8, h8.",
+        "prompt_tokens": 25743,
+        "completion_tokens": 46,
+        "total_tokens": 25789
+      }
+    ]
+  },
+  "91": {
+    "name": "Middlylinks",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 2080.",
+        "prompt_tokens": 14482,
+        "completion_tokens": 8,
+        "total_tokens": 14490
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 2080.",
+        "prompt_tokens": 14482,
+        "completion_tokens": 8,
+        "total_tokens": 14490
+      }
+    ]
+  },
+  "92": {
+    "name": "Split Division",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 113,000.",
+        "prompt_tokens": 14295,
+        "completion_tokens": 9,
+        "total_tokens": 14304
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 11200000.",
+        "prompt_tokens": 14295,
+        "completion_tokens": 9,
+        "total_tokens": 14304
+      }
+    ]
+  },
+  "93": {
+    "name": "Well Well Well...",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 199165, Requested 955. Please try again in 36ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "43 minutes",
+        "prompt_tokens": 25693,
+        "completion_tokens": 3,
+        "total_tokens": 25696
+      }
+    ]
+  },
+  "94": {
+    "name": "KenKen (Concatenated)",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 958. Please try again in 287ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 199849, Requested 958. Please try again in 242ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      }
+    ]
+  },
+  "95": {
+    "name": "Knight Moves #2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 12.",
+        "prompt_tokens": 25673,
+        "completion_tokens": 7,
+        "total_tokens": 25680
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 948. Please try again in 284ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      }
+    ]
+  },
+  "96": {
+    "name": "Birthday Bash",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 236. Please try again in 70ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "23",
+        "prompt_tokens": 216,
+        "completion_tokens": 2,
+        "total_tokens": 218
+      }
+    ]
+  },
+  "97": {
+    "name": "What About Bob?",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "3, 5, 7",
+        "prompt_tokens": 277,
+        "completion_tokens": 8,
+        "total_tokens": 285
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The three smallest values of N such that Bob wins the game are 2, 3, and 5.",
+        "prompt_tokens": 277,
+        "completion_tokens": 24,
+        "total_tokens": 301
+      }
+    ]
+  },
+  "98": {
+    "name": "Hex-agony #2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Out of range float values are not JSON compliant: nan"
+      }
+    ]
+  },
+  "99": {
+    "name": "Star Search",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The Martian",
+        "prompt_tokens": 14229,
+        "completion_tokens": 4,
+        "total_tokens": 14233
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The Martian",
+        "prompt_tokens": 14229,
+        "completion_tokens": 4,
+        "total_tokens": 14233
+      }
+    ]
+  },
+  "100": {
+    "name": "The Wright Stuff",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "KULU DESOBRA",
+        "prompt_tokens": 25663,
+        "completion_tokens": 7,
+        "total_tokens": 25670
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "SOLUTION: LOUISIANA",
+        "prompt_tokens": 25663,
+        "completion_tokens": 8,
+        "total_tokens": 25671
+      }
+    ]
+  },
+  "101": {
+    "name": "Tri, Tri Again",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The lowest possible sum of numbers that the tetrahedron encounters is 89.",
+        "prompt_tokens": 14318,
+        "completion_tokens": 16,
+        "total_tokens": 14334
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The lowest possible sum of numbers that the tetrahedron encounters is **34**.",
+        "prompt_tokens": 14318,
+        "completion_tokens": 17,
+        "total_tokens": 14335
+      }
+    ]
+  },
+  "102": {
+    "name": "Chess Dance",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The largest possible sum for the 16 products is **21856**.",
+        "prompt_tokens": 25779,
+        "completion_tokens": 16,
+        "total_tokens": 25795
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 1034. Please try again in 310ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      }
+    ]
+  },
+  "103": {
+    "name": "Swing Time",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 103. Please try again in 30ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "I'm sorry, but I cannot access external content or view links. Please provide the details of the puzzle, and I will help you solve it!",
+        "prompt_tokens": 106,
+        "completion_tokens": 30,
+        "total_tokens": 136
+      }
+    ]
+  },
+  "104": {
+    "name": "Number Cross #3",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The sum of all numbers in the grid that share a border with one of the negative numbers is **-8**.",
+        "prompt_tokens": 14323,
+        "completion_tokens": 25,
+        "total_tokens": 14348
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The final answer is 54.",
+        "prompt_tokens": 14323,
+        "completion_tokens": 8,
+        "total_tokens": 14331
+      }
+    ]
+  },
+  "105": {
+    "name": "Get Out The Vote",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Harry: 41, Larry: 32, Mary: 30",
+        "prompt_tokens": 318,
+        "completion_tokens": 15,
+        "total_tokens": 333
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Harry: 34, Larry: 34, Mary: 35",
+        "prompt_tokens": 318,
+        "completion_tokens": 15,
+        "total_tokens": 333
+      }
+    ]
+  },
+  "106": {
+    "name": "Hooks #2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The largest product achievable is 576.",
+        "prompt_tokens": 25730,
+        "completion_tokens": 9,
+        "total_tokens": 25739
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The largest product one can achieve using a subset of the numbered squares in the completed grid is **1440**.",
+        "prompt_tokens": 25730,
+        "completion_tokens": 24,
+        "total_tokens": 25754
+      }
+    ]
+  },
+  "107": {
+    "name": "Long. Journey",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Out of range float values are not JSON compliant: nan"
+      }
+    ]
+  },
+  "108": {
+    "name": "Knight Moves",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The largest product of the numbers in any one row or column is 102.",
+        "prompt_tokens": 25742,
+        "completion_tokens": 17,
+        "total_tokens": 25759
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 999. Please try again in 299ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      }
+    ]
+  },
+  "109": {
+    "name": "Travel Agent",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Out of range float values are not JSON compliant: nan"
+      }
+    ]
+  },
+  "110": {
+    "name": "Professor Rando Redux",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "6",
+        "prompt_tokens": 328,
+        "completion_tokens": 2,
+        "total_tokens": 330
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "6",
+        "prompt_tokens": 328,
+        "completion_tokens": 2,
+        "total_tokens": 330
+      }
+    ]
+  },
+  "111": {
+    "name": "Professor Rando",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Daphne: 1/5  \nMax: 1/5  \nMindy: 1/5  \nSam: 2/5",
+        "prompt_tokens": 235,
+        "completion_tokens": 30,
+        "total_tokens": 265
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Daphne: 1/5  \nMax: 1/5  \nMindy: 1/5  \nSam: 2/5",
+        "prompt_tokens": 235,
+        "completion_tokens": 30,
+        "total_tokens": 265
+      }
+    ]
+  },
+  "112": {
+    "name": "Pair Dance",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The number of different sets of 7 pairs possible is 105.",
+        "prompt_tokens": 14293,
+        "completion_tokens": 15,
+        "total_tokens": 14308
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "105",
+        "prompt_tokens": 14293,
+        "completion_tokens": 2,
+        "total_tokens": 14295
+      }
+    ]
+  },
+  "113": {
+    "name": "Hex-agony",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Out of range float values are not JSON compliant: nan"
+      }
+    ]
+  },
+  "114": {
+    "name": "Think Of The Children!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "120",
+        "prompt_tokens": 207,
+        "completion_tokens": 2,
+        "total_tokens": 209
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "120",
+        "prompt_tokens": 207,
+        "completion_tokens": 2,
+        "total_tokens": 209
+      }
+    ]
+  },
+  "115": {
+    "name": "Number Cross 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The sum of all the digits entered into the completed grid is 198.",
+        "prompt_tokens": 14337,
+        "completion_tokens": 16,
+        "total_tokens": 14353
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The sum of all the digits entered into the completed grid is 153.",
+        "prompt_tokens": 14337,
+        "completion_tokens": 16,
+        "total_tokens": 14353
+      }
+    ]
+  },
+  "116": {
+    "name": "Good Chemistry",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "f(adenosine triphosphate) = 1024",
+        "prompt_tokens": 133,
+        "completion_tokens": 15,
+        "total_tokens": 148
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "f(adenosine triphosphate) = 1024",
+        "prompt_tokens": 133,
+        "completion_tokens": 15,
+        "total_tokens": 148
+      }
+    ]
+  },
+  "117": {
+    "name": "Polymath",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The highest total score you can get is 156.",
+        "prompt_tokens": 14285,
+        "completion_tokens": 12,
+        "total_tokens": 14297
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The highest total score you can get is 120.",
+        "prompt_tokens": 14285,
+        "completion_tokens": 12,
+        "total_tokens": 14297
+      }
+    ]
+  },
+  "118": {
+    "name": "Tic Tac Oh...",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "\\(\\frac{7}{9}\\)",
+        "prompt_tokens": 149,
+        "completion_tokens": 10,
+        "total_tokens": 159
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "\\(\\frac{8}{9}\\)",
+        "prompt_tokens": 149,
+        "completion_tokens": 10,
+        "total_tokens": 159
+      }
+    ]
+  },
+  "119": {
+    "name": "Hall of Mirrors",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The highest score you can achieve is 25.",
+        "prompt_tokens": 25741,
+        "completion_tokens": 11,
+        "total_tokens": 25752
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The highest score you can achieve is 15.",
+        "prompt_tokens": 25741,
+        "completion_tokens": 11,
+        "total_tokens": 25752
+      }
+    ]
+  },
+  "120": {
+    "name": "Ticker Treat",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "E",
+        "prompt_tokens": 65,
+        "completion_tokens": 2,
+        "total_tokens": 67
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "E",
+        "prompt_tokens": 65,
+        "completion_tokens": 2,
+        "total_tokens": 67
+      }
+    ]
+  },
+  "121": {
+    "name": "Oh CHUTE!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Kc3",
+        "prompt_tokens": 25599,
+        "completion_tokens": 4,
+        "total_tokens": 25603
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Kf1",
+        "prompt_tokens": 25599,
+        "completion_tokens": 4,
+        "total_tokens": 25603
+      }
+    ]
+  },
+  "122": {
+    "name": "OH SHOOT!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Out of range float values are not JSON compliant: nan"
+      }
+    ]
+  },
+  "123": {
+    "name": "Deck the Cards",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Out of range float values are not JSON compliant: nan"
+      }
+    ]
+  },
+  "124": {
+    "name": "Wrong Division",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The 8-digit dividend is 12345678.",
+        "prompt_tokens": 14241,
+        "completion_tokens": 12,
+        "total_tokens": 14253
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The 8-digit dividend is 12345678.",
+        "prompt_tokens": 14241,
+        "completion_tokens": 12,
+        "total_tokens": 14253
+      }
+    ]
+  },
+  "125": {
+    "name": "Minesweeping",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "P = 5/6  \nGrid:  \n- - - -  \n4 4 - -  \n4 4 - -  \n- - - -",
+        "prompt_tokens": 14491,
+        "completion_tokens": 33,
+        "total_tokens": 14524
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "P=7/8  \nGrid:  \n- - - -  \n4 4 4 -  \n4 * 4 -  \n- - - -",
+        "prompt_tokens": 14491,
+        "completion_tokens": 33,
+        "total_tokens": 14524
+      }
+    ]
+  },
+  "126": {
+    "name": "Superflip",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Out of range float values are not JSON compliant: nan"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Out of range float values are not JSON compliant: nan"
+      }
+    ]
+  },
+  "127": {
+    "name": "Number Cross",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The sum of the 8 five-digit grid entries in the completed grid is **145176**.",
+        "prompt_tokens": 14315,
+        "completion_tokens": 21,
+        "total_tokens": 14336
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The sum of the 8 five-digit grid entries in the completed grid is **139,960**.",
+        "prompt_tokens": 14315,
+        "completion_tokens": 22,
+        "total_tokens": 14337
+      }
+    ]
+  },
+  "128": {
+    "name": "Chain Reaction",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The longest chain is 20.",
+        "prompt_tokens": 150,
+        "completion_tokens": 8,
+        "total_tokens": 158
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The longest chain is 20.",
+        "prompt_tokens": 150,
+        "completion_tokens": 8,
+        "total_tokens": 158
+      }
+    ]
+  },
+  "129": {
+    "name": "Question Mark",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "18095",
+        "prompt_tokens": 112,
+        "completion_tokens": 3,
+        "total_tokens": 115
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "137149",
+        "prompt_tokens": 112,
+        "completion_tokens": 3,
+        "total_tokens": 115
+      }
+    ]
+  },
+  "130": {
+    "name": "Tile and Trouble",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is:  442",
+        "prompt_tokens": 14246,
+        "completion_tokens": 8,
+        "total_tokens": 14254
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The solution to the puzzle is:\n\n**30**",
+        "prompt_tokens": 14246,
+        "completion_tokens": 11,
+        "total_tokens": 14257
+      }
+    ]
+  },
+  "131": {
+    "name": "Chess Pains \u00e2\u0080\u0093 White To Move",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "CHECKMATE",
+        "prompt_tokens": 25567,
+        "completion_tokens": 4,
+        "total_tokens": 25571
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "CHECKMATE",
+        "prompt_tokens": 25567,
+        "completion_tokens": 4,
+        "total_tokens": 25571
+      }
+    ]
+  },
+  "132": {
+    "name": "Altered States",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "I'm unable to assist with that.",
+        "prompt_tokens": 25638,
+        "completion_tokens": 8,
+        "total_tokens": 25646
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "I'm unable to assist with that.",
+        "prompt_tokens": 25638,
+        "completion_tokens": 8,
+        "total_tokens": 25646
+      }
+    ]
+  },
+  "133": {
+    "name": "Hooks",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 902. Please try again in 270ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The sum of the values of the shaded squares is 174.",
+        "prompt_tokens": 25652,
+        "completion_tokens": 14,
+        "total_tokens": 25666
+      }
+    ]
+  },
+  "134": {
+    "name": "Sum of Squares",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 948. Please try again in 284ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-gqivvNP66vz8QiRIrEsgMGo4 on tokens per min (TPM): Limit 200000, Used 200000, Requested 948. Please try again in 284ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      }
+    ]
+  }
+}
