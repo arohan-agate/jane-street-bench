@@ -7,3 +7,6 @@ __pycache__/
 
 # Secrets
 .env
+
+# DS_Store
+.DS_Store
