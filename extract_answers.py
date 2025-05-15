@@ -15,8 +15,8 @@ from PIL import Image
 CSV_IN   = pathlib.Path("data/puzzles/puzzles.csv")
 CSV_OUT  = pathlib.Path("data/puzzles/puzzles_with_answers.csv")
 MODEL    = "gpt-4o-mini"
-FIXED_PAUSE = 3.0               # seconds between calls (very safe)
-JPEG_PX  = 600                  # image down-sample size
+FIXED_PAUSE = 3.0               # seconds between calls
+JPEG_PX  = 600                  
 JPEG_Q   = 70                   # jpeg quality
 # --------------------------------------------
 
@@ -48,25 +48,25 @@ def build_prompt(sol_text: str, img_path: pathlib.Path | None):
 
     return [system, {"role": "user", "content": user_parts}]
 
-# --------- Load CSV & ensure answer col -----
+# load CSV
 df = pd.read_csv(CSV_IN)
 if "answer" not in df.columns:
     df["answer"] = pd.NA
 
-# ---------- Helper: parse retry sleep -------
+# sleep between calls
 retry_re = re.compile(r"in (\d+)ms")
 
 def get_retry_seconds(err: RateLimitError, default=10):
     m = retry_re.search(str(err))
     return int(m.group(1)) / 1000 + 0.5 if m else default
 
-# ---------- Main loop -----------------------
+# for each puzzle
 for idx, row in df.iterrows():
     if not row.get("hasSolution", False):
-        continue                              # no official solution yet
+        continue                              # current month / no solution
 
     if pd.notna(row["answer"]):
-        continue                              # already done earlier run
+        continue                              # solution already recorded
 
     sol_text = str(row.get("solutionText", "")).strip()
     img_path = None
@@ -80,7 +80,7 @@ for idx, row in df.iterrows():
 
     messages = build_prompt(sol_text, img_path)
 
-    # ---------- call with auto-retry ----------
+    # get answer, don't skip
     while True:
         try:
             resp = client.chat.completions.create(
@@ -106,6 +106,6 @@ for idx, row in df.iterrows():
 
     # -------- incremental save ---------------
     df.to_csv(CSV_OUT, index=False)
-    time.sleep(FIXED_PAUSE)                    # baseline pause
+    time.sleep(FIXED_PAUSE)                    # pause
 
 print("\nAll done!  Answers written to", CSV_OUT)
