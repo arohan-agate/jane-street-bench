@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-# benchmark_answers_only.py
-# Save as:  python benchmark_answers_only.py
+# benchmarks.py
+# Save as:  python benchmarks.py
 # ------------------------------------------
 # deps: openai, pandas, pillow, python-dotenv
 
