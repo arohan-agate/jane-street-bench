@@ -7,8 +7,8 @@ async function fetchJSON(url) {
 }
 
 async function getModelAccuracy(model) {
-  const correctUrl = `../results/correct_solutions_${model}.json`;
-  const resultsUrl = `../results/results_${model}.json`;
+  const correctUrl = `results/correct_solutions_${model}.json`;
+  const resultsUrl = `results/results_${model}.json`;
 
   try {
     const [correctData, resultsData] = await Promise.all([
