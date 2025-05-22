@@ -13,9 +13,10 @@ import pandas as pd
 # ---------- CONFIG -------------------------------------------------------
 BASE = Path(__file__).resolve().parent.parent
 
-RESULTS_JSON = BASE / "results" / "results_gpt-4o-mini.json"
+MODEL = "gemini-2.0-flash-exp"  
+RESULTS_JSON = BASE / "results" / f"results_{MODEL}.json"
 GT_CSV       = BASE / "data"    / "puzzles" / "puzzles.csv"
-OUT_JSON     = BASE / "results" / "correct_solutions_gpt-4o-mini.json"
+OUT_JSON     = BASE / "results" / f"correct_solutions_{MODEL}.json"
 
 # ---------- HELPERS ------------------------------------------------------
 num_re  = re.compile(r"[-+]?\d+(?:,\d{3})*(?:\.\d+)?")
