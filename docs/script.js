@@ -47,6 +47,19 @@ function createTableRow({ model, correctCount, totalCount, error }) {
 async function displayResults() {
   const container = document.getElementById("resultsContainer");
 
+  let statsArray = [];
+  for (const model of models) {
+    const stats = await getModelAccuracy(model);
+    statsArray.push(stats);
+  }
+
+  // Sort by accuracy (descending)
+  statsArray.sort((a, b) => {
+    const accA = a.totalCount > 0 ? a.correctCount / a.totalCount : 0;
+    const accB = b.totalCount > 0 ? b.correctCount / b.totalCount : 0;
+    return accB - accA;
+  });
+
   let html = `
     <table class="table table-striped">
       <thead>
@@ -55,8 +68,7 @@ async function displayResults() {
       <tbody>
   `;
 
-  for (const model of models) {
-    const stats = await getModelAccuracy(model);
+  for (const stats of statsArray) {
     html += createTableRow(stats);
   }
 
