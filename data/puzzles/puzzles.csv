@@ -1322,7 +1322,7 @@ converted to base 10, represent the ratio 3002408341848069/5726584833
 = 524293. It turns out every odd integer can be written as a ratio of
 representable numbers, although the proof is far from trivial, here is
 a paper about it.
-Congratulations to everyone who found a correct solution!",False,,107,524293
+Congratulations to everyone who found a correct solution!",False,,107,1TTTTTTTTT1TTTTTT00T0000011/111111111T0000001
 58,Circle Time,June 2020,https://www.janestreet.com/puzzles/circle-time-index/,"Call a âringâ of circles a collection of six circles of equal radius,
 say r, whose centers lie on the six vertices of a regular hexagon with
 side length 2r. This makes each circle tangent to its two neighbors,

@@ -1,104 +1,85 @@
 #!/usr/bin/env python
-# evaluate_results.py
+# check_accuracy.py
 # --------------------------------------------
 # deps: pandas
 
-import json, pathlib, re, unicodedata
+import json
+import pathlib
+import re
+import unicodedata
+
 import pandas as pd
-from collections import defaultdict
 
+# ---------- CONFIG -------------------------------------------------------
 RESULTS_JSON = "results_gpt-4o-mini.json"
-GT_CSV       = "data/puzzles/puzzles.csv"      # must contain an 'answer' col
+GT_CSV       = "data/puzzles/puzzles.csv"   # must contain 'answer', 'name', 'numSolvers'
+OUT_JSON     = "correct_solutions_gpt-4o-mini.json"
 
-# ---------- 1. Load data --------------------
-res = json.loads(pathlib.Path(RESULTS_JSON).read_text())
-gt  = pd.read_csv(GT_CSV).set_index("id")
-
-# ---------- 2. Helpers ----------------------
-num_re   = re.compile(r"[-+]?\d+(?:,\d{3})*(?:\.\d+)?")
-frac_re  = re.compile(r"\d+/\d+")
-caps_re  = re.compile(r"\b[A-Z]{3,}\b")
+# ---------- HELPERS ------------------------------------------------------
+num_re  = re.compile(r"[-+]?\d+(?:,\d{3})*(?:\.\d+)?")
+frac_re = re.compile(r"\d+/\d+")
 
 def grab_token(s: str) -> str:
-    for regex in (frac_re, num_re, caps_re):
-        if (m := regex.search(s)):
+    for regex in (frac_re, num_re):
+        m = regex.search(s)
+        if m:
             return m.group()
     return s.strip()
 
 def canon(s: str) -> set[str]:
     s = grab_token(unicodedata.normalize("NFKC", s).strip().lower())
-
     if frac_re.fullmatch(s):
         n, d = map(int, s.split("/"))
         return {s, str(n/d)}
-
     if num_re.fullmatch(s.replace(" ", "")):
         n = s.replace(",", "")
         return {str(float(n)).rstrip("0").rstrip("."), n.lstrip("0")}
-
     return {re.sub(r"[^\w]", "", s)}
 
 def is_correct(model_ans: str, truth: str) -> bool:
     return not canon(model_ans).isdisjoint(canon(truth))
 
-# ---------- 3. Evaluation loop ---------------
-stats   = defaultdict(int)
-correct_first = []          # (id, name)
-correct_best  = []          # (id, name)
+# ---------- LOAD DATA ----------------------------------------------------
+res = json.loads(pathlib.Path(RESULTS_JSON).read_text())
+gt  = pd.read_csv(GT_CSV).set_index("id")
 
+output = {}
+
+# ---------- EVALUATE -----------------------------------------------------
 for pid, rec in res.items():
-    pid_int   = int(pid)
-    if pid_int not in gt.index:           # safety
+    idx = int(pid)
+    if idx not in gt.index:
         continue
 
-    truth = gt.at[pid_int, "answer"]
-    if pd.isna(truth) or truth == "":
-        continue                          # skip if no ground-truth answer yet
+    truth = str(gt.at[idx, "answer"]).strip()
+    if truth == "" or pd.isna(gt.at[idx, "answer"]):
+        continue
 
-    truth      = str(truth)
-    attempts   = [a.get("answer", "") for a in rec.get("answers", [])]
-    while len(attempts) < 2:              # pad
-        attempts.append("")
+    # model attempts
+    answers = rec.get("answers", [])
+    ans0 = answers[0]["answer"] if len(answers) >= 1 else ""
+    ans1 = answers[1]["answer"] if len(answers) >= 2 else ""
 
-    first_ok = is_correct(attempts[0], truth)
-    best_ok  = first_ok or is_correct(attempts[1], truth)
+    first_ok = is_correct(ans0, truth)
+    best_ok  = first_ok or is_correct(ans1, truth)
 
-    stats["total"]         += 1
-    stats["first_correct"] += first_ok
-    stats["best_correct"]  += best_ok
+    if not best_ok:
+        continue
 
-    if first_ok:
-        correct_first.append((pid_int, rec["name"]))
-    if best_ok:
-        correct_best.append((pid_int, rec["name"]))
+    # pick the correct attempt's answer
+    model_answer = ans0 if first_ok else ans1
 
-    print(f"{pid:>3}  {rec['name'][:28]:28}  "
-          f"A1={'✔' if first_ok else '✘'}  "
-          f"Bo2={'✔' if best_ok else '✘'}  "
-          f"truth={truth}  answers={attempts}")
+    # record fields
+    entry = {
+        "name":          rec.get("name", gt.at[idx, "name"]),
+        "ground_truth":  truth,
+        "model_answer":  model_answer,
+    }
+    # include numSolvers if available
+    if "numSolvers" in gt.columns and not pd.isna(gt.at[idx, "numSolvers"]):
+        entry["numSolvers"] = int(gt.at[idx, "numSolvers"])
 
-# ---------- 4. Summary ----------------------
-if stats["total"]:
-    print("\nSUMMARY")
-    print(f"Puzzles with ground truth      : {stats['total']}")
-    print(f"Accuracy (first attempt)       : "
-          f"{stats['first_correct']/stats['total']:.2%}")
-    print(f"Accuracy (best of two attempts): "
-          f"{stats['best_correct']/stats['total']:.2%}")
+    output[pid] = entry
 
-    # ----- lists of correct puzzles ----------
-    print("\nCORRECT ON FIRST ATTEMPT:")
-    if correct_first:
-        for pid, name in correct_first:
-            print(f"  {pid:>3}  {name}")
-    else:
-        print("  (none)")
-
-    print("\nCORRECT AFTER TWO ATTEMPTS (includes first-attempt successes):")
-    if correct_best:
-        for pid, name in correct_best:
-            print(f"  {pid:>3}  {name}")
-    else:
-        print("  (none)")
-else:
-    print("No puzzles had a ground-truth answer to evaluate against.")
+# ---------- SAVE --------------------------------------------------------
+pathlib.Path(OUT_JSON).write_text(json.dumps(output, indent=2))
