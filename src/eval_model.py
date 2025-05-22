@@ -1,5 +1,6 @@
-import os, json, pathlib, base64
+import base64
 from dotenv import load_dotenv
+from pathlib import Path
 import pandas as pd
 from PIL import Image
 from openai import OpenAI
@@ -7,7 +8,10 @@ from openai import OpenAI
 load_dotenv()
 client = OpenAI()
 
-df = pd.read_csv('data/puzzles/puzzles.csv')
+BASE = Path(__file__).resolve().parent.parent
+DF_PATH = BASE / "data" / "puzzles" / "puzzles.csv"
+df = pd.read_csv(DF_PATH)
+
 record = df.iloc[0]
 
 text = record['puzzleText']
@@ -16,7 +20,7 @@ name = record['name']
 img_part = None
 if bool(record['hasImage']):
     for ext in ('png', 'jpg', 'jpeg', 'PNG', 'JPG'):
-        img_path = pathlib.Path(f'data/puzzles/puzzle_images/{name}/0_0.{ext}')
+        img_path = BASE / "data" / "puzzles" / "puzzle_images" / name / f"0_0.{ext}"
         if img_path.exists():
             b64 = base64.b64encode(img_path.read_bytes()).decode()
             img_part = {

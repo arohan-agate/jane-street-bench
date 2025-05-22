@@ -6,6 +6,7 @@
 
 import base64, io, json, pathlib, re, time, collections
 from datetime import datetime as dt
+from pathlib import Path
 
 import pandas as pd
 from dotenv import load_dotenv
@@ -13,10 +14,11 @@ from openai import OpenAI, RateLimitError
 from PIL import Image
 
 # ---------- CONFIG -------------------------------------------------------
+BASE            = Path(__file__).resolve().parent.parent
 MODEL           = "gpt-4o-mini"
 ATTEMPTS        = [0.25, 0.30]
-CSV_PATH        = "data/puzzles/puzzles.csv"
-OUT_PATH        = pathlib.Path("results_gpt-4o-mini.json")
+CSV_PATH        = BASE / "data" / "puzzles" / "puzzles.csv"
+OUT_PATH        = BASE / "results" / "results_gpt-4o-mini.json"
 TPM_LIMIT       = 200_000            # tokens-per-minute quota
 COMPLETION_MAX  = 200                # max tokens the model can emit
 IMG_MAX_PX      = 600
@@ -47,7 +49,7 @@ def build_msgs(rec):
     img_part = None
     if rec["hasImage"]:
         for ext in ("png","jpg","jpeg","PNG","JPG"):
-            p = pathlib.Path(f"data/puzzles/puzzle_images/{name}/0_0.{ext}")
+            p = BASE / "data" / "puzzles" / "puzzle_images" / name / f"0_0.{ext}"
             if p.exists():
                 img_part = {
                     "type": "image_url",
@@ -159,6 +161,7 @@ for _, row in df.iterrows():
         # replace any existing for this attempt
         answers = [a for a in answers if a.get("attempt") != idx] + [entry]
         results[pid] = {"name": row["name"], "answers": answers}
+        OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
         OUT_PATH.write_text(json.dumps(results, indent=2))
 
 print("\nBenchmark complete. Results written to", OUT_PATH)

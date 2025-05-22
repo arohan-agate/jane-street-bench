@@ -7,13 +7,15 @@ import json
 import pathlib
 import re
 import unicodedata
-
+from pathlib import Path
 import pandas as pd
 
 # ---------- CONFIG -------------------------------------------------------
-RESULTS_JSON = "results_gpt-4o-mini.json"
-GT_CSV       = "data/puzzles/puzzles.csv"   # must contain 'answer', 'name', 'numSolvers'
-OUT_JSON     = "correct_solutions_gpt-4o-mini.json"
+BASE = Path(__file__).resolve().parent.parent
+
+RESULTS_JSON = BASE / "results" / "results_gpt-4o-mini.json"
+GT_CSV       = BASE / "data"    / "puzzles" / "puzzles.csv"
+OUT_JSON     = BASE / "results" / "correct_solutions_gpt-4o-mini.json"
 
 # ---------- HELPERS ------------------------------------------------------
 num_re  = re.compile(r"[-+]?\d+(?:,\d{3})*(?:\.\d+)?")
@@ -82,4 +84,5 @@ for pid, rec in res.items():
     output[pid] = entry
 
 # ---------- SAVE --------------------------------------------------------
-pathlib.Path(OUT_JSON).write_text(json.dumps(output, indent=2))
+OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
+OUT_JSON.write_text(json.dumps(output, indent=2))

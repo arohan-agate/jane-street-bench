@@ -2,29 +2,34 @@
 # eval_reasoning.py
 # -------------------------------------------------
 # Requires: openai, pandas, pillow, python-dotenv
-# Run:      python eval_reasoning.py
+# Run:      python src/eval_reasoning.py
 # -------------------------------------------------
 
-import base64, io, json, pathlib
+import base64
+import io
+import json
 from datetime import datetime as dt
+from pathlib import Path
 
 import pandas as pd
 from dotenv import load_dotenv
 from openai import OpenAI
 from PIL import Image
 
+# ---------- CONFIG -------------------------------------------------------
+BASE        = Path(__file__).resolve().parent.parent
 PUZZLE_ID   = 61
-CSV_PATH    = "data/puzzles/puzzles.csv"
+CSV_PATH    = BASE / "data" / "puzzles" / "puzzles.csv"
 MODEL       = "o3-mini"                        # OpenAI advanced reasoning model
-OUT_JSON    = "results_o3-mini_single_cross.json"
+OUT_JSON    = BASE / "results" / "results_o3-mini_single_cross.json"
 IMG_MAX_PX  = 600
 IMG_QUALITY = 70
 
-# 1) Auth -----------------------------------------------------------------
+# ---------- AUTH -----------------------------------------------------------------
 load_dotenv()
 client = OpenAI()
 
-# 2) Load puzzle ----------------------------------------------------------
+# ---------- LOAD puzzle ----------------------------------------------------------
 df = pd.read_csv(CSV_PATH).set_index("id")
 if PUZZLE_ID not in df.index:
     raise ValueError(f"Puzzle id {PUZZLE_ID} not found in {CSV_PATH}")
@@ -33,8 +38,9 @@ row  = df.loc[PUZZLE_ID]
 text = str(row["puzzleText"]).strip()
 name = row["name"]
 
-# 3) Optional image -------------------------------------------------------
-def jpeg_b64(path: pathlib.Path) -> str:
+# ---------- Optional image -------------------------------------------------------
+
+def jpeg_b64(path: Path) -> str:
     with Image.open(path) as im:
         im = im.convert("RGB")
         im.thumbnail((IMG_MAX_PX, IMG_MAX_PX))
@@ -45,7 +51,7 @@ def jpeg_b64(path: pathlib.Path) -> str:
 img_part = None
 if row.get("hasImage", False):
     for ext in ("png", "jpg", "jpeg", "PNG", "JPG"):
-        p = pathlib.Path(f"data/puzzles/puzzle_images/{name}/0_0.{ext}")
+        p = BASE / "data" / "puzzles" / "puzzle_images" / name / f"0_0.{ext}"
         if p.exists():
             img_part = {
                 "type": "image_url",
@@ -53,7 +59,7 @@ if row.get("hasImage", False):
             }
             break
 
-# 4) Build prompt ---------------------------------------------------------
+# ---------- Build prompt ---------------------------------------------------------
 system_msg = {
     "role": "system",
     "content": (
@@ -70,16 +76,13 @@ if img_part:
 user_msg = {"role": "user", "content": user_parts}
 messages = [system_msg, user_msg]
 
-# 5) Call model -----------------------------------------------------------
+# ---------- Call model -----------------------------------------------------------
 response = client.chat.completions.create(
-    model="o3-mini",
+    model=MODEL,
     messages=messages,
     # temperature=0.25,
-    # o3-mini parameter names
     max_completion_tokens=250,   # instead of max_tokens
-    # max_prompt_tokens=8000,     # optional safety cap
 )
-
 
 answer_text = response.choices[0].message.content.strip()
 usage       = response.usage
@@ -88,7 +91,8 @@ print("\n=== o3-mini OUTPUT ===\n")
 print(answer_text)
 print("\nToken usage:", usage)
 
-# 6) Save -----------------------------------------------------------------
+# ---------- Save -----------------------------------------------------------------
+OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
 record = {
     "timestamp": dt.utcnow().isoformat(),
     "puzzle_id": PUZZLE_ID,
@@ -101,5 +105,5 @@ record = {
         "total_tokens"     : usage.total_tokens,
     },
 }
-pathlib.Path(OUT_JSON).write_text(json.dumps(record, indent=2))
+OUT_JSON.write_text(json.dumps(record, indent=2))
 print(f"\nResult saved to {OUT_JSON}")
