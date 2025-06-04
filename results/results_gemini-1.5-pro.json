@@ -1,0 +1,44 @@
+{
+  "0": {
+    "name": "Number Cross 5",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "107926",
+        "prompt_tokens": 716,
+        "completion_tokens": 6,
+        "total_tokens": 722
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "107910",
+        "prompt_tokens": 716,
+        "completion_tokens": 6,
+        "total_tokens": 722
+      }
+    ]
+  },
+  "1": {
+    "name": "Sum One, Somewhere",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.6180339887",
+        "prompt_tokens": 369,
+        "completion_tokens": 12,
+        "total_tokens": 381
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.6180339887",
+        "prompt_tokens": 369,
+        "completion_tokens": 12,
+        "total_tokens": 381
+      }
+    ]
+  }
+}

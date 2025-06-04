@@ -1,0 +1,86 @@
+{
+  "0": {
+    "name": "Number Cross 5",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "180663",
+        "prompt_tokens": 1074,
+        "completion_tokens": 916,
+        "total_tokens": 1990
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "116823",
+        "prompt_tokens": 1074,
+        "completion_tokens": 468,
+        "total_tokens": 1542
+      }
+    ]
+  },
+  "1": {
+    "name": "Sum One, Somewhere",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.8547458327",
+        "prompt_tokens": 677,
+        "completion_tokens": 14232,
+        "total_tokens": 14909
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.5306023509",
+        "prompt_tokens": 677,
+        "completion_tokens": 11097,
+        "total_tokens": 11774
+      }
+    ]
+  },
+  "2": {
+    "name": "Hall of Mirrors 3",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "334540800",
+        "prompt_tokens": 724,
+        "completion_tokens": 5205,
+        "total_tokens": 5929
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "120104047728",
+        "prompt_tokens": 724,
+        "completion_tokens": 3478,
+        "total_tokens": 4202
+      }
+    ]
+  },
+  "3": {
+    "name": "Top Score (Give or Take)",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "GEORGE LUCAS",
+        "prompt_tokens": 632,
+        "completion_tokens": 23834,
+        "total_tokens": 24466
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "SUPERMAN",
+        "prompt_tokens": 632,
+        "completion_tokens": 18842,
+        "total_tokens": 19474
+      }
+    ]
+  }
+}

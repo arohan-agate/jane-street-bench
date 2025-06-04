@@ -1,0 +1,275 @@
+{
+  "0": {
+    "name": "Number Cross 5",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "5555",
+        "prompt_tokens": 952,
+        "completion_tokens": 6,
+        "total_tokens": 958
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "8475",
+        "prompt_tokens": 952,
+        "completion_tokens": 6,
+        "total_tokens": 958
+      }
+    ]
+  },
+  "1": {
+    "name": "Sum One, Somewhere",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.3819660113",
+        "prompt_tokens": 549,
+        "completion_tokens": 10,
+        "total_tokens": 559
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.3819660113",
+        "prompt_tokens": 549,
+        "completion_tokens": 10,
+        "total_tokens": 559
+      }
+    ]
+  },
+  "2": {
+    "name": "Hall of Mirrors 3",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "1807748",
+        "prompt_tokens": 610,
+        "completion_tokens": 7,
+        "total_tokens": 617
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "1807748",
+        "prompt_tokens": 610,
+        "completion_tokens": 7,
+        "total_tokens": 617
+      }
+    ]
+  },
+  "3": {
+    "name": "Top Score (Give or Take)",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Nostradamus",
+        "prompt_tokens": 485,
+        "completion_tokens": 7,
+        "total_tokens": 492
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Hoagies",
+        "prompt_tokens": 485,
+        "completion_tokens": 7,
+        "total_tokens": 492
+      }
+    ]
+  },
+  "4": {
+    "name": "Somewhat Square Sudoku",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "315846720",
+        "prompt_tokens": 658,
+        "completion_tokens": 7,
+        "total_tokens": 665
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "315847620",
+        "prompt_tokens": 658,
+        "completion_tokens": 7,
+        "total_tokens": 665
+      }
+    ]
+  },
+  "5": {
+    "name": "Games Night!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Incomplete",
+        "prompt_tokens": 530,
+        "completion_tokens": 5,
+        "total_tokens": 535
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Incomplete",
+        "prompt_tokens": 530,
+        "completion_tokens": 5,
+        "total_tokens": 535
+      }
+    ]
+  },
+  "6": {
+    "name": "Beside the Point",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.5",
+        "prompt_tokens": 613,
+        "completion_tokens": 7,
+        "total_tokens": 620
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.5",
+        "prompt_tokens": 613,
+        "completion_tokens": 7,
+        "total_tokens": 620
+      }
+    ]
+  },
+  "7": {
+    "name": "Knight Moves 6",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "1,2,3,a1,c2,e4,c5,a6,c4,e5,c3,a2,c1,e3,f1,d2,f3,d1,b3,d5,f6",
+        "prompt_tokens": 789,
+        "completion_tokens": 63,
+        "total_tokens": 852
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "1,2,3,a1,c2,e4,c5,a6,c4,e5,c3,a2,c1,e3,f1,d2,f3,d1,f2,d3,f4,e6,f6",
+        "prompt_tokens": 789,
+        "completion_tokens": 69,
+        "total_tokens": 858
+      }
+    ]
+  },
+  "8": {
+    "name": "Fences 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "3888",
+        "prompt_tokens": 649,
+        "completion_tokens": 6,
+        "total_tokens": 655
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "1728",
+        "prompt_tokens": 649,
+        "completion_tokens": 6,
+        "total_tokens": 655
+      }
+    ]
+  },
+  "9": {
+    "name": "Tree-edge Triage",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "1/2",
+        "prompt_tokens": 766,
+        "completion_tokens": 7,
+        "total_tokens": 773
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "1/2",
+        "prompt_tokens": 766,
+        "completion_tokens": 7,
+        "total_tokens": 773
+      }
+    ]
+  },
+  "10": {
+    "name": "Many Happy Returns",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Bouncer",
+        "prompt_tokens": 157,
+        "completion_tokens": 6,
+        "total_tokens": 163
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Bouncer",
+        "prompt_tokens": 157,
+        "completion_tokens": 6,
+        "total_tokens": 163
+      }
+    ]
+  },
+  "11": {
+    "name": "Altered States 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "iowaohiolaohioiowaoregon",
+        "prompt_tokens": 788,
+        "completion_tokens": 16,
+        "total_tokens": 804
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "texasohioiowautahidaho",
+        "prompt_tokens": 788,
+        "completion_tokens": 13,
+        "total_tokens": 801
+      }
+    ]
+  },
+  "12": {
+    "name": "Number Cross 4",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "24608",
+        "prompt_tokens": 659,
+        "completion_tokens": 6,
+        "total_tokens": 665
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "24608",
+        "prompt_tokens": 659,
+        "completion_tokens": 6,
+        "total_tokens": 665
+      }
+    ]
+  }
+}
