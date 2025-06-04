@@ -5,6 +5,8 @@ Benchmarking on Jane Street puzzles
 
 `benchmarks` - evaluate a model on all Jane Street Puzzles. The model gets 2 attempts per problem.
 
+`benchmark_reasoning` - evaluate all reasoning models on all Jane Street Puzzles. Each model gets 2 attempts per problem.
+
 `eval_reasoning` - evaluate a reasoning model on a selected problem.
 
 `extract_answers` - a script to parse solution texts for the final answer.
