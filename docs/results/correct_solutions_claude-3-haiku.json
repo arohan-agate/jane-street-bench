@@ -1,8 +1,0 @@
-{
-  "80": {
-    "name": "Triangle Math",
-    "ground_truth": "2^n - 1",
-    "model_answer": "2^(n-1)",
-    "numSolvers": 53
-  }
-}

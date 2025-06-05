@@ -1,0 +1,16 @@
+{
+  "30": {
+    "name": "'Pent-up' Frustration 2",
+    "ground_truth": "sqrt(65/8 - (29 * sqrt(5))/8)",
+    "model_answer": "0.3632713",
+    "correct": 1,
+    "numSolvers": 99
+  },
+  "96": {
+    "name": "Birthday Bash",
+    "ground_truth": "2287",
+    "model_answer": "2287",
+    "correct": 1,
+    "numSolvers": 52
+  }
+}

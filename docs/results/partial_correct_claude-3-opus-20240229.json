@@ -1,0 +1,16 @@
+{
+  "6": {
+    "name": "Beside the Point",
+    "ground_truth": "0.4914075788",
+    "model_answer": "0.5",
+    "correct": 0.5,
+    "numSolvers": 620
+  },
+  "15": {
+    "name": "Some Off Square",
+    "ground_truth": "1 - \u03c0/6",
+    "model_answer": "1 - \u03c0/4",
+    "correct": 0.5,
+    "numSolvers": 386
+  }
+}
