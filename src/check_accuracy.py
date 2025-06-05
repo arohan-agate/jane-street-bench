@@ -13,7 +13,7 @@ import pandas as pd
 # ---------- CONFIG -------------------------------------------------------
 BASE = Path(__file__).resolve().parent.parent
 
-MODEL = "gemini-2.0-flash-exp"  
+MODEL = "claude-3-opus-20240229" 
 RESULTS_JSON = BASE / "results" / f"results_{MODEL}.json"
 GT_CSV       = BASE / "data"    / "puzzles" / "puzzles.csv"
 OUT_JSON     = BASE / "results" / f"correct_solutions_{MODEL}.json"

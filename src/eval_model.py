@@ -20,7 +20,7 @@ load_dotenv()
 if PROVIDER == "openai":
     from openai import OpenAI
     client = OpenAI()
-    MODEL = "gpt-4o-mini"
+    MODEL = "o4-mini" 
 elif PROVIDER == "anthropic":
     import anthropic
     key = os.getenv("ANTHROPIC_API_KEY")

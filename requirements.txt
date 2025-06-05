@@ -4,3 +4,8 @@ google-generativeai
 pandas
 python-dotenv
 Pillow
+requests
+beautifulsoup4
+tqdm
+selenium
+webdriver-manager
