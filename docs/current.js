@@ -1,62 +1,101 @@
-const models = ["gpt-4o-mini", "claude-3-haiku-20240307", "gemini-2.0-flash-exp", "o4-mini-2025-04-16", "claude-3-opus-20240229", "gemini-1.5-pro"];
-
 async function fetchJSON(url) {
   const res = await fetch(url);
-  if (!res.ok) throw new Error(`Failed to fetch ${url}: ${res.status}`);
+  if (!res.ok) {
+    throw new Error(`Failed to fetch ${url}: ${res.status}`);
+  }
   return await res.json();
 }
 
 async function getCurrentPuzzleOutputs() {
   const container = document.getElementById("currentPuzzleContainer");
+  if (!container) return;
 
-  let puzzleName = "";
-  const rows = [];
-
-  for (const model of models) {
-    try {
-      const results = await fetchJSON(`results/results_${model}.json`);
-      const firstPuzzle = results["0"];
-
-      if (!firstPuzzle) throw new Error(`No puzzle 0 for model ${model}`);
-
-      if (!puzzleName) puzzleName = firstPuzzle.name;
-
-      const firstAnswer = firstPuzzle.answers?.[0]?.answer || "No answer found";
-      const secondAnswer = firstPuzzle.answers?.[1]?.answer || "No answer found";
-
-      rows.push(`
-        <tr>
-          <td>${model}</td>
-          <td><pre>${firstAnswer}</pre></td>
-          <td><pre>${secondAnswer}</pre></td>
-        </tr>
-      `);
-    } catch (e) {
-      console.error(e);
-      rows.push(`
-        <tr>
-          <td>${model}</td>
-          <td class="text-danger">Not available yet</td>
-        </tr>
-      `);
+  const css = `
+    #currentPuzzleContainer {
+      padding: 0.5rem;
     }
-  }
 
-  container.innerHTML = `
-    <h2>Puzzle: ${puzzleName || "Unknown"}</h2>
-    <table class="table table-striped">
-      <thead>
-        <tr>
-          <th>Model</th>
-          <th>First Attempt</th>
-          <th>Second Attempt</th>
-        </tr>
-      </thead>
-      <tbody>
-        ${rows.join("\n")}
-      </tbody>
-    </table>
+    #currentPuzzleContainer table {
+      table-layout: fixed;
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    #currentPuzzleContainer td pre {
+      white-space: pre-wrap;      
+      word-break: break-word;     
+      margin: 0;
+      font-family: inherit;
+      background: transparent;
+    }
+
+    /* Tighter cell padding */
+    #currentPuzzleContainer td,
+    #currentPuzzleContainer th {
+      padding: 0.5rem;
+      vertical-align: top;
+    }
+
+    /* Optional: make the header stand out */
+    #currentPuzzleContainer th {
+      background: #f8f9fa;
+    }
   `;
+
+  const styleEl = document.createElement("style");
+  styleEl.textContent = css;
+  document.head.appendChild(styleEl);
+
+  try {
+    const results = await fetchJSON("results/curr_month_solutions.json");
+    let rowsHtml = "";
+
+    for (const [model, rec] of Object.entries(results)) {
+      const ansList = rec.answers || [];
+      let firstAns  = "";
+      let secondAns = "";
+
+      for (const a of ansList) {
+        if (a.attempt === 1) firstAns = a.answer || "";
+        if (a.attempt === 2) secondAns = a.answer || "";
+      }
+
+      if (!firstAns)  firstAns  = "<em>No answer</em>";
+      if (!secondAns) secondAns = "<em>No answer</em>";
+
+      rowsHtml += `
+        <tr>
+          <td>${model}</td>
+          <td><pre>${firstAns}</pre></td>
+          <td><pre>${secondAns}</pre></td>
+        </tr>
+      `;
+    }
+
+    container.innerHTML = `
+      <h2>Current Month Puzzle</h2>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th style="width: 20%;">Model</th>
+            <th style="width: 40%;">First Attempt</th>
+            <th style="width: 40%;">Second Attempt</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${rowsHtml}
+        </tbody>
+      </table>
+    `;
+
+  } catch (e) {
+    console.error(e);
+    container.innerHTML = `
+      <div class="alert alert-danger">
+        Error loading current‐month solutions.
+      </div>
+    `;
+  }
 }
 
-getCurrentPuzzleOutputs();
+document.addEventListener("DOMContentLoaded", getCurrentPuzzleOutputs);
