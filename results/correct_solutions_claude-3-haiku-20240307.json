@@ -1,0 +1,863 @@
+{
+  "0": {
+    "name": "Number Cross 5",
+    "ground_truth": "4135658",
+    "model_answer": "2025",
+    "correct": 0,
+    "numSolvers": 216
+  },
+  "1": {
+    "name": "Sum One, Somewhere",
+    "ground_truth": "0.5306035754",
+    "model_answer": "0.3989422804",
+    "correct": 0,
+    "numSolvers": 1160
+  },
+  "2": {
+    "name": "Hall of Mirrors 3",
+    "ground_truth": "601931086080",
+    "model_answer": "22 x 55 x 83 x 18 = 48077440",
+    "correct": 0,
+    "numSolvers": 1394
+  },
+  "3": {
+    "name": "Top Score (Give or Take)",
+    "ground_truth": "John Williams",
+    "model_answer": "Trope",
+    "correct": 0,
+    "numSolvers": 301
+  },
+  "4": {
+    "name": "Somewhat Square Sudoku",
+    "ground_truth": "283950617",
+    "model_answer": "258",
+    "correct": 0,
+    "numSolvers": 505
+  },
+  "5": {
+    "name": "Games Night!",
+    "ground_truth": "Battleship",
+    "model_answer": "Incomplete",
+    "correct": 0,
+    "numSolvers": 1224
+  },
+  "6": {
+    "name": "Beside the Point",
+    "ground_truth": "0.4914075788",
+    "model_answer": "0.2928932188",
+    "correct": 0,
+    "numSolvers": 620
+  },
+  "7": {
+    "name": "Knight Moves 6",
+    "ground_truth": "19",
+    "model_answer": "7,8,9\n\na1,b3,c5,d3,f4,d5,f6,a6,c5,a4,b2,c4,d2,f1",
+    "correct": 0,
+    "numSolvers": 1028
+  },
+  "8": {
+    "name": "Fences 2",
+    "ground_truth": "404320",
+    "model_answer": "2,520",
+    "correct": 0,
+    "numSolvers": 359
+  },
+  "9": {
+    "name": "Tree-edge Triage",
+    "ground_truth": "8/9",
+    "model_answer": "1/2",
+    "correct": 0,
+    "numSolvers": 523
+  },
+  "10": {
+    "name": "Many Happy Returns",
+    "ground_truth": "cheesemonger",
+    "model_answer": "Receptionist",
+    "correct": 0,
+    "numSolvers": 91
+  },
+  "11": {
+    "name": "Altered States 2",
+    "ground_truth": "263137868",
+    "model_answer": "thoainels",
+    "correct": 0,
+    "numSolvers": 540
+  },
+  "12": {
+    "name": "Number Cross 4",
+    "ground_truth": "88243711283",
+    "model_answer": "24898",
+    "correct": 0,
+    "numSolvers": 379
+  },
+  "13": {
+    "name": "Robot Capture-the-Flag",
+    "ground_truth": "0.166186486474004",
+    "model_answer": "0.7853981634",
+    "correct": 0,
+    "numSolvers": 233
+  },
+  "14": {
+    "name": "Hooks 10",
+    "ground_truth": "8400",
+    "model_answer": "6",
+    "correct": 0,
+    "numSolvers": 388
+  },
+  "15": {
+    "name": "Some Off Square",
+    "ground_truth": "1 - \u03c0/6",
+    "model_answer": "3/4",
+    "correct": 0,
+    "numSolvers": 386
+  },
+  "16": {
+    "name": "Some F Squares",
+    "ground_truth": "346816512",
+    "model_answer": "44",
+    "correct": 0,
+    "numSolvers": 389
+  },
+  "18": {
+    "name": "Knight Moves 5",
+    "ground_truth": "33",
+    "model_answer": "180",
+    "correct": 0,
+    "numSolvers": 50
+  },
+  "19": {
+    "name": "A Weird Tour",
+    "ground_truth": "PERMUTATION",
+    "model_answer": "Indecision",
+    "correct": 0,
+    "numSolvers": 104
+  },
+  "20": {
+    "name": "Getting from a to b",
+    "ground_truth": "26273633422851562500",
+    "model_answer": "4",
+    "correct": 0,
+    "numSolvers": 64
+  },
+  "21": {
+    "name": "Single-Cross 2",
+    "ground_truth": "0.7452572091,0.5095346021",
+    "model_answer": "0.7071067812,0.9069767442",
+    "correct": 0,
+    "numSolvers": 155
+  },
+  "22": {
+    "name": "Choco Banana",
+    "ground_truth": "809321103360",
+    "model_answer": "1,512",
+    "correct": 0,
+    "numSolvers": 510
+  },
+  "23": {
+    "name": "Hooks 9",
+    "ground_truth": "15552",
+    "model_answer": "18",
+    "correct": 0,
+    "numSolvers": 186
+  },
+  "24": {
+    "name": "Game Night!",
+    "ground_truth": "SIEVE",
+    "model_answer": "Impressive",
+    "correct": 0,
+    "numSolvers": 196
+  },
+  "25": {
+    "name": "Arc-edge Acreage",
+    "ground_truth": "89519144",
+    "model_answer": "12",
+    "correct": 0,
+    "numSolvers": 185
+  },
+  "26": {
+    "name": "Robot Long Jump",
+    "ground_truth": "0.114845886",
+    "model_answer": "0.500000000",
+    "correct": 0,
+    "numSolvers": 121
+  },
+  "27": {
+    "name": "Twenty Four Seven (Four-in-One)",
+    "ground_truth": "74649600",
+    "model_answer": "1764",
+    "correct": 0,
+    "numSolvers": 508
+  },
+  "28": {
+    "name": "Lesses More",
+    "ground_truth": "8646064;3945294;1389537;0",
+    "model_answer": "10;6;3;1",
+    "correct": 0,
+    "numSolvers": 439
+  },
+  "29": {
+    "name": "Die Agony",
+    "ground_truth": "1935",
+    "model_answer": "1395",
+    "correct": 0,
+    "numSolvers": 751
+  },
+  "30": {
+    "name": "'Pent-up' Frustration 2",
+    "ground_truth": "sqrt(65/8 - (29 * sqrt(5))/8)",
+    "model_answer": "0.0000000",
+    "correct": 0,
+    "numSolvers": 99
+  },
+  "31": {
+    "name": "The Marshy Mess",
+    "ground_truth": "0.3025104",
+    "model_answer": "0.5714286",
+    "correct": 0,
+    "numSolvers": 62
+  },
+  "32": {
+    "name": "Pair Dance 2",
+    "ground_truth": "HAPPENCHANCE",
+    "model_answer": "(4,1,1)\n(4,1,3,2)\n(3,1,3,4,2)\n(4,4,4,4)\n(4,4,4,4)\n(6,6,7,2,4)\n(4,4,4,4)\n(6,6,3,5,5)\n(2,2,3,4,2)\n(5,3,1)\n(7,4,4,1)\n(6,6,3,1)",
+    "correct": 0,
+    "numSolvers": 64
+  },
+  "33": {
+    "name": "New York Minute",
+    "ground_truth": "Little Italy",
+    "model_answer": "Pub",
+    "correct": 0,
+    "numSolvers": 137
+  },
+  "34": {
+    "name": "Andy's Morning Stroll",
+    "ground_truth": "0.4480326",
+    "model_answer": "0.4444444",
+    "correct": 0.5,
+    "numSolvers": 182
+  },
+  "35": {
+    "name": "Block Party 4",
+    "ground_truth": "24405360",
+    "model_answer": "430",
+    "correct": 0,
+    "numSolvers": 494
+  },
+  "36": {
+    "name": "Robot Updated Swimming Trials",
+    "ground_truth": "0.999560",
+    "model_answer": "0.333333",
+    "correct": 0,
+    "numSolvers": 34
+  },
+  "37": {
+    "name": "Almost Magic",
+    "ground_truth": "470",
+    "model_answer": "50, 72, 16, 12, 46, 80, 75, 53, 77, 76, 20, 43, 69, 96, 1, 58, 114, 85, 64, 59, 95, 40, 39, 88, 137, 111, 90, 62",
+    "correct": 0,
+    "numSolvers": 117
+  },
+  "38": {
+    "name": "The Hidden Warning",
+    "ground_truth": "BRIDGE TROLL",
+    "model_answer": "QUICKSAND",
+    "correct": 0,
+    "numSolvers": 51
+  },
+  "39": {
+    "name": "Eldrow",
+    "ground_truth": "16",
+    "model_answer": "SLATE,STALE,STAIR,STAIR,STAIR,STAIR,STAIR",
+    "correct": 0,
+    "numSolvers": 100
+  },
+  "40": {
+    "name": "Hooks 8",
+    "ground_truth": "680",
+    "model_answer": "1440",
+    "correct": 0,
+    "numSolvers": 223
+  },
+  "41": {
+    "name": "Robot Archery",
+    "ground_truth": "0.18343765086",
+    "model_answer": "0.2500000000",
+    "correct": 0,
+    "numSolvers": 139
+  },
+  "42": {
+    "name": "Split Division 2",
+    "ground_truth": "6467972",
+    "model_answer": "2,323,727",
+    "correct": 0,
+    "numSolvers": 235
+  },
+  "43": {
+    "name": "Robot Swimming Trials",
+    "ground_truth": "8",
+    "model_answer": "5,0.666667",
+    "correct": 0,
+    "numSolvers": 192
+  },
+  "44": {
+    "name": "Knight Moves 4",
+    "ground_truth": "14820",
+    "model_answer": "1089",
+    "correct": 0,
+    "numSolvers": 212
+  },
+  "45": {
+    "name": "Robot Tug-of-War",
+    "ground_truth": "-0.2850001",
+    "model_answer": "-0.4054651",
+    "correct": 0,
+    "numSolvers": 131
+  },
+  "46": {
+    "name": "It's Symmetric 2",
+    "ground_truth": "503",
+    "model_answer": "144",
+    "correct": 0,
+    "numSolvers": 155
+  },
+  "47": {
+    "name": "Robot Weightlifting",
+    "ground_truth": "0.286833",
+    "model_answer": "0.500000",
+    "correct": 0,
+    "numSolvers": 66
+  },
+  "48": {
+    "name": "Past Tens",
+    "ground_truth": "Paul McCartney & Wings",
+    "model_answer": "1,000",
+    "correct": 0,
+    "numSolvers": 21
+  },
+  "49": {
+    "name": "Bracketology 101",
+    "ground_truth": "6.55795%",
+    "model_answer": "0.543478",
+    "correct": 0,
+    "numSolvers": 164
+  },
+  "50": {
+    "name": "Tit for Tat",
+    "ground_truth": "SOMBREHOMBRE",
+    "model_answer": "Fulcrum point",
+    "correct": 0,
+    "numSolvers": 26
+  },
+  "51": {
+    "name": "Hooks #7",
+    "ground_truth": "2200",
+    "model_answer": "16",
+    "correct": 0,
+    "numSolvers": 190
+  },
+  "52": {
+    "name": "Figurine Figuring",
+    "ground_truth": "6.859787",
+    "model_answer": "5.0000000",
+    "correct": 0,
+    "numSolvers": 75
+  },
+  "53": {
+    "name": "Twenty Four Seven 2-by-2 #2",
+    "ground_truth": "The final answer is 8520.",
+    "model_answer": "2,401",
+    "correct": 0,
+    "numSolvers": 100
+  },
+  "54": {
+    "name": "Candy Collectors",
+    "ground_truth": "318281087/8016470462",
+    "model_answer": "5/6",
+    "correct": 0,
+    "numSolvers": 61
+  },
+  "55": {
+    "name": "Tangled!",
+    "ground_truth": "114",
+    "model_answer": "RSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSR",
+    "correct": 0,
+    "numSolvers": 70
+  },
+  "56": {
+    "name": "Study and Ponder",
+    "ground_truth": "SPGI",
+    "model_answer": "4",
+    "correct": 0,
+    "numSolvers": 254
+  },
+  "57": {
+    "name": "What a Trit!",
+    "ground_truth": "1TTTTTTTTT1TTTTTT00T0000011/111111111T0000001",
+    "model_answer": "1T0T1",
+    "correct": 0,
+    "numSolvers": 107
+  },
+  "58": {
+    "name": "Circle Time",
+    "ground_truth": "0.783464",
+    "model_answer": "0.907854",
+    "correct": 0,
+    "numSolvers": 177
+  },
+  "60": {
+    "name": "Triads",
+    "ground_truth": "284",
+    "model_answer": "28",
+    "correct": 0,
+    "numSolvers": 111
+  },
+  "61": {
+    "name": "Single-Cross",
+    "ground_truth": "2/\u03c0",
+    "model_answer": "1/\u03c0",
+    "correct": 0,
+    "numSolvers": 122
+  },
+  "62": {
+    "name": "Alter/Nate",
+    "ground_truth": "Nate",
+    "model_answer": "Nate wins.\n\nNate's strategy should be to always pick the number that makes the running total as close to 50 as possible, without going over 50. This way, Alter will never be able to make the running total reach 100 or more.",
+    "correct": 1,
+    "numSolvers": 167
+  },
+  "63": {
+    "name": "Poetry in Motion",
+    "ground_truth": "Black cannot castle.",
+    "model_answer": "3",
+    "correct": 0,
+    "numSolvers": 22
+  },
+  "64": {
+    "name": "Hooks #6",
+    "ground_truth": "10,000",
+    "model_answer": "1512",
+    "correct": 0,
+    "numSolvers": 86
+  },
+  "65": {
+    "name": "Tri, Tri Again, Again",
+    "ground_truth": "31185",
+    "model_answer": "105",
+    "correct": 0,
+    "numSolvers": 60
+  },
+  "66": {
+    "name": "Block Party 3",
+    "ground_truth": "6092",
+    "model_answer": "32143",
+    "correct": 0,
+    "numSolvers": 144
+  },
+  "67": {
+    "name": "Knight Moves 3",
+    "ground_truth": "144",
+    "model_answer": "4",
+    "correct": 0,
+    "numSolvers": 119
+  },
+  "68": {
+    "name": "Scraggle",
+    "ground_truth": "824670",
+    "model_answer": "95,040",
+    "correct": 0,
+    "numSolvers": 63
+  },
+  "69": {
+    "name": "Hooks #5",
+    "ground_truth": "78125",
+    "model_answer": "1440",
+    "correct": 0,
+    "numSolvers": 114
+  },
+  "70": {
+    "name": "Disassembled Rainbow Bagel",
+    "ground_truth": "-1",
+    "model_answer": "0",
+    "correct": 0,
+    "numSolvers": 78
+  },
+  "71": {
+    "name": "Remote Sudoku",
+    "ground_truth": "1105",
+    "model_answer": "274",
+    "correct": 0,
+    "numSolvers": 185
+  },
+  "72": {
+    "name": "Twenty Four Seven 2-by-2",
+    "ground_truth": "8150",
+    "model_answer": "3136",
+    "correct": 0,
+    "numSolvers": 51
+  },
+  "73": {
+    "name": "Tile and Trouble 2",
+    "ground_truth": "MOJO",
+    "model_answer": "42",
+    "correct": 0,
+    "numSolvers": 9
+  },
+  "74": {
+    "name": "Fences",
+    "ground_truth": "10,077,696",
+    "model_answer": "2",
+    "correct": 0,
+    "numSolvers": 47
+  },
+  "75": {
+    "name": "Block Party 2",
+    "ground_truth": "210",
+    "model_answer": "36",
+    "correct": 0,
+    "numSolvers": 7
+  },
+  "76": {
+    "name": "'Pent-up' Frustration",
+    "ground_truth": "14 + 4*sqrt(2)",
+    "model_answer": "17.0",
+    "correct": 0,
+    "numSolvers": 81
+  },
+  "77": {
+    "name": "Subtiles",
+    "ground_truth": "256",
+    "model_answer": "2520",
+    "correct": 0,
+    "numSolvers": 67
+  },
+  "78": {
+    "name": "Spiral Region",
+    "ground_truth": "1203200",
+    "model_answer": "30",
+    "correct": 0,
+    "numSolvers": 44
+  },
+  "79": {
+    "name": "Hooks #4",
+    "ground_truth": "6000",
+    "model_answer": "1680",
+    "correct": 0,
+    "numSolvers": 144
+  },
+  "80": {
+    "name": "Triangle Math",
+    "ground_truth": "2^n - 1",
+    "model_answer": "2^(n-1)",
+    "correct": 0,
+    "numSolvers": 53
+  },
+  "81": {
+    "name": "Twenty Four Seven",
+    "ground_truth": "240",
+    "model_answer": "12",
+    "correct": 0,
+    "numSolvers": 91
+  },
+  "82": {
+    "name": "Swing Time 2",
+    "ground_truth": "0.0874",
+    "model_answer": "2",
+    "correct": 0,
+    "numSolvers": 12
+  },
+  "83": {
+    "name": "Where in the World?",
+    "ground_truth": "TOGO",
+    "model_answer": "3",
+    "correct": 0,
+    "numSolvers": 19
+  },
+  "84": {
+    "name": "It\u00e2\u0080\u0099s Symmetric!",
+    "ground_truth": "33679",
+    "model_answer": "1126",
+    "correct": 0,
+    "numSolvers": 80
+  },
+  "85": {
+    "name": "Hooks #3",
+    "ground_truth": "20736",
+    "model_answer": "2520",
+    "correct": 0,
+    "numSolvers": 133
+  },
+  "86": {
+    "name": "Rather Square Sudoku",
+    "ground_truth": "1146",
+    "model_answer": "1225",
+    "correct": 0,
+    "numSolvers": 124
+  },
+  "90": {
+    "name": "Square Run",
+    "ground_truth": "305",
+    "model_answer": "159",
+    "correct": 0,
+    "numSolvers": 63
+  },
+  "91": {
+    "name": "Middlylinks",
+    "ground_truth": "4293120",
+    "model_answer": "1,456",
+    "correct": 0,
+    "numSolvers": 24
+  },
+  "92": {
+    "name": "Split Division",
+    "ground_truth": "5516808",
+    "model_answer": "1564733",
+    "correct": 0,
+    "numSolvers": 26
+  },
+  "93": {
+    "name": "Well Well Well...",
+    "ground_truth": "360",
+    "model_answer": "43",
+    "correct": 0,
+    "numSolvers": 42
+  },
+  "94": {
+    "name": "KenKen (Concatenated)",
+    "ground_truth": "4282",
+    "model_answer": "2169",
+    "correct": 0,
+    "numSolvers": 67
+  },
+  "95": {
+    "name": "Knight Moves #2",
+    "ground_truth": "17280",
+    "model_answer": "1680",
+    "correct": 0,
+    "numSolvers": 44
+  },
+  "96": {
+    "name": "Birthday Bash",
+    "ground_truth": "2287",
+    "model_answer": "23",
+    "correct": 0,
+    "numSolvers": 52
+  },
+  "97": {
+    "name": "What About Bob?",
+    "ground_truth": "11, 22, 32",
+    "model_answer": "16",
+    "correct": 0,
+    "numSolvers": 42
+  },
+  "99": {
+    "name": "Star Search",
+    "ground_truth": "Inception",
+    "model_answer": "Zootopia",
+    "correct": 0,
+    "numSolvers": 27
+  },
+  "100": {
+    "name": "The Wright Stuff",
+    "ground_truth": "Kentuck Knob",
+    "model_answer": "MINERALIN",
+    "correct": 0,
+    "numSolvers": 3
+  },
+  "101": {
+    "name": "Tri, Tri Again",
+    "ground_truth": "7252",
+    "model_answer": "800",
+    "correct": 0,
+    "numSolvers": 45
+  },
+  "102": {
+    "name": "Chess Dance",
+    "ground_truth": "62943",
+    "model_answer": "12880",
+    "correct": 0,
+    "numSolvers": 26
+  },
+  "103": {
+    "name": "Swing Time",
+    "ground_truth": "0.7082",
+    "model_answer": "1",
+    "correct": 0,
+    "numSolvers": 23
+  },
+  "104": {
+    "name": "Number Cross #3",
+    "ground_truth": "148",
+    "model_answer": "61",
+    "correct": 0,
+    "numSolvers": 48
+  },
+  "105": {
+    "name": "Get Out The Vote",
+    "ground_truth": "(20, 34, 48)",
+    "model_answer": "51",
+    "correct": 0,
+    "numSolvers": 73
+  },
+  "106": {
+    "name": "Hooks #2",
+    "ground_truth": "17418240",
+    "model_answer": "720",
+    "correct": 0,
+    "numSolvers": 47
+  },
+  "108": {
+    "name": "Knight Moves",
+    "ground_truth": "19675656",
+    "model_answer": "1512",
+    "correct": 0,
+    "numSolvers": 90
+  },
+  "110": {
+    "name": "Professor Rando Redux",
+    "ground_truth": "15",
+    "model_answer": "7",
+    "correct": 0,
+    "numSolvers": 48
+  },
+  "111": {
+    "name": "Professor Rando",
+    "ground_truth": "Neil Alberg",
+    "model_answer": "1/5",
+    "correct": 0,
+    "numSolvers": 47
+  },
+  "112": {
+    "name": "Pair Dance",
+    "ground_truth": "240",
+    "model_answer": "3003",
+    "correct": 0,
+    "numSolvers": 34
+  },
+  "114": {
+    "name": "Think Of The Children!",
+    "ground_truth": "288",
+    "model_answer": "96",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "115": {
+    "name": "Number Cross 2",
+    "ground_truth": "276",
+    "model_answer": "243",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "116": {
+    "name": "Good Chemistry",
+    "ground_truth": "4092",
+    "model_answer": "1680",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "117": {
+    "name": "Polymath",
+    "ground_truth": "20160",
+    "model_answer": "72",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "118": {
+    "name": "Tic Tac Oh...",
+    "ground_truth": "191/192",
+    "model_answer": "1",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "119": {
+    "name": "Hall of Mirrors",
+    "ground_truth": "77",
+    "model_answer": "35",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "120": {
+    "name": "Ticker Treat",
+    "ground_truth": "S",
+    "model_answer": "A",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "121": {
+    "name": "Oh CHUTE!",
+    "ground_truth": "Kc8",
+    "model_answer": "2.3",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "124": {
+    "name": "Wrong Division",
+    "ground_truth": "58975605",
+    "model_answer": "12345678",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "125": {
+    "name": "Minesweeping",
+    "ground_truth": "38/39",
+    "model_answer": "8/9",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "127": {
+    "name": "Number Cross",
+    "ground_truth": "407358",
+    "model_answer": "79,263",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "128": {
+    "name": "Chain Reaction",
+    "ground_truth": "77",
+    "model_answer": "100",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "129": {
+    "name": "Question Mark",
+    "ground_truth": "fifty",
+    "model_answer": "2078809",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "130": {
+    "name": "Tile and Trouble",
+    "ground_truth": "20160",
+    "model_answer": "4",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "131": {
+    "name": "Chess Pains \u00e2\u0080\u0093 White To Move",
+    "ground_truth": "headache",
+    "model_answer": "Checkmate",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "132": {
+    "name": "Altered States",
+    "ground_truth": "123",
+    "model_answer": "IDAHO",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "133": {
+    "name": "Hooks",
+    "ground_truth": "158",
+    "model_answer": "324",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "134": {
+    "name": "Sum of Squares",
+    "ground_truth": "205",
+    "model_answer": "(1200, 16230524600489324868470)",
+    "correct": 0,
+    "numSolvers": 0
+  }
+}

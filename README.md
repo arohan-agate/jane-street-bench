@@ -9,6 +9,12 @@ Benchmarking on Jane Street puzzles
 
 `eval_reasoning` - evaluate a reasoning model on a selected problem.
 
-`extract_answers` - a script to parse solution texts for the final answer.
+`read_solution_text` - a script to parse solution texts for the final answer.
 
-`check_accuracy` - checks the accuracy of the benchmarks by comparing the model results to the extracted answers.
+`check_accuracy_llm` - checks the accuracy of the benchmarks by comparing the model results to the extracted answers, using an LLM. Reads in a `results_{MODEL_NAME}.json` file and writes to `correct_solutions_{MODEL_NAME}.json`.
+
+`check_accuracy_regex` - checks the accuracy of the benchmarks by comparing the model results to the extracted answers, using regular expressions
+
+`extract_correct` - extracts fully and partially correct answers from the solution JSONs. Reads in `correct_solutions_{MODEL_NAME}.json` files and outputs to `full_correct_{MODEL}.json` and `partial_correct_{MODEL}.json` files.
+
+`merge_correct_solutions` - aggregates LLM deemed correct solutions and regular expression deemed correct solutions

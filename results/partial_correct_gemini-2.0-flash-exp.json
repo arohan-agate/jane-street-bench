@@ -1,0 +1,9 @@
+{
+  "112": {
+    "name": "Pair Dance",
+    "ground_truth": "240",
+    "model_answer": "241",
+    "correct": 0.5,
+    "numSolvers": 34
+  }
+}

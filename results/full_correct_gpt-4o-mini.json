@@ -1,0 +1,9 @@
+{
+  "61": {
+    "name": "Single-Cross",
+    "ground_truth": "2/\u03c0",
+    "model_answer": "The length D that maximizes the probability that the segment crosses exactly one line on the checkerboard grid is \\( D = \\sqrt{2} \\), and the maximal probability is \\( \\frac{2}{\\pi} \\).",
+    "correct": 1,
+    "numSolvers": 122
+  }
+}

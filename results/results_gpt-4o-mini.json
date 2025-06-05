@@ -1,0 +1,2585 @@
+{
+  "0": {
+    "name": "Number Cross 5",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer to the puzzle is 107963.",
+        "prompt_tokens": 25970,
+        "completion_tokens": 10,
+        "total_tokens": 25980
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer to the puzzle is 107963.",
+        "prompt_tokens": 25970,
+        "completion_tokens": 10,
+        "total_tokens": 25980
+      }
+    ]
+  },
+  "1": {
+    "name": "Sum One, Somewhere",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The value of \\( p \\) for which there is exactly a \\( \\frac{1}{2} \\) probability that there exists an infinite path down the tree that sums to at most 1 is \n\n\\[ 0.5 \\]",
+        "prompt_tokens": 25638,
+        "completion_tokens": 49,
+        "total_tokens": 25687
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The value of \\( p \\) for which there is exactly a \\( \\frac{1}{2} \\) probability that there exists an infinite path down the tree that sums to at most 1 is \n\n\\[\np \\approx 0.5.\n\\]",
+        "prompt_tokens": 25638,
+        "completion_tokens": 54,
+        "total_tokens": 25692
+      }
+    ]
+  },
+  "2": {
+    "name": "Hall of Mirrors 3",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 180180.",
+        "prompt_tokens": 14384,
+        "completion_tokens": 7,
+        "total_tokens": 14391
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 1800.",
+        "prompt_tokens": 14384,
+        "completion_tokens": 7,
+        "total_tokens": 14391
+      }
+    ]
+  },
+  "3": {
+    "name": "Top Score (Give or Take)",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "OKRA",
+        "prompt_tokens": 25560,
+        "completion_tokens": 2,
+        "total_tokens": 25562
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "OKRA",
+        "prompt_tokens": 25560,
+        "completion_tokens": 2,
+        "total_tokens": 25562
+      }
+    ]
+  },
+  "4": {
+    "name": "Somewhat Square Sudoku",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 205202525.",
+        "prompt_tokens": 25681,
+        "completion_tokens": 8,
+        "total_tokens": 25689
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 205202525.",
+        "prompt_tokens": 25681,
+        "completion_tokens": 8,
+        "total_tokens": 25689
+      }
+    ]
+  },
+  "5": {
+    "name": "Games Night!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Monopoly",
+        "prompt_tokens": 25597,
+        "completion_tokens": 2,
+        "total_tokens": 25599
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Twelve",
+        "prompt_tokens": 25597,
+        "completion_tokens": 2,
+        "total_tokens": 25599
+      }
+    ]
+  },
+  "6": {
+    "name": "Beside the Point",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The probability is \\( 0.5000000000 \\).",
+        "prompt_tokens": 25636,
+        "completion_tokens": 13,
+        "total_tokens": 25649
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The probability is \\( 0.5000000000 \\).",
+        "prompt_tokens": 25636,
+        "completion_tokens": 13,
+        "total_tokens": 25649
+      }
+    ]
+  },
+  "7": {
+    "name": "Knight Moves 6",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "1,2,3,a1,b3,c5,d3,f4,d5,f6,a6,c5,a4,b2,c4,d2,f1",
+        "prompt_tokens": 25796,
+        "completion_tokens": 33,
+        "total_tokens": 25829
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "1,2,3,a1,b3,c5,d3,f4,d5,f6,a6,c5,a4,b2,c4,d2,f1",
+        "prompt_tokens": 25796,
+        "completion_tokens": 33,
+        "total_tokens": 25829
+      }
+    ]
+  },
+  "8": {
+    "name": "Fences 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 48.",
+        "prompt_tokens": 14469,
+        "completion_tokens": 6,
+        "total_tokens": 14475
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "48",
+        "prompt_tokens": 14469,
+        "completion_tokens": 1,
+        "total_tokens": 14470
+      }
+    ]
+  },
+  "9": {
+    "name": "Tree-edge Triage",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The infimum of the set of all probabilities \\( p \\) for which Aaron has a nonzero probability of winning the game is \\( \\frac{1}{2} \\).",
+        "prompt_tokens": 25828,
+        "completion_tokens": 36,
+        "total_tokens": 25864
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The infimum of the set of all probabilities \\( p \\) for which Aaron has a nonzero probability of winning the game is \\( \\frac{1}{2} \\).",
+        "prompt_tokens": 25828,
+        "completion_tokens": 36,
+        "total_tokens": 25864
+      }
+    ]
+  },
+  "10": {
+    "name": "Many Happy Returns",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Karen",
+        "prompt_tokens": 167,
+        "completion_tokens": 1,
+        "total_tokens": 168
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Alice",
+        "prompt_tokens": 167,
+        "completion_tokens": 1,
+        "total_tokens": 168
+      }
+    ]
+  },
+  "11": {
+    "name": "Altered States 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "I'm unable to assist with that.",
+        "prompt_tokens": 25856,
+        "completion_tokens": 7,
+        "total_tokens": 25863
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "I'm unable to provide a solution for this puzzle.",
+        "prompt_tokens": 25856,
+        "completion_tokens": 10,
+        "total_tokens": 25866
+      }
+    ]
+  },
+  "12": {
+    "name": "Number Cross 4",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "24898",
+        "prompt_tokens": 25748,
+        "completion_tokens": 2,
+        "total_tokens": 25750
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "24898",
+        "prompt_tokens": 25748,
+        "completion_tokens": 2,
+        "total_tokens": 25750
+      }
+    ]
+  },
+  "13": {
+    "name": "Robot Capture-the-Flag",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.5000000000",
+        "prompt_tokens": 313,
+        "completion_tokens": 6,
+        "total_tokens": 319
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.5000000000",
+        "prompt_tokens": 313,
+        "completion_tokens": 6,
+        "total_tokens": 319
+      }
+    ]
+  },
+  "14": {
+    "name": "Hooks 10",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 144.",
+        "prompt_tokens": 25769,
+        "completion_tokens": 6,
+        "total_tokens": 25775
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 144.",
+        "prompt_tokens": 25769,
+        "completion_tokens": 6,
+        "total_tokens": 25775
+      }
+    ]
+  },
+  "15": {
+    "name": "Some Off Square",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The probability that the circle has a part of it that is off the square is 1/4.",
+        "prompt_tokens": 25606,
+        "completion_tokens": 25,
+        "total_tokens": 25631
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The probability that the circle has a part of it that is off the square is 1/2.",
+        "prompt_tokens": 25606,
+        "completion_tokens": 26,
+        "total_tokens": 25632
+      }
+    ]
+  },
+  "16": {
+    "name": "Some F Squares",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The product of the areas of the connected groups of orthogonally adjacent empty squares in the grid is 44.",
+        "prompt_tokens": 14359,
+        "completion_tokens": 23,
+        "total_tokens": 14382
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The product of the areas of the connected groups of orthogonally adjacent empty squares in the grid is **44**.",
+        "prompt_tokens": 14359,
+        "completion_tokens": 24,
+        "total_tokens": 14383
+      }
+    ]
+  },
+  "18": {
+    "name": "Knight Moves 5",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "(1,b3), (0,a3), (0,a2), (0,a1), (1,b1), (0,c1), (0,c2), (0,c3), (1,d3), (0,e3), (0,e4), (1,f4), (0,g4), (0,g5), (1,h5), (0,h6), (0,h7), (0,h8)",
+        "prompt_tokens": 14959,
+        "completion_tokens": 90,
+        "total_tokens": 15049
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "I'm unable to assist with that.",
+        "prompt_tokens": 14959,
+        "completion_tokens": 7,
+        "total_tokens": 14966
+      }
+    ]
+  },
+  "19": {
+    "name": "A Weird Tour",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "France",
+        "prompt_tokens": 415,
+        "completion_tokens": 1,
+        "total_tokens": 416
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "France",
+        "prompt_tokens": 415,
+        "completion_tokens": 1,
+        "total_tokens": 416
+      }
+    ]
+  },
+  "20": {
+    "name": "Getting from a to b",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The first (lowest) row where the piece labeled \"2023\" would make sense to place is row 10.",
+        "prompt_tokens": 14352,
+        "completion_tokens": 24,
+        "total_tokens": 14376
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The first (lowest) row where the piece labeled \"2023\" would make sense to place is row 10.",
+        "prompt_tokens": 14352,
+        "completion_tokens": 24,
+        "total_tokens": 14376
+      }
+    ]
+  },
+  "21": {
+    "name": "Single-Cross 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "1.4142135624,0.3333333333",
+        "prompt_tokens": 188,
+        "completion_tokens": 13,
+        "total_tokens": 201
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "1.0000000000,0.3333333333",
+        "prompt_tokens": 188,
+        "completion_tokens": 13,
+        "total_tokens": 201
+      }
+    ]
+  },
+  "22": {
+    "name": "Choco Banana",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "9216",
+        "prompt_tokens": 14282,
+        "completion_tokens": 2,
+        "total_tokens": 14284
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer to the puzzle is 9216.",
+        "prompt_tokens": 14282,
+        "completion_tokens": 10,
+        "total_tokens": 14292
+      }
+    ]
+  },
+  "23": {
+    "name": "Hooks 9",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 36.",
+        "prompt_tokens": 25765,
+        "completion_tokens": 6,
+        "total_tokens": 25771
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 18.",
+        "prompt_tokens": 25765,
+        "completion_tokens": 6,
+        "total_tokens": 25771
+      }
+    ]
+  },
+  "24": {
+    "name": "Game Night!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "BINARY",
+        "prompt_tokens": 14274,
+        "completion_tokens": 2,
+        "total_tokens": 14276
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "BINARY",
+        "prompt_tokens": 14274,
+        "completion_tokens": 2,
+        "total_tokens": 14276
+      }
+    ]
+  },
+  "25": {
+    "name": "Arc-edge Acreage",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The number of ways to draw a curve enclosing a region of area exactly 32 is 36.",
+        "prompt_tokens": 25653,
+        "completion_tokens": 20,
+        "total_tokens": 25673
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The number of ways to draw a curve enclosing a region of area exactly 32 is **144**.",
+        "prompt_tokens": 25653,
+        "completion_tokens": 21,
+        "total_tokens": 25674
+      }
+    ]
+  },
+  "26": {
+    "name": "Robot Long Jump",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.500000000",
+        "prompt_tokens": 405,
+        "completion_tokens": 5,
+        "total_tokens": 410
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.500000000",
+        "prompt_tokens": 405,
+        "completion_tokens": 5,
+        "total_tokens": 410
+      }
+    ]
+  },
+  "27": {
+    "name": "Twenty Four Seven (Four-in-One)",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The product of the areas of the connected groups of orthogonally adjacent empty squares in the grid is **60**.",
+        "prompt_tokens": 25780,
+        "completion_tokens": 24,
+        "total_tokens": 25804
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The product of the areas of the connected groups of orthogonally adjacent empty squares in the grid is **60**.",
+        "prompt_tokens": 25780,
+        "completion_tokens": 24,
+        "total_tokens": 25804
+      }
+    ]
+  },
+  "28": {
+    "name": "Lesses More",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "10;6;3;1",
+        "prompt_tokens": 25924,
+        "completion_tokens": 7,
+        "total_tokens": 25931
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "10;6;3;1",
+        "prompt_tokens": 25924,
+        "completion_tokens": 7,
+        "total_tokens": 25931
+      }
+    ]
+  },
+  "29": {
+    "name": "Die Agony",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The sum of values in the unvisited squares from the die's journey is **3059**.",
+        "prompt_tokens": 25736,
+        "completion_tokens": 20,
+        "total_tokens": 25756
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The sum of values in the unvisited squares from the die's journey is **2874**.",
+        "prompt_tokens": 25736,
+        "completion_tokens": 20,
+        "total_tokens": 25756
+      }
+    ]
+  },
+  "30": {
+    "name": "'Pent-up' Frustration 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.6180339",
+        "prompt_tokens": 187,
+        "completion_tokens": 5,
+        "total_tokens": 192
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.6180339",
+        "prompt_tokens": 187,
+        "completion_tokens": 5,
+        "total_tokens": 192
+      }
+    ]
+  },
+  "31": {
+    "name": "The Marshy Mess",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is \\( \\frac{1}{2} \\).",
+        "prompt_tokens": 14460,
+        "completion_tokens": 13,
+        "total_tokens": 14473
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is \\( \\frac{1}{2} \\).",
+        "prompt_tokens": 14460,
+        "completion_tokens": 13,
+        "total_tokens": 14473
+      }
+    ]
+  },
+  "32": {
+    "name": "Pair Dance 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "(3, 1, 1)",
+        "prompt_tokens": 261,
+        "completion_tokens": 9,
+        "total_tokens": 270
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "(4, 4, 4, 4)",
+        "prompt_tokens": 261,
+        "completion_tokens": 12,
+        "total_tokens": 273
+      }
+    ]
+  },
+  "33": {
+    "name": "New York Minute",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The friends will meet up at \"Street.\"",
+        "prompt_tokens": 25639,
+        "completion_tokens": 9,
+        "total_tokens": 25648
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The friends will meet up at \"The Street.\"",
+        "prompt_tokens": 25639,
+        "completion_tokens": 10,
+        "total_tokens": 25649
+      }
+    ]
+  },
+  "34": {
+    "name": "Andy's Morning Stroll",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.5000000",
+        "prompt_tokens": 506,
+        "completion_tokens": 5,
+        "total_tokens": 511
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.5000000",
+        "prompt_tokens": 506,
+        "completion_tokens": 5,
+        "total_tokens": 511
+      }
+    ]
+  },
+  "35": {
+    "name": "Block Party 4",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer to the puzzle is 430.",
+        "prompt_tokens": 25619,
+        "completion_tokens": 9,
+        "total_tokens": 25628
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer to the puzzle is 430.",
+        "prompt_tokens": 25619,
+        "completion_tokens": 9,
+        "total_tokens": 25628
+      }
+    ]
+  },
+  "36": {
+    "name": "Robot Updated Swimming Trials",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.000000",
+        "prompt_tokens": 551,
+        "completion_tokens": 4,
+        "total_tokens": 555
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.125000",
+        "prompt_tokens": 551,
+        "completion_tokens": 4,
+        "total_tokens": 555
+      }
+    ]
+  },
+  "37": {
+    "name": "Almost Magic",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "1060",
+        "prompt_tokens": 14540,
+        "completion_tokens": 2,
+        "total_tokens": 14542
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "1060",
+        "prompt_tokens": 14540,
+        "completion_tokens": 2,
+        "total_tokens": 14542
+      }
+    ]
+  },
+  "38": {
+    "name": "The Hidden Warning",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "WILDFIRE ALERT",
+        "prompt_tokens": 83,
+        "completion_tokens": 5,
+        "total_tokens": 88
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "DANGER AHEAD",
+        "prompt_tokens": 83,
+        "completion_tokens": 4,
+        "total_tokens": 87
+      }
+    ]
+  },
+  "39": {
+    "name": "Eldrow",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "CRANE, SLANT, STORM, TRIED, TRITE, TREAD, TREND, TRESS, TRITE, TRIED, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK, TRICK",
+        "prompt_tokens": 727,
+        "completion_tokens": 200,
+        "total_tokens": 927
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "CRANE,SLATE,SHINE,THIRD,TRIED,TRITE,WRITE,WRIST",
+        "prompt_tokens": 727,
+        "completion_tokens": 22,
+        "total_tokens": 749
+      }
+    ]
+  },
+  "40": {
+    "name": "Hooks 8",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 36.",
+        "prompt_tokens": 14401,
+        "completion_tokens": 6,
+        "total_tokens": 14407
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 36.",
+        "prompt_tokens": 14401,
+        "completion_tokens": 6,
+        "total_tokens": 14407
+      }
+    ]
+  },
+  "41": {
+    "name": "Robot Archery",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.2500000000",
+        "prompt_tokens": 319,
+        "completion_tokens": 6,
+        "total_tokens": 325
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.2500000000",
+        "prompt_tokens": 319,
+        "completion_tokens": 6,
+        "total_tokens": 325
+      }
+    ]
+  },
+  "42": {
+    "name": "Split Division 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The sum of the two 7-digit dividends is 1144406.",
+        "prompt_tokens": 14279,
+        "completion_tokens": 15,
+        "total_tokens": 14294
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The sum of the two 7-digit dividends is **1461206**.",
+        "prompt_tokens": 14279,
+        "completion_tokens": 16,
+        "total_tokens": 14295
+      }
+    ]
+  },
+  "43": {
+    "name": "Robot Swimming Trials",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "4,0.75",
+        "prompt_tokens": 660,
+        "completion_tokens": 5,
+        "total_tokens": 665
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "N, p = 4, 0.833333",
+        "prompt_tokens": 660,
+        "completion_tokens": 12,
+        "total_tokens": 672
+      }
+    ]
+  },
+  "44": {
+    "name": "Knight Moves 4",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 219.",
+        "prompt_tokens": 25673,
+        "completion_tokens": 6,
+        "total_tokens": 25679
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 219.",
+        "prompt_tokens": 25673,
+        "completion_tokens": 6,
+        "total_tokens": 25679
+      }
+    ]
+  },
+  "45": {
+    "name": "Robot Tug-of-War",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "-0.25",
+        "prompt_tokens": 299,
+        "completion_tokens": 4,
+        "total_tokens": 303
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "-0.5",
+        "prompt_tokens": 299,
+        "completion_tokens": 4,
+        "total_tokens": 303
+      }
+    ]
+  },
+  "46": {
+    "name": "It's Symmetric 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 20.",
+        "prompt_tokens": 184,
+        "completion_tokens": 6,
+        "total_tokens": 190
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The final answer is 20.",
+        "prompt_tokens": 184,
+        "completion_tokens": 7,
+        "total_tokens": 191
+      }
+    ]
+  },
+  "47": {
+    "name": "Robot Weightlifting",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.5",
+        "prompt_tokens": 286,
+        "completion_tokens": 3,
+        "total_tokens": 289
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.5",
+        "prompt_tokens": 286,
+        "completion_tokens": 3,
+        "total_tokens": 289
+      }
+    ]
+  },
+  "48": {
+    "name": "Past Tens",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "I can't determine the hidden question from the image.",
+        "prompt_tokens": 14252,
+        "completion_tokens": 10,
+        "total_tokens": 14262
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "I can't determine the hidden question or provide an answer based on the image.",
+        "prompt_tokens": 14252,
+        "completion_tokens": 15,
+        "total_tokens": 14267
+      }
+    ]
+  },
+  "49": {
+    "name": "Bracketology 101",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "To maximize the 2-seed's probability of winning the tournament, the optimal swap is between the 7-seed and the 15-seed.\n\nAfter the swap, the 2-seed's probability of winning the tournament increases by approximately 0.032145.\n\nThus, the final answer is:\n\n**0.032145**",
+        "prompt_tokens": 14482,
+        "completion_tokens": 68,
+        "total_tokens": 14550
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "To maximize the 2-seed's probability of winning the tournament, the optimal swap is between the 2-seed and the 15-seed. \n\nThe probability of the 2-seed winning the tournament after the swap increases to approximately 0.713580. \n\nThus, the increase in probability is approximately 0.213580. \n\nFinal answer: 0.213580",
+        "prompt_tokens": 14482,
+        "completion_tokens": 79,
+        "total_tokens": 14561
+      }
+    ]
+  },
+  "50": {
+    "name": "Tit for Tat",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Doughnut hole",
+        "prompt_tokens": 150,
+        "completion_tokens": 4,
+        "total_tokens": 154
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Baker's dozen",
+        "prompt_tokens": 150,
+        "completion_tokens": 4,
+        "total_tokens": 154
+      }
+    ]
+  },
+  "51": {
+    "name": "Hooks #7",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "16",
+        "prompt_tokens": 25744,
+        "completion_tokens": 1,
+        "total_tokens": 25745
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "16",
+        "prompt_tokens": 25744,
+        "completion_tokens": 1,
+        "total_tokens": 25745
+      }
+    ]
+  },
+  "52": {
+    "name": "Figurine Figuring",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "7.0000000",
+        "prompt_tokens": 216,
+        "completion_tokens": 5,
+        "total_tokens": 221
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "6.0000000",
+        "prompt_tokens": 216,
+        "completion_tokens": 5,
+        "total_tokens": 221
+      }
+    ]
+  },
+  "53": {
+    "name": "Twenty Four Seven 2-by-2 #2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 1096.",
+        "prompt_tokens": 25764,
+        "completion_tokens": 7,
+        "total_tokens": 25771
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer to the puzzle is **1040**.",
+        "prompt_tokens": 25764,
+        "completion_tokens": 11,
+        "total_tokens": 25775
+      }
+    ]
+  },
+  "54": {
+    "name": "Candy Collectors",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "\\(\\frac{1}{5}\\)",
+        "prompt_tokens": 224,
+        "completion_tokens": 9,
+        "total_tokens": 233
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "\\(\\frac{1}{5}\\)",
+        "prompt_tokens": 224,
+        "completion_tokens": 9,
+        "total_tokens": 233
+      }
+    ]
+  },
+  "55": {
+    "name": "Tangled!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "SSRRSSRRSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
+        "prompt_tokens": 443,
+        "completion_tokens": 200,
+        "total_tokens": 643
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "RSRSSR",
+        "prompt_tokens": 443,
+        "completion_tokens": 3,
+        "total_tokens": 446
+      }
+    ]
+  },
+  "56": {
+    "name": "Study and Ponder",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "NVIDIA",
+        "prompt_tokens": 528,
+        "completion_tokens": 2,
+        "total_tokens": 530
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "BIOCBREQIXUNHFCCLCOPEPNWLTWTRVLOWSTZTSNADISC",
+        "prompt_tokens": 528,
+        "completion_tokens": 22,
+        "total_tokens": 550
+      }
+    ]
+  },
+  "57": {
+    "name": "What a Trit!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "It is not possible to represent the number 524293 in the numeral system of Terniquaternaria.",
+        "prompt_tokens": 286,
+        "completion_tokens": 22,
+        "total_tokens": 308
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Yes, it is possible. One way to write 524293 is as (110111T0/1T00).",
+        "prompt_tokens": 286,
+        "completion_tokens": 25,
+        "total_tokens": 311
+      }
+    ]
+  },
+  "58": {
+    "name": "Circle Time",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The maximum proportion of the area of the circle \\( C \\) that can be covered with rings of circles is \\( \\frac{3\\sqrt{3}}{4} \\).",
+        "prompt_tokens": 14425,
+        "completion_tokens": 37,
+        "total_tokens": 14462
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The maximum proportion of the area of circle \\( C \\) that can be covered with rings of circles is \\( \\frac{3\\sqrt{3}}{4} \\).",
+        "prompt_tokens": 14425,
+        "completion_tokens": 36,
+        "total_tokens": 14461
+      }
+    ]
+  },
+  "60": {
+    "name": "Triads",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The sum of all values of N < 40 for which it is possible to separate the triangular grid into disjoint triads is 210.",
+        "prompt_tokens": 14358,
+        "completion_tokens": 29,
+        "total_tokens": 14387
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The sum of all values of N < 40 for which it is possible to separate the triangular grid into disjoint triads is **80**.",
+        "prompt_tokens": 14358,
+        "completion_tokens": 30,
+        "total_tokens": 14388
+      }
+    ]
+  },
+  "61": {
+    "name": "Single-Cross",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The length D that maximizes the probability that the segment crosses exactly one line on the checkerboard grid is \\( D = \\sqrt{2} \\), and the maximal probability is \\( \\frac{2}{\\pi} \\).",
+        "prompt_tokens": 95,
+        "completion_tokens": 43,
+        "total_tokens": 138
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The length \\( D \\) that maximizes the probability of crossing exactly one line on the checkerboard grid is \\( D = 1 \\), and the maximal probability is \\( \\frac{1}{2} \\).",
+        "prompt_tokens": 95,
+        "completion_tokens": 44,
+        "total_tokens": 139
+      }
+    ]
+  },
+  "62": {
+    "name": "Alter/Nate",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Alter wins by always choosing numbers that keep the total below 100 and avoid creating a situation where the sum of his and Nate's last numbers equals 11.",
+        "prompt_tokens": 276,
+        "completion_tokens": 32,
+        "total_tokens": 308
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Alter wins by always picking numbers that keep the total below 100 and avoid creating a sum of 11 with Nate's previous number.",
+        "prompt_tokens": 276,
+        "completion_tokens": 27,
+        "total_tokens": 303
+      }
+    ]
+  },
+  "63": {
+    "name": "Poetry in Motion",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is \"checkmate.\"",
+        "prompt_tokens": 151,
+        "completion_tokens": 7,
+        "total_tokens": 158
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is \"checkmate.\"",
+        "prompt_tokens": 151,
+        "completion_tokens": 7,
+        "total_tokens": 158
+      }
+    ]
+  },
+  "64": {
+    "name": "Hooks #6",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer to the puzzle is 36.",
+        "prompt_tokens": 25779,
+        "completion_tokens": 9,
+        "total_tokens": 25788
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer to the puzzle is 72.",
+        "prompt_tokens": 25779,
+        "completion_tokens": 9,
+        "total_tokens": 25788
+      }
+    ]
+  },
+  "65": {
+    "name": "Tri, Tri Again, Again",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The product of the odd horizontal leg lengths is 105.",
+        "prompt_tokens": 14336,
+        "completion_tokens": 12,
+        "total_tokens": 14348
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The product of the odd horizontal leg lengths is 15.",
+        "prompt_tokens": 14336,
+        "completion_tokens": 12,
+        "total_tokens": 14348
+      }
+    ]
+  },
+  "66": {
+    "name": "Block Party 3",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The sum of the largest horizontally concatenated numbers from each region is **475**.",
+        "prompt_tokens": 14331,
+        "completion_tokens": 17,
+        "total_tokens": 14348
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The sum of the largest horizontally concatenated numbers from each region is **475**.",
+        "prompt_tokens": 14331,
+        "completion_tokens": 17,
+        "total_tokens": 14348
+      }
+    ]
+  },
+  "67": {
+    "name": "Knight Moves 3",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The smallest achievable product of the areas of the connected groups of empty squares in the completed grid is **6**.",
+        "prompt_tokens": 14367,
+        "completion_tokens": 23,
+        "total_tokens": 14390
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The smallest achievable product of the areas of the connected groups of empty squares in the completed grid is **36**.",
+        "prompt_tokens": 14367,
+        "completion_tokens": 23,
+        "total_tokens": 14390
+      }
+    ]
+  },
+  "68": {
+    "name": "Scraggle",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "I'm unable to provide the specific words or the grid solution for this puzzle. However, you can use the provided grid and the rules to find a valid 4-word chain by filling in distinct consonants in the empty squares and ensuring the words meet the criteria. Good luck!",
+        "prompt_tokens": 14536,
+        "completion_tokens": 55,
+        "total_tokens": 14591
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "I'm unable to provide the solution to this puzzle.",
+        "prompt_tokens": 14536,
+        "completion_tokens": 10,
+        "total_tokens": 14546
+      }
+    ]
+  },
+  "69": {
+    "name": "Hooks #5",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 12.",
+        "prompt_tokens": 25750,
+        "completion_tokens": 6,
+        "total_tokens": 25756
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The product of the areas of the connected groups of empty squares in the completed grid is **6**.",
+        "prompt_tokens": 25750,
+        "completion_tokens": 21,
+        "total_tokens": 25771
+      }
+    ]
+  },
+  "70": {
+    "name": "Disassembled Rainbow Bagel",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The difference between the enclosed areas of the two loops is \\( 0 \\).",
+        "prompt_tokens": 14278,
+        "completion_tokens": 16,
+        "total_tokens": 14294
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The difference between the enclosed areas of the two loops is 0.",
+        "prompt_tokens": 14278,
+        "completion_tokens": 14,
+        "total_tokens": 14292
+      }
+    ]
+  },
+  "71": {
+    "name": "Remote Sudoku",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 204.",
+        "prompt_tokens": 25660,
+        "completion_tokens": 6,
+        "total_tokens": 25666
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The sum of the squares of the numbers written over the gray numbers in the completed grid is **110**.",
+        "prompt_tokens": 25660,
+        "completion_tokens": 22,
+        "total_tokens": 25682
+      }
+    ]
+  },
+  "72": {
+    "name": "Twenty Four Seven 2-by-2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "To solve the puzzle, we need to fill in the grids according to the given constraints and then compute the sum of the squares of the numbers in the resulting 7-by-7 grid.\n\nAfter carefully filling in the grids while adhering to the rules, we arrive at the following filled grids:\n\n1. **Grid 1:**\n   ```\n   7 6 2 5 4 3 1\n   3 4 5 6 7 2 1\n   5 2 1 4 6 7 3\n   4 5 6 2 3 1 7\n   1 3 4 7 5 6 2\n   2 1 3 5 4 7 6\n   6 4 7 1 2 5 3\n   ```\n\n2. **Grid 2:**\n   ```\n   4 5 6",
+        "prompt_tokens": 25810,
+        "completion_tokens": 200,
+        "total_tokens": 26010
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The sum of the squares of the numbers in the \"sum\" grid is **1600**.",
+        "prompt_tokens": 25810,
+        "completion_tokens": 20,
+        "total_tokens": 25830
+      }
+    ]
+  },
+  "73": {
+    "name": "Tile and Trouble 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Keys",
+        "prompt_tokens": 111,
+        "completion_tokens": 1,
+        "total_tokens": 112
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Wallet",
+        "prompt_tokens": 111,
+        "completion_tokens": 1,
+        "total_tokens": 112
+      }
+    ]
+  },
+  "74": {
+    "name": "Fences",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer to the puzzle is 120.",
+        "prompt_tokens": 14405,
+        "completion_tokens": 9,
+        "total_tokens": 14414
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 120.",
+        "prompt_tokens": 14405,
+        "completion_tokens": 6,
+        "total_tokens": 14411
+      }
+    ]
+  },
+  "75": {
+    "name": "Block Party 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The smallest possible sum for the \"product\" cells is 24.",
+        "prompt_tokens": 14308,
+        "completion_tokens": 14,
+        "total_tokens": 14322
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The smallest possible sum for the \"product\" cells is 30.",
+        "prompt_tokens": 14308,
+        "completion_tokens": 14,
+        "total_tokens": 14322
+      }
+    ]
+  },
+  "76": {
+    "name": "'Pent-up' Frustration",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "5.0",
+        "prompt_tokens": 223,
+        "completion_tokens": 3,
+        "total_tokens": 226
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "7.0",
+        "prompt_tokens": 223,
+        "completion_tokens": 3,
+        "total_tokens": 226
+      }
+    ]
+  },
+  "77": {
+    "name": "Subtiles",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The product of the areas of the empty regions in the completed grid is 288.",
+        "prompt_tokens": 25685,
+        "completion_tokens": 17,
+        "total_tokens": 25702
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The product of the areas of the empty regions in the completed grid is **288**.",
+        "prompt_tokens": 25685,
+        "completion_tokens": 18,
+        "total_tokens": 25703
+      }
+    ]
+  },
+  "78": {
+    "name": "Spiral Region",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 36.",
+        "prompt_tokens": 14267,
+        "completion_tokens": 6,
+        "total_tokens": 14273
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 30.",
+        "prompt_tokens": 14267,
+        "completion_tokens": 6,
+        "total_tokens": 14273
+      }
+    ]
+  },
+  "79": {
+    "name": "Hooks #4",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 144.",
+        "prompt_tokens": 14398,
+        "completion_tokens": 6,
+        "total_tokens": 14404
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 144.",
+        "prompt_tokens": 14398,
+        "completion_tokens": 6,
+        "total_tokens": 14404
+      }
+    ]
+  },
+  "80": {
+    "name": "Triangle Math",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is \\( 0 \\).",
+        "prompt_tokens": 112,
+        "completion_tokens": 25,
+        "total_tokens": 137
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is \\(0\\) for all positive integers \\(n\\).",
+        "prompt_tokens": 112,
+        "completion_tokens": 31,
+        "total_tokens": 143
+      }
+    ]
+  },
+  "81": {
+    "name": "Twenty Four Seven",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 8.",
+        "prompt_tokens": 25660,
+        "completion_tokens": 6,
+        "total_tokens": 25666
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 8.",
+        "prompt_tokens": 25660,
+        "completion_tokens": 6,
+        "total_tokens": 25666
+      }
+    ]
+  },
+  "82": {
+    "name": "Swing Time 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "I'm sorry, but I cannot access external links or content. Please provide the details of the puzzle, and I'll be happy to help you solve it!",
+        "prompt_tokens": 44,
+        "completion_tokens": 30,
+        "total_tokens": 74
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "I'm sorry, but I cannot access external content. Please provide the puzzle details, and I'll be happy to help you solve it!",
+        "prompt_tokens": 44,
+        "completion_tokens": 26,
+        "total_tokens": 70
+      }
+    ]
+  },
+  "83": {
+    "name": "Where in the World?",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Ukraine",
+        "prompt_tokens": 72,
+        "completion_tokens": 1,
+        "total_tokens": 73
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Ukraine",
+        "prompt_tokens": 72,
+        "completion_tokens": 1,
+        "total_tokens": 73
+      }
+    ]
+  },
+  "84": {
+    "name": "It\u00e2\u0080\u0099s Symmetric!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "1126",
+        "prompt_tokens": 14390,
+        "completion_tokens": 2,
+        "total_tokens": 14392
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "1126",
+        "prompt_tokens": 14390,
+        "completion_tokens": 2,
+        "total_tokens": 14392
+      }
+    ]
+  },
+  "85": {
+    "name": "Hooks #3",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 4.",
+        "prompt_tokens": 25757,
+        "completion_tokens": 6,
+        "total_tokens": 25763
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer to the puzzle is 4.",
+        "prompt_tokens": 25757,
+        "completion_tokens": 9,
+        "total_tokens": 25766
+      }
+    ]
+  },
+  "86": {
+    "name": "Rather Square Sudoku",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 570.",
+        "prompt_tokens": 25632,
+        "completion_tokens": 6,
+        "total_tokens": 25638
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 370.",
+        "prompt_tokens": 25632,
+        "completion_tokens": 6,
+        "total_tokens": 25638
+      }
+    ]
+  },
+  "90": {
+    "name": "Square Run",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The largest sum you can obtain from the squares you visit is **138**. \n\nThe list of moves is: **a1, a5, b5, b7, c7, c8, d8, e8, f8, g8, h8**.",
+        "prompt_tokens": 25727,
+        "completion_tokens": 58,
+        "total_tokens": 25785
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The largest sum you can obtain is **158**. \n\nThe list of moves is: **a1, a5, b5, b7, c7, c8, d8, e8, f8, g8, h8**.",
+        "prompt_tokens": 25727,
+        "completion_tokens": 53,
+        "total_tokens": 25780
+      }
+    ]
+  },
+  "91": {
+    "name": "Middlylinks",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 15600.",
+        "prompt_tokens": 14466,
+        "completion_tokens": 7,
+        "total_tokens": 14473
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "To solve the puzzle, we need to determine the values of \\( N(5) \\), \\( N(13) \\), \\( N(17) \\), \\( N(25) \\), \\( N(65) \\), and \\( N(125) \\) based on the completed grid. \n\nAfter analyzing the grid and counting the links for each specified number, we find:\n\n- \\( N(5) = 4 \\)\n- \\( N(13) = 6 \\)\n- \\( N(17) = 5 \\)\n- \\( N(25) = 3 \\)\n- \\( N(65) = 2 \\)\n- \\( N(125) = 1 \\)\n\nNow we calculate the final answer:\n\n\\[\nN(5) \\times N(13) \\times N(17) \\times N(25) \\times N(65) \\times N(125) = 4 \\times 6 \\times 5 \\times",
+        "prompt_tokens": 14466,
+        "completion_tokens": 200,
+        "total_tokens": 14666
+      }
+    ]
+  },
+  "92": {
+    "name": "Split Division",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The sum of the two 7-digit dividends is **1123456**.",
+        "prompt_tokens": 14279,
+        "completion_tokens": 16,
+        "total_tokens": 14295
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The sum of the two 7-digit dividends is **113,234**.",
+        "prompt_tokens": 14279,
+        "completion_tokens": 16,
+        "total_tokens": 14295
+      }
+    ]
+  },
+  "93": {
+    "name": "Well Well Well...",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "43 minutes",
+        "prompt_tokens": 25677,
+        "completion_tokens": 2,
+        "total_tokens": 25679
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "43 minutes",
+        "prompt_tokens": 25677,
+        "completion_tokens": 2,
+        "total_tokens": 25679
+      }
+    ]
+  },
+  "94": {
+    "name": "KenKen (Concatenated)",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The final answer is 118.",
+        "prompt_tokens": 25675,
+        "completion_tokens": 7,
+        "total_tokens": 25682
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is 123.",
+        "prompt_tokens": 25675,
+        "completion_tokens": 6,
+        "total_tokens": 25681
+      }
+    ]
+  },
+  "95": {
+    "name": "Knight Moves #2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The product of the areas of the orthogonally connected groups of empty squares in the completed grid is **12**.",
+        "prompt_tokens": 25657,
+        "completion_tokens": 24,
+        "total_tokens": 25681
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The product of the areas of the orthogonally connected groups of empty squares in the completed grid is **36**.",
+        "prompt_tokens": 25657,
+        "completion_tokens": 24,
+        "total_tokens": 25681
+      }
+    ]
+  },
+  "96": {
+    "name": "Birthday Bash",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "23",
+        "prompt_tokens": 200,
+        "completion_tokens": 1,
+        "total_tokens": 201
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "23",
+        "prompt_tokens": 200,
+        "completion_tokens": 1,
+        "total_tokens": 201
+      }
+    ]
+  },
+  "97": {
+    "name": "What About Bob?",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The three smallest values of N such that Bob wins the game are 1, 2, and 3.",
+        "prompt_tokens": 261,
+        "completion_tokens": 23,
+        "total_tokens": 284
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The three smallest values of N such that Bob wins the game are 1, 2, and 3.",
+        "prompt_tokens": 261,
+        "completion_tokens": 23,
+        "total_tokens": 284
+      }
+    ]
+  },
+  "99": {
+    "name": "Star Search",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is \"Good Will Hunting.\"",
+        "prompt_tokens": 14213,
+        "completion_tokens": 8,
+        "total_tokens": 14221
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is \"Finding Nemo.\"",
+        "prompt_tokens": 14213,
+        "completion_tokens": 7,
+        "total_tokens": 14220
+      }
+    ]
+  },
+  "100": {
+    "name": "The Wright Stuff",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is \"SOUTH BEND.\"",
+        "prompt_tokens": 25647,
+        "completion_tokens": 9,
+        "total_tokens": 25656
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The answer is \"BURLINGTON\".",
+        "prompt_tokens": 25647,
+        "completion_tokens": 8,
+        "total_tokens": 25655
+      }
+    ]
+  },
+  "101": {
+    "name": "Tri, Tri Again",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The lowest possible sum of numbers that your tetrahedron encounters is **34**.",
+        "prompt_tokens": 14302,
+        "completion_tokens": 16,
+        "total_tokens": 14318
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The lowest possible sum of numbers that your tetrahedron encounters is **10**.",
+        "prompt_tokens": 14302,
+        "completion_tokens": 16,
+        "total_tokens": 14318
+      }
+    ]
+  },
+  "102": {
+    "name": "Chess Dance",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The largest possible sum for the 16 products is **19880**.",
+        "prompt_tokens": 25763,
+        "completion_tokens": 15,
+        "total_tokens": 25778
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The largest possible sum for the 16 products is **22700**.",
+        "prompt_tokens": 25763,
+        "completion_tokens": 15,
+        "total_tokens": 25778
+      }
+    ]
+  },
+  "103": {
+    "name": "Swing Time",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "I'm sorry, but I cannot access external content or links. Please provide the details of the puzzle, and I'll be happy to help you solve it!",
+        "prompt_tokens": 90,
+        "completion_tokens": 30,
+        "total_tokens": 120
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "I'm sorry, but I cannot access external content or links. Please provide the details of the puzzle, and I'll be happy to help you solve it!",
+        "prompt_tokens": 90,
+        "completion_tokens": 30,
+        "total_tokens": 120
+      }
+    ]
+  },
+  "104": {
+    "name": "Number Cross #3",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The sum of all numbers in the grid that share a border with one of the negative numbers is **-11**.",
+        "prompt_tokens": 14307,
+        "completion_tokens": 24,
+        "total_tokens": 14331
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The sum of all numbers in the grid which share a border with one of the negative numbers is **72**.",
+        "prompt_tokens": 14307,
+        "completion_tokens": 23,
+        "total_tokens": 14330
+      }
+    ]
+  },
+  "105": {
+    "name": "Get Out The Vote",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Harry: 34, Larry: 34, Mary: 35",
+        "prompt_tokens": 302,
+        "completion_tokens": 14,
+        "total_tokens": 316
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Harry: 36, Larry: 36, Mary: 30",
+        "prompt_tokens": 302,
+        "completion_tokens": 14,
+        "total_tokens": 316
+      }
+    ]
+  },
+  "106": {
+    "name": "Hooks #2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The largest product achievable using a subset of the numbered squares in the completed grid is **1440**.",
+        "prompt_tokens": 25714,
+        "completion_tokens": 21,
+        "total_tokens": 25735
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The largest product is 1440.",
+        "prompt_tokens": 25714,
+        "completion_tokens": 8,
+        "total_tokens": 25722
+      }
+    ]
+  },
+  "108": {
+    "name": "Knight Moves",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "102",
+        "prompt_tokens": 25726,
+        "completion_tokens": 1,
+        "total_tokens": 25727
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "102",
+        "prompt_tokens": 25726,
+        "completion_tokens": 1,
+        "total_tokens": 25727
+      }
+    ]
+  },
+  "110": {
+    "name": "Professor Rando Redux",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "6",
+        "prompt_tokens": 312,
+        "completion_tokens": 1,
+        "total_tokens": 313
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "6",
+        "prompt_tokens": 312,
+        "completion_tokens": 1,
+        "total_tokens": 313
+      }
+    ]
+  },
+  "111": {
+    "name": "Professor Rando",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Daphne: 1/5  \nMax: 1/5  \nMindy: 1/5  \nSam: 2/5",
+        "prompt_tokens": 219,
+        "completion_tokens": 29,
+        "total_tokens": 248
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Daphne: 0.2  \nMax: 0.2  \nMindy: 0.4  \nSam: 0.2",
+        "prompt_tokens": 219,
+        "completion_tokens": 29,
+        "total_tokens": 248
+      }
+    ]
+  },
+  "112": {
+    "name": "Pair Dance",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The number of different sets of 7 pairs possible is 135.",
+        "prompt_tokens": 14277,
+        "completion_tokens": 14,
+        "total_tokens": 14291
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The number of different sets of 7 pairs is 135.",
+        "prompt_tokens": 14277,
+        "completion_tokens": 13,
+        "total_tokens": 14290
+      }
+    ]
+  },
+  "114": {
+    "name": "Think Of The Children!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "120",
+        "prompt_tokens": 191,
+        "completion_tokens": 1,
+        "total_tokens": 192
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "120",
+        "prompt_tokens": 191,
+        "completion_tokens": 1,
+        "total_tokens": 192
+      }
+    ]
+  },
+  "115": {
+    "name": "Number Cross 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The sum of all the digits entered into the completed grid is **180**.",
+        "prompt_tokens": 14321,
+        "completion_tokens": 16,
+        "total_tokens": 14337
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The sum of all the digits entered into the completed grid is **162**.",
+        "prompt_tokens": 14321,
+        "completion_tokens": 16,
+        "total_tokens": 14337
+      }
+    ]
+  },
+  "116": {
+    "name": "Good Chemistry",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "1200",
+        "prompt_tokens": 117,
+        "completion_tokens": 2,
+        "total_tokens": 119
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "204",
+        "prompt_tokens": 117,
+        "completion_tokens": 1,
+        "total_tokens": 118
+      }
+    ]
+  },
+  "117": {
+    "name": "Polymath",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The highest total score you can get is **82**.",
+        "prompt_tokens": 14269,
+        "completion_tokens": 12,
+        "total_tokens": 14281
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The highest total score you can get is **66**.",
+        "prompt_tokens": 14269,
+        "completion_tokens": 12,
+        "total_tokens": 14281
+      }
+    ]
+  },
+  "118": {
+    "name": "Tic Tac Oh...",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "1/2",
+        "prompt_tokens": 133,
+        "completion_tokens": 3,
+        "total_tokens": 136
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "1/2",
+        "prompt_tokens": 133,
+        "completion_tokens": 3,
+        "total_tokens": 136
+      }
+    ]
+  },
+  "119": {
+    "name": "Hall of Mirrors",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The highest score you can achieve is 15.",
+        "prompt_tokens": 25725,
+        "completion_tokens": 10,
+        "total_tokens": 25735
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The highest score you can achieve is 15.",
+        "prompt_tokens": 25725,
+        "completion_tokens": 10,
+        "total_tokens": 25735
+      }
+    ]
+  },
+  "120": {
+    "name": "Ticker Treat",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "M",
+        "prompt_tokens": 49,
+        "completion_tokens": 1,
+        "total_tokens": 50
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "E",
+        "prompt_tokens": 49,
+        "completion_tokens": 1,
+        "total_tokens": 50
+      }
+    ]
+  },
+  "121": {
+    "name": "Oh CHUTE!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Kf1",
+        "prompt_tokens": 25583,
+        "completion_tokens": 3,
+        "total_tokens": 25586
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Kf1+",
+        "prompt_tokens": 25583,
+        "completion_tokens": 4,
+        "total_tokens": 25587
+      }
+    ]
+  },
+  "124": {
+    "name": "Wrong Division",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The 8-digit dividend is 12345678.",
+        "prompt_tokens": 14225,
+        "completion_tokens": 11,
+        "total_tokens": 14236
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The 8-digit dividend is 12345678.",
+        "prompt_tokens": 14225,
+        "completion_tokens": 11,
+        "total_tokens": 14236
+      }
+    ]
+  },
+  "125": {
+    "name": "Minesweeping",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "P = 5/6, grid = (---, 4-4, -4-, -4-)",
+        "prompt_tokens": 14475,
+        "completion_tokens": 23,
+        "total_tokens": 14498
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "P = 7/8, grid = (4, 4, 4, -), (4, -, -, -), (4, -, -, -), (-, -, -, -)",
+        "prompt_tokens": 14475,
+        "completion_tokens": 40,
+        "total_tokens": 14515
+      }
+    ]
+  },
+  "127": {
+    "name": "Number Cross",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The sum of the 8 5-digit grid entries in the completed grid is **123456**.",
+        "prompt_tokens": 14299,
+        "completion_tokens": 21,
+        "total_tokens": 14320
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The sum of the 8 five-digit grid entries in the completed grid is **155000**.",
+        "prompt_tokens": 14299,
+        "completion_tokens": 20,
+        "total_tokens": 14319
+      }
+    ]
+  },
+  "128": {
+    "name": "Chain Reaction",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The longest chain is 20.",
+        "prompt_tokens": 134,
+        "completion_tokens": 7,
+        "total_tokens": 141
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The longest chain is 20.",
+        "prompt_tokens": 134,
+        "completion_tokens": 7,
+        "total_tokens": 141
+      }
+    ]
+  },
+  "129": {
+    "name": "Question Mark",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "18095",
+        "prompt_tokens": 96,
+        "completion_tokens": 2,
+        "total_tokens": 98
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "27539479",
+        "prompt_tokens": 96,
+        "completion_tokens": 3,
+        "total_tokens": 99
+      }
+    ]
+  },
+  "130": {
+    "name": "Tile and Trouble",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The answer is 8.",
+        "prompt_tokens": 14230,
+        "completion_tokens": 6,
+        "total_tokens": 14236
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The final answer is: 12.",
+        "prompt_tokens": 14230,
+        "completion_tokens": 8,
+        "total_tokens": 14238
+      }
+    ]
+  },
+  "131": {
+    "name": "Chess Pains \u00e2\u0080\u0093 White To Move",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "CHECKMATE",
+        "prompt_tokens": 25551,
+        "completion_tokens": 3,
+        "total_tokens": 25554
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "CHECKMATE",
+        "prompt_tokens": 25551,
+        "completion_tokens": 3,
+        "total_tokens": 25554
+      }
+    ]
+  },
+  "132": {
+    "name": "Altered States",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "I'm unable to assist with that.",
+        "prompt_tokens": 25622,
+        "completion_tokens": 7,
+        "total_tokens": 25629
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "To achieve the highest score, fill the grid with the following letters:\n\n```\nA M E R I C A\nN O R T H D\nS O U T H W\nE S T V T X\nA L A B A M\n```\n\nThis configuration includes the states: Alabama, America (not a state but included for context), North Dakota, South Dakota, Texas, and West Virginia, maximizing the score based on the rules provided.",
+        "prompt_tokens": 25622,
+        "completion_tokens": 93,
+        "total_tokens": 25715
+      }
+    ]
+  },
+  "133": {
+    "name": "Hooks",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "The sum of the values of the shaded squares is **180**.",
+        "prompt_tokens": 25636,
+        "completion_tokens": 14,
+        "total_tokens": 25650
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The sum of the values of the shaded squares is **197**.",
+        "prompt_tokens": 25636,
+        "completion_tokens": 14,
+        "total_tokens": 25650
+      }
+    ]
+  },
+  "134": {
+    "name": "Sum of Squares",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "(100, 1623552460048932486847030)",
+        "prompt_tokens": 14337,
+        "completion_tokens": 14,
+        "total_tokens": 14351
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "(100,1623552460048932486847030)",
+        "prompt_tokens": 14337,
+        "completion_tokens": 13,
+        "total_tokens": 14350
+      }
+    ]
+  }
+}
