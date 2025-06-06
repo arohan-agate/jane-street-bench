@@ -110,7 +110,9 @@ async function getModelAccuracy(model, totalByDifficulty) {
       totalCount,
       percentCorrect,
       percentPartialCorrect,
-      difficultyCounts: difficultyBreakdown
+      difficultyCounts: difficultyBreakdown,
+      correctData,
+      partialCorrectData
     };
   } catch (e) {
     console.error(e);
@@ -118,7 +120,19 @@ async function getModelAccuracy(model, totalByDifficulty) {
   }
 }
 
-function createTableRow(rank, { model, correctCount, partialCorrectCount, totalCount, percentCorrect, percentPartialCorrect, error, difficultyCounts }) {
+function createTableRow(rank, data) {
+  const {
+    model,
+    correctCount,
+    partialCorrectCount,
+    totalCount,
+    percentCorrect,
+    percentPartialCorrect,
+    error,
+    difficultyCounts,
+    correctData = {},
+    partialCorrectData = {}
+  } = data;
   if (error) {
     return `
       <tr>
@@ -127,8 +141,20 @@ function createTableRow(rank, { model, correctCount, partialCorrectCount, totalC
       </tr>
     `;
   }
+
+  console.log(correctData);
+
+  const collapseId = `collapse-${rank}`;
+  const correctList = Object.values(correctData)
+  .map(puzzle => `<code>${puzzle.name}</code>`)
+  .join(', ') || "<em>None</em>";
+
+  const partialList = Object.values(partialCorrectData)
+    .map(puzzle => `<code>${puzzle.name}</code>`)
+    .join(', ') || "<em>None</em>";
+
   return `
-    <tr>
+    <tr data-bs-toggle="collapse" data-bs-target="#${collapseId}" style="cursor: pointer;">
       <td>${rank}</td>
       <td>${model}</td>
       <td>${correctCount} (${percentCorrect}%)</td>
@@ -139,6 +165,12 @@ function createTableRow(rank, { model, correctCount, partialCorrectCount, totalC
       <td>${difficultyCounts["Hard"]}</td>
       <td>${difficultyCounts["Very Hard"]}</td>
       <td>${totalCount}</td>
+    </tr>
+    <tr class="collapse" id="${collapseId}">
+      <td colspan="10" class="bg-light">
+        <strong>Correct:</strong> ${correctList}<br>
+        <strong>Partially Correct:</strong> ${partialList}
+      </td>
     </tr>
   `;
 }
