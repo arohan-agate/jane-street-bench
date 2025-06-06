@@ -8,6 +8,8 @@ Benchmarking on Jane Street puzzles
 
 `eval_curr_month` - evaluates all models in `models.txt` on the current month's problem, giving two attempts.
 
+`eval_last_month` - evaluates all models in `models.txt` on the last month's problem, giving two attempts.
+
 `benchmarks` - evaluate a model on all Jane Street Puzzles. The model gets 2 attempts per problem.
 
 `benchmark_reasoning` - evaluate all reasoning models on all Jane Street Puzzles. Each model gets 2 attempts per problem.
