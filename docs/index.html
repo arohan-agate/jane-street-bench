@@ -11,46 +11,57 @@
     <body>
         <div class="container">
             <h1 class="mb-3">Jane Street LLM Benchmarks</h1>
-            <h5 class="mb-4">How well do state-of-the-art LLMs perform on monthly <a href="https://www.janestreet.com/puzzles/archive/">Jane Street puzzles</a>?</h5>
-            <p>Our goal is to test the reasoning capabilities of various LLMs using Jane Street's monthly puzzles. Of course, thousands of benchmarks already exist. These include
-            benchmarks like <a href="https://wordgamebench.github.io/">word game bench</a>, which evaluates model performances on Wordle and Connections games,
-             and <a href="https://www.vals.ai/benchmarks/aime-2025-03-11">AIME benchmark</a> which compare model reasoning capabilities using AIME Math Olympiad problems.
+            <h5 class="mb-4">
+                How well do state-of-the-art LLMs perform on monthly
+                <a href="https://www.janestreet.com/puzzles/archive/">Jane Street puzzles</a>?
+            </h5>
+            <p>
+                Our goal is to test the reasoning capabilities of various LLMs using Jane Street's monthly puzzles. Of course, thousands of benchmarks already exist. These include
+                benchmarks like <a href="https://wordgamebench.github.io/">word game bench</a>, which evaluates model performances on Wordle and Connections games,
+                and <a href="https://www.vals.ai/benchmarks/aime-2025-03-11">AIME benchmark</a> which compare model reasoning capabilities using AIME Math Olympiad problems.
             </p>
             <p>
-                One key difference of Jane Street problems are that they are guaranteed to be novel. Data leakage is a common problem across testing models--using
-                testing data that models may have tested on before will lead to inaccurate evaluations, and an often overly optimistic estimation of model accuracy.
+                One key difference of Jane Street problems is that they are guaranteed to be novel. Data leakage is a common problem across testing models—using
+                testing data that models may have seen before will lead to inaccurate evaluations, and an often overly optimistic estimation of model accuracy.
                 Many LLMs are trained across the far reaches of the internet, and it is very possible that they have trained on games of Wordle and competition math problems.
-                The solution to Jane Street problems, however, are kept unavailable from the public eye until they are released. Therefore, we can be confident that when benchmarking
-                a model on a puzzle issued after the model release data, the model be tested on unseen data.
+                The solutions to Jane Street problems, however, are kept unavailable from the public eye until they are released. Therefore, we can be confident that when benchmarking
+                a model on a puzzle issued after the model’s release date, the model is tested on unseen data.
             </p>
 
-            <a href="current.html">Here's how each model answered this month's puzzle</a>
-            <hr class="my-4">
-            <div class="mb-3">
+            <div class="d-flex gap-3 mb-4">
+                <a class="btn btn-outline-primary" href="current.html">
+                    <i class="bi bi-lightbulb"></i>
+                    This Month’s Puzzle
+                </a>
+                <a class="btn btn-outline-primary" href="last.html">
+                    <i class="bi bi-clock-history"></i>
+                    Last Month’s Puzzle
+                </a>
             </div>
+
+            <hr class="my-4">
+
             <div id="resultsContainer"></div>
-                        <small>
+            <small>
                 <ul class="mb-0">
-                <li><strong>Model</strong>: Name of the evaluated language model</li>
-                <li><strong># Correct</strong>: Number of exactly correct answers</li>
-                <li><strong># Partially Correct</strong>: Number of answers where the 2 most significant figures were correct</li>
-                <li><strong>Total puzzles</strong>: Total number of puzzles attempted</li>
-                <li><strong>Difficulty:</strong> Each puzzle was also assigned a difficulty based on the number of people who solved it that month
-                    <ul>
-                    <li><strong>Very Easy</strong>: 1000 or more solvers</li>
-                    <li><strong>Easy</strong>: 600-999 solvers</li>
-                    <li><strong>Medium</strong>: 100-599 solvers</li>
-                    <li><strong>Hard</strong>: 30-99 solvers</li>
-                    <li><strong>Very Hard</strong>: Fewer than 30 solvers</li>
-                    </ul>
-                </li>
+                    <li><strong>Model</strong>: Name of the evaluated language model</li>
+                    <li><strong># Correct</strong>: Number of exactly correct answers</li>
+                    <li><strong># Partially Correct</strong>: Number of answers where the 2 most significant figures were correct</li>
+                    <li><strong>Difficulty:</strong> Each puzzle was also assigned a difficulty based on the number of people who solved it that month
+                        <ul>
+                            <li><strong>Medium</strong>: 100 or more solvers</li>
+                            <li><strong>Hard</strong>: 30–99 solvers</li>
+                            <li><strong>Very Hard</strong>: Fewer than 30 solvers</li>
+                        </ul>
+                    </li>
+                    <li><strong>Attempted puzzles</strong>: Total number of puzzles attempted</li>
+                    <li><strong>Unattempted puzzles</strong>: Number of puzzles not attempted. Model could not process puzzle (i.e. image-only puzzles)</li>
                 </ul>
             </small>
         </div>
-        
+
         <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
         <script src="script.js"></script>
     </body>
 </html>

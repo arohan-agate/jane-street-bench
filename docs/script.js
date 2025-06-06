@@ -7,20 +7,16 @@ async function fetchJSON(url) {
 }
 
 /*
-For now:
-Very easy: solvers >= 1000
-Easy: 600-999 solvers
-Medium: 100-599 solvers
-Hard: 30 - 100 > solvers.
-Very hard: 0-29 solvers
+ Now “Medium” = ≥100 solvers,
+      “Hard”   = 30–99 solvers,
+      “Very Hard” = <30 solvers.
 */
 function classifyDifficulty(numSolvers) {
-  if (numSolvers >= 1000) return "Very Easy";
-  if (numSolvers >= 600) return "Easy";
   if (numSolvers >= 100) return "Medium";
   if (numSolvers >= 30) return "Hard";
   return "Very Hard";
 }
+
 async function getTotalPuzzlesPerDifficulty() {
   return new Promise((resolve, reject) => {
     Papa.parse("data/puzzles.csv", {
@@ -29,8 +25,6 @@ async function getTotalPuzzlesPerDifficulty() {
       skipEmptyLines: true,
       complete: (results) => {
         const difficultyCounts = {
-          "Very Easy": 0,
-          "Easy": 0,
           "Medium": 0,
           "Hard": 0,
           "Very Hard": 0
@@ -56,12 +50,11 @@ async function getModelAccuracy(model, totalByDifficulty) {
   const partialCorrectUrl = `results/partial_correct_${model}.json`;
   const resultsUrl = `results/results_${model}.json`;
 
-  // Helper to fetch and return {} if file doesn't exist
   async function safeFetchJSON(url) {
     try {
       return await fetchJSON(url);
     } catch (e) {
-      if (e.message.includes('404') || e.message.includes('not found')) {
+      if (e.message.includes("404") || e.message.includes("not found")) {
         return {};
       }
       throw e;
@@ -79,12 +72,14 @@ async function getModelAccuracy(model, totalByDifficulty) {
     const partialCorrectCount = Object.keys(partialCorrectData).length;
     const totalCount = Object.keys(resultsData).length;
 
-    const percentCorrect = totalCount > 0 ? ((correctCount / totalCount) * 100).toFixed(2) : 0;
-    const percentPartialCorrect = totalCount > 0 ? ((partialCorrectCount / totalCount) * 100).toFixed(2) : 0;
+    const percentCorrect = totalCount > 0
+      ? ((correctCount / totalCount) * 100).toFixed(2)
+      : 0;
+    const percentPartialCorrect = totalCount > 0
+      ? ((partialCorrectCount / totalCount) * 100).toFixed(2)
+      : 0;
 
     const difficultyCounts = {
-      "Very Easy": 0,
-      "Easy": 0,
       "Medium": 0,
       "Hard": 0,
       "Very Hard": 0
@@ -96,12 +91,16 @@ async function getModelAccuracy(model, totalByDifficulty) {
       difficultyCounts[diff]++;
     }
 
-    const difficultyBreakdown = {};
-    for (const diff in difficultyCounts) {
-      const solved = difficultyCounts[diff];
-      const total = totalByDifficulty[diff] || 0;
-      difficultyBreakdown[diff] = `${solved} / ${total}`;
-    }
+    const breakdown = {};
+    const totalPuzzles = (totalByDifficulty["Medium"] || 0)
+                       + (totalByDifficulty["Hard"] || 0)
+                       + (totalByDifficulty["Very Hard"] || 0);
+    const unattempted = totalPuzzles - totalCount;
+
+    breakdown["Medium"]    = `${difficultyCounts["Medium"]} / ${totalByDifficulty["Medium"] || 0}`;
+    breakdown["Hard"]      = `${difficultyCounts["Hard"]} / ${totalByDifficulty["Hard"] || 0}`;
+    breakdown["Very Hard"] = `${difficultyCounts["Very Hard"]} / ${totalByDifficulty["Very Hard"] || 0}`;
+    breakdown["Unattempted"] = `${unattempted}`;
 
     return {
       model,
@@ -110,13 +109,29 @@ async function getModelAccuracy(model, totalByDifficulty) {
       totalCount,
       percentCorrect,
       percentPartialCorrect,
-      difficultyCounts: difficultyBreakdown,
+      difficultyCounts: breakdown,
       correctData,
       partialCorrectData
     };
   } catch (e) {
     console.error(e);
-    return { model, correctCount: 0, partialCorrectCount: 0, totalCount: 0, percentCorrect: 0, percentPartialCorrect: 0, error: true };
+    return {
+      model,
+      correctCount: 0,
+      partialCorrectCount: 0,
+      totalCount: 0,
+      percentCorrect: 0,
+      percentPartialCorrect: 0,
+      difficultyCounts: {
+        "Medium": `0 / ${totalByDifficulty["Medium"] || 0}`,
+        "Hard": `0 / ${totalByDifficulty["Hard"] || 0}`,
+        "Very Hard": `0 / ${totalByDifficulty["Very Hard"] || 0}`,
+        "Unattempted": `${((totalByDifficulty["Medium"]||0) + (totalByDifficulty["Hard"]||0) + (totalByDifficulty["Very Hard"]||0))}`
+      },
+      correctData: {},
+      partialCorrectData: {},
+      error: true
+    };
   }
 }
 
@@ -129,50 +144,55 @@ function createTableRow(rank, data) {
     percentCorrect,
     percentPartialCorrect,
     error,
-    difficultyCounts,
+    difficultyCounts = {},
     correctData = {},
     partialCorrectData = {}
   } = data;
+
   if (error) {
     return `
       <tr>
-        <td>${model}</td>
-        <td colspan="1" class="text-danger">Not available yet</td>
+        <td colspan="9" class="text-danger">Model ${model} not available yet</td>
       </tr>
     `;
   }
 
-  console.log(correctData);
-
   const collapseId = `collapse-${rank}`;
   const correctList = Object.values(correctData)
-  .map(puzzle => `<code>${puzzle.name}</code>`)
-  .join(', ') || "<em>None</em>";
-
+    .map(p => `<code>${p.name}</code>`)
+    .join(", ") || "<em>None</em>";
   const partialList = Object.values(partialCorrectData)
-    .map(puzzle => `<code>${puzzle.name}</code>`)
-    .join(', ') || "<em>None</em>";
+    .map(p => `<code>${p.name}</code>`)
+    .join(", ") || "<em>None</em>";
 
-  return `
+  const summaryRow = `
     <tr data-bs-toggle="collapse" data-bs-target="#${collapseId}" style="cursor: pointer;">
       <td>${rank}</td>
       <td>${model}</td>
       <td>${correctCount} (${percentCorrect}%)</td>
       <td>${partialCorrectCount} (${percentPartialCorrect}%)</td>
-      <td>${difficultyCounts["Very Easy"]}</td>
-      <td>${difficultyCounts["Easy"]}</td>
       <td>${difficultyCounts["Medium"]}</td>
       <td>${difficultyCounts["Hard"]}</td>
       <td>${difficultyCounts["Very Hard"]}</td>
       <td>${totalCount}</td>
+      <td>${difficultyCounts["Unattempted"]}</td>
     </tr>
-    <tr class="collapse" id="${collapseId}">
-      <td colspan="10" class="bg-light">
-        <strong>Correct:</strong> ${correctList}<br>
-        <strong>Partially Correct:</strong> ${partialList}
+  `;
+
+  const detailRow = `
+    <tr>
+      <td colspan="9" style="padding: 0; border: none;">
+        <div class="collapse" id="${collapseId}">
+          <div class="p-3">
+            <strong>Correct:</strong> ${correctList}<br>
+            <strong>Partially Correct:</strong> ${partialList}
+          </div>
+        </div>
       </td>
     </tr>
   `;
+
+  return summaryRow + detailRow;
 }
 
 async function displayResults() {
@@ -185,7 +205,6 @@ async function displayResults() {
     statsArray.push(stats);
   }
 
-  // Sort by accuracy (descending)
   statsArray.sort((a, b) => {
     const accA = a.totalCount > 0 ? a.correctCount / a.totalCount : 0;
     const accB = b.totalCount > 0 ? b.correctCount / b.totalCount : 0;
@@ -200,22 +219,25 @@ async function displayResults() {
           <th>Model</th>
           <th># Correct</th>
           <th># Partially Correct</th>
-          <th>Very Easy</th>
-          <th>Easy</th>
           <th>Medium</th>
           <th>Hard</th>
           <th>Very Hard</th>
-          <th>Total puzzles</th>
+          <th>Attempted puzzles</th>
+          <th>Unattempted puzzles</th>
         </tr>
       </thead>
       <tbody>
   `;
 
-  for (let i = 0; i < statsArray.length; i++) {
-    html += createTableRow(i+1, statsArray[i]);
-  }
+  statsArray.forEach((stat, idx) => {
+    html += createTableRow(idx + 1, stat);
+  });
 
-  html += "</tbody></table>";
+  html += `
+      </tbody>
+    </table>
+  `;
+
   container.innerHTML = html;
 }
 

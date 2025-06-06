@@ -73,7 +73,7 @@ async function getCurrentPuzzleOutputs() {
     }
 
     container.innerHTML = `
-      <h2>Current Month Puzzle</h2>
+      <h2>Model Results</h2>
       <table class="table table-striped">
         <thead>
           <tr>
