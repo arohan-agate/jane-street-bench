@@ -39,8 +39,8 @@ RETRY_CUSHION   = 0.3
 
 PROVIDERS = [
     "openai",      #  o4-mini-2025-04-16
-    "anthropic",   #  claude-3-opus-20240229
-    "gemini",      #  gemini-1.5-pro
+    # "anthropic",   #  claude-3-opus-20240229
+    # "gemini",      #  gemini-1.5-pro
 ]
 
 # Testing without API calls, set TEST_MODE=1
@@ -48,15 +48,15 @@ TEST_MODE = 0
 
 # MODEL CONFIG 
 MODEL_MAP = {
-    "openai":   "o4-mini-2025-04-16",
-    "anthropic": "claude-3-opus-20240229",
-    "gemini":   "gemini-1.5-pro",
+    "openai":   "o3",
+    # "anthropic": "claude-3-opus-20240229",
+    # "gemini":   "gemini-1.5-pro",
 }
 
 OUTFILE_MAP = {
-    "openai":    BASE / "results" / "results_o4-mini.json",
-    "anthropic": BASE / "results" / "results_claude-3-opus-20240229.json",
-    "gemini":    BASE / "results" / "results_gemini-1.5-pro.json",
+    "openai":    BASE / "results" / "results_o3.json",
+    # "anthropic": BASE / "results" / "results_claude-3-opus-20240229.json",
+    # "gemini":    BASE / "results" / "results_gemini-1.5-pro.json",
 }
 
 # Two temperature one for each run:
