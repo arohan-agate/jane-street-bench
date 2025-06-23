@@ -1,4 +1,15 @@
-const models = ["gpt-4o-mini", "claude-3-haiku-20240307", "gemini-2.0-flash-exp", "o4-mini-2025-04-16", "claude-3-opus-20240229", "gemini-1.5-pro"];
+const models = [
+  "gpt-4o-mini",
+  "gpt-4o-2024-08-06",
+  "gpt-4.1-2025-04-14",
+  "o3-2025-04-16",
+  "o4-mini-2025-04-16",
+  "gemini-1.5-pro",
+  "gemini-2.0-flash-exp",
+  "claude-3-haiku-20240307",
+  "claude-3-opus-20240229",
+];
+
 
 async function fetchJSON(url) {
   const res = await fetch(url);
@@ -53,7 +64,8 @@ async function getModelAccuracy(model, totalByDifficulty) {
   async function safeFetchJSON(url) {
     try {
       return await fetchJSON(url);
-    } catch (e) {
+    } 
+    catch (e) {
       if (e.message.includes("404") || e.message.includes("not found")) {
         return {};
       }

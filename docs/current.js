@@ -1,8 +1,6 @@
 async function fetchJSON(url) {
   const res = await fetch(url);
-  if (!res.ok) {
-    throw new Error(`Failed to fetch ${url}: ${res.status}`);
-  }
+  if (!res.ok) throw new Error(`Failed to fetch ${url}: ${res.status}`);
   return await res.json();
 }
 
@@ -14,52 +12,58 @@ async function getCurrentPuzzleOutputs() {
     #currentPuzzleContainer {
       padding: 0.5rem;
     }
-
     #currentPuzzleContainer table {
       table-layout: fixed;
       width: 100%;
       border-collapse: collapse;
     }
-
     #currentPuzzleContainer td pre {
-      white-space: pre-wrap;      
-      word-break: break-word;     
+      white-space: pre-wrap;
+      word-break: break-word;
       margin: 0;
       font-family: inherit;
       background: transparent;
     }
-
-    /* Tighter cell padding */
     #currentPuzzleContainer td,
     #currentPuzzleContainer th {
       padding: 0.5rem;
       vertical-align: top;
     }
-
-    /* Optional: make the header stand out */
     #currentPuzzleContainer th {
       background: #f8f9fa;
     }
   `;
-
   const styleEl = document.createElement("style");
   styleEl.textContent = css;
   document.head.appendChild(styleEl);
 
   try {
     const results = await fetchJSON("results/curr_month_solutions.json");
-    let rowsHtml = "";
+    const modelOrder = [
+      "gpt-4o-mini",
+      "gpt-4o-2024-08-06",
+      "gpt-4.1-2025-04-14",
+      "o3-2025-04-16",
+      "o4-mini-2025-04-16",
+      "gemini-1.5-pro",
+      "gemini-2.0-flash-exp",
+      "claude-3-haiku-20240307",
+      "claude-3-opus-20240229"
+    ];
 
-    for (const [model, rec] of Object.entries(results)) {
+    let rowsHtml = "";
+    for (const model of modelOrder) {
+      const rec = results[model];
+      if (!rec) continue;
+
       const ansList = rec.answers || [];
-      let firstAns  = "";
+      let firstAns = "";
       let secondAns = "";
 
       for (const a of ansList) {
         if (a.attempt === 1) firstAns = a.answer || "";
         if (a.attempt === 2) secondAns = a.answer || "";
       }
-
       if (!firstAns)  firstAns  = "<em>No answer</em>";
       if (!secondAns) secondAns = "<em>No answer</em>";
 
@@ -87,7 +91,6 @@ async function getCurrentPuzzleOutputs() {
         </tbody>
       </table>
     `;
-
   } catch (e) {
     console.error(e);
     container.innerHTML = `

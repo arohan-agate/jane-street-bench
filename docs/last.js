@@ -49,9 +49,25 @@ async function getLastPuzzleOutputs() {
 
   try {
     const results = await fetchJSON("results/last_month_solutions.json");
+     const modelOrder = [
+      "gpt-4o-mini",
+      "gpt-4o-2024-08-06",
+      "gpt-4.1-2025-04-14",
+      "o3-2025-04-16",
+      "o4-mini-2025-04-16",
+      "gemini-1.5-pro",
+      "gemini-2.0-flash-exp",
+      "claude-3-haiku-20240307",
+      "claude-3-opus-20240229"
+    ];
+
     let rowsHtml = "";
 
-    for (const [model, rec] of Object.entries(results)) {
+    for (const model of modelOrder) {
+      const rec = results[model];
+      if (!rec) continue;
+
+      
       const ansList = rec.answers || [];
       let firstAns  = "";
       let secondAns = "";

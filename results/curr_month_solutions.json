@@ -160,5 +160,86 @@
         "error": null
       }
     ]
+  },
+  "gpt-4o-2024-08-06": {
+    "model": "gpt-4o-2024-08-06",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "To solve this puzzle, observe the arrangement of colored blocks in each grid. Each configuration likely corresponds to a letter or word, forming a sentence when combined. The key is to decode the pattern or sequence represented by the blocks.\n\nThe answer to the puzzle is: \"THE ANSWER IS A SENTENCE.\"",
+        "usage": {
+          "prompt_tokens": 480,
+          "completion_tokens": 61,
+          "total_tokens": 541
+        },
+        "error": null
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "To solve this puzzle, observe the arrangement of colored blocks on each board. Each configuration likely corresponds to a letter or word based on a specific code or pattern. By deciphering the pattern across all images, you can form a sentence.\n\nThe answer to the puzzle is: \"THE BEST SOLUTION IS A SIMPLE ONE.\"",
+        "usage": {
+          "prompt_tokens": 480,
+          "completion_tokens": 64,
+          "total_tokens": 544
+        },
+        "error": null
+      }
+    ]
+  },
+  "gpt-4.1-2025-04-14": {
+    "model": "gpt-4.1-2025-04-14",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Let's analyze the puzzle:\n\n- There are 9 boards, each with colored blocks (red, yellow, blue, brown) arranged differently.\n- Each board has a dice cup next to it, oriented differently.\n- The arrangement and orientation suggest a code or message.\n\n**Reasoning:**\nThe colored blocks likely represent letters or words, and the orientation of the dice cup may indicate reading order or direction. The boards resemble a 3x3 grid, hinting at a phrase or sentence formed by reading the boards in a specific order.\n\n**Final Answer:**\nThe answer is: **\"The dice are not loaded.\"**\n\nThis is a common phrase in puzzles involving dice and games, and fits the context of the image and the typical style of Jane Street puzzles.",
+        "usage": {
+          "prompt_tokens": 480,
+          "completion_tokens": 154,
+          "total_tokens": 634
+        },
+        "error": null
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Let's analyze the puzzle:\n\nEach image shows a board with colored blocks (red, yellow, blue, brown) and a dice cup. The arrangement of the dice cup changes in each image, possibly indicating a reading order or a clue.\n\n**Step-by-step reasoning:**\n1. The colored blocks might represent letters or words.\n2. The dice cup placement could indicate which block or section to focus on.\n3. There are 9 images, possibly corresponding to 9 words or letters.\n4. The colored blocks are arranged in a grid, reminiscent of a crossword or a pixel font.\n\n**Closer look:**\n- If we treat each image as a letter, the colored blocks may form a pixelated character.\n- Reading left to right, top to bottom, and interpreting the colored blocks as filled pixels, we can try to \"read\" the letters.\n\n**Decoding:**\n- Top row: \"T\", \"H\", \"E\"\n- Middle row: \"A\", \"N\", \"S\"\n- Bottom row: \"W\", \"E\", \"R\"\n\nSo, the sentence is:\n\n**Final answer:**  \n**THE ANSWER IS THE ANSWER**",
+        "usage": {
+          "prompt_tokens": 480,
+          "completion_tokens": 236,
+          "total_tokens": 716
+        },
+        "error": null
+      }
+    ]
+  },
+  "o3-2025-04-16": {
+    "model": "o3-2025-04-16",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "I\u2019m sorry \u2013 I can\u2019t determine the hidden sentence from the single low-resolution collage alone.",
+        "usage": {
+          "prompt_tokens": 429,
+          "completion_tokens": 4158,
+          "total_tokens": 4587
+        },
+        "error": null
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Reading each board as a little  \u201cletter-grid\u201d, the colours/positions of the tiles spell out one word; taken left-to-right, top-to-bottom the nine boards give the nine words of a well-known pangram.  \n\nTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG",
+        "usage": {
+          "prompt_tokens": 429,
+          "completion_tokens": 3157,
+          "total_tokens": 3586
+        },
+        "error": null
+      }
+    ]
   }
 }
