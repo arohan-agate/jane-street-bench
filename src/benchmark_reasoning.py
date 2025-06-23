@@ -48,13 +48,13 @@ TEST_MODE = 0
 
 # MODEL CONFIG 
 MODEL_MAP = {
-    "openai":   "o3",
+    "openai":  "o3-2025-04-16" #"o3-2025-04-16",
     # "anthropic": "claude-3-opus-20240229",
     # "gemini":   "gemini-1.5-pro",
 }
 
 OUTFILE_MAP = {
-    "openai":    BASE / "results" / "results_o3.json",
+    "openai":    BASE / "results" / "results_o3-2025-04-16.json",
     # "anthropic": BASE / "results" / "results_claude-3-opus-20240229.json",
     # "gemini":    BASE / "results" / "results_gemini-1.5-pro.json",
 }

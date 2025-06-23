@@ -1,0 +1,9 @@
+{
+  "134": {
+    "name": "Hooks",
+    "ground_truth": "158",
+    "model_answer": "153",
+    "correct": 0.5,
+    "numSolvers": 0
+  }
+}

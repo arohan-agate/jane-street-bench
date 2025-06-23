@@ -1,0 +1,863 @@
+{
+  "1": {
+    "name": "Number Cross 5",
+    "ground_truth": "4135658",
+    "model_answer": "61574",
+    "correct": 0,
+    "numSolvers": 216
+  },
+  "2": {
+    "name": "Sum One, Somewhere",
+    "ground_truth": "0.5306035754",
+    "model_answer": "p = 1 - \u221a(1/2) \u2248 **0.2928932188**",
+    "correct": 0,
+    "numSolvers": 1160
+  },
+  "3": {
+    "name": "Hall of Mirrors 3",
+    "ground_truth": "601931086080",
+    "model_answer": "Top sum: 360\nRight sum: 33\nBottom sum: 244\nLeft sum: 78\n\nFinal answer: **22645440**",
+    "correct": 0,
+    "numSolvers": 1394
+  },
+  "4": {
+    "name": "Top Score (Give or Take)",
+    "ground_truth": "John Williams",
+    "model_answer": "BLACK STICKERS",
+    "correct": 0,
+    "numSolvers": 301
+  },
+  "5": {
+    "name": "Somewhat Square Sudoku",
+    "ground_truth": "283950617",
+    "model_answer": "381654729",
+    "correct": 0,
+    "numSolvers": 505
+  },
+  "6": {
+    "name": "Games Night!",
+    "ground_truth": "Battleship",
+    "model_answer": "PIECES",
+    "correct": 0,
+    "numSolvers": 1224
+  },
+  "7": {
+    "name": "Beside the Point",
+    "ground_truth": "0.4914075788",
+    "model_answer": "**Answer:**  \n\\(\\boxed{\\frac{1}{2}}\\)",
+    "correct": 0,
+    "numSolvers": 620
+  },
+  "8": {
+    "name": "Knight Moves 6",
+    "ground_truth": "19",
+    "model_answer": "3,6,29,a1,b3,c5,e6,f4,d5,f6,a4,b2,c4,d2,f1,a6,c5,a4,b2,c4,d2,f1",
+    "correct": 0,
+    "numSolvers": 1028
+  },
+  "9": {
+    "name": "Fences 2",
+    "ground_truth": "404320",
+    "model_answer": "396",
+    "correct": 0,
+    "numSolvers": 359
+  },
+  "10": {
+    "name": "Tree-edge Triage",
+    "ground_truth": "8/9",
+    "model_answer": "\\(\\boxed{1}\\)",
+    "correct": 0,
+    "numSolvers": 523
+  },
+  "11": {
+    "name": "Many Happy Returns",
+    "ground_truth": "cheesemonger",
+    "model_answer": "Attendant",
+    "correct": 0,
+    "numSolvers": 91
+  },
+  "12": {
+    "name": "Altered States 2",
+    "ground_truth": "263137868",
+    "model_answer": "Sorry, I can\u2019t solve the puzzle without attempting many computational placements. However, if you would like, I can help you code a search or suggest a high-level strategy.",
+    "correct": 0,
+    "numSolvers": 540
+  },
+  "13": {
+    "name": "Number Cross 4",
+    "ground_truth": "88243711283",
+    "model_answer": "39376",
+    "correct": 0,
+    "numSolvers": 379
+  },
+  "14": {
+    "name": "Robot Capture-the-Flag",
+    "ground_truth": "0.166186486474004",
+    "model_answer": "The probability that Aaron will win is:\n\n\\[\n\\boxed{0.6096117968}\n\\]",
+    "correct": 0,
+    "numSolvers": 233
+  },
+  "15": {
+    "name": "Hooks 10",
+    "ground_truth": "8400",
+    "model_answer": "108",
+    "correct": 0,
+    "numSolvers": 388
+  },
+  "16": {
+    "name": "Some Off Square",
+    "ground_truth": "1 - \u03c0/6",
+    "model_answer": "The probability is **1 - (5/6)\\*log(2)**.",
+    "correct": 0,
+    "numSolvers": 386
+  },
+  "17": {
+    "name": "Some F Squares",
+    "ground_truth": "346816512",
+    "model_answer": "176",
+    "correct": 0,
+    "numSolvers": 389
+  },
+  "19": {
+    "name": "Knight Moves 5",
+    "ground_truth": "33",
+    "model_answer": "Sorry, I can\u2019t provide the requested answer.",
+    "correct": 0,
+    "numSolvers": 50
+  },
+  "20": {
+    "name": "A Weird Tour",
+    "ground_truth": "PERMUTATION",
+    "model_answer": "FRAILTY",
+    "correct": 0,
+    "numSolvers": 104
+  },
+  "21": {
+    "name": "Getting from a to b",
+    "ground_truth": "26273633422851562500",
+    "model_answer": "12",
+    "correct": 0,
+    "numSolvers": 64
+  },
+  "22": {
+    "name": "Single-Cross 2",
+    "ground_truth": "0.5095346021",
+    "model_answer": "1,0.4774648293",
+    "correct": 0,
+    "numSolvers": 155
+  },
+  "23": {
+    "name": "Choco Banana",
+    "ground_truth": "809321103360",
+    "model_answer": "442368",
+    "correct": 0,
+    "numSolvers": 510
+  },
+  "24": {
+    "name": "Hooks 9",
+    "ground_truth": "15552",
+    "model_answer": "162",
+    "correct": 0,
+    "numSolvers": 186
+  },
+  "25": {
+    "name": "Game Night!",
+    "ground_truth": "SIEVE",
+    "model_answer": "BINARY",
+    "correct": 0,
+    "numSolvers": 196
+  },
+  "26": {
+    "name": "Arc-edge Acreage",
+    "ground_truth": "89519144",
+    "model_answer": "36",
+    "correct": 0,
+    "numSolvers": 185
+  },
+  "27": {
+    "name": "Robot Long Jump",
+    "ground_truth": "0.114845886",
+    "model_answer": "0.281203085",
+    "correct": 0,
+    "numSolvers": 121
+  },
+  "28": {
+    "name": "Twenty Four Seven (Four-in-One)",
+    "ground_truth": "74649600",
+    "model_answer": "120",
+    "correct": 0,
+    "numSolvers": 508
+  },
+  "29": {
+    "name": "Lesses More",
+    "ground_truth": "8646064;3945294;1389537;0",
+    "model_answer": "1;9;8;0",
+    "correct": 0,
+    "numSolvers": 439
+  },
+  "30": {
+    "name": "Die Agony",
+    "ground_truth": "1935",
+    "model_answer": "8515",
+    "correct": 0,
+    "numSolvers": 751
+  },
+  "31": {
+    "name": "'Pent-up' Frustration 2",
+    "ground_truth": "sqrt(65/8 - (29 * sqrt(5))/8)",
+    "model_answer": "0.3763819",
+    "correct": 0,
+    "numSolvers": 99
+  },
+  "32": {
+    "name": "The Marshy Mess",
+    "ground_truth": "0.3025104",
+    "model_answer": "The answer is **5/18**.",
+    "correct": 0,
+    "numSolvers": 62
+  },
+  "33": {
+    "name": "Pair Dance 2",
+    "ground_truth": "HAPPENCHANCE",
+    "model_answer": "(20,8,18,5,1,4)",
+    "correct": 0,
+    "numSolvers": 64
+  },
+  "34": {
+    "name": "New York Minute",
+    "ground_truth": "Little Italy",
+    "model_answer": "TIMES SQUARE (because crossing off 23 \"errands\" forms an X or cross, i.e., a \"times\" symbol, and the puzzle asks where they'll meet up, implying a place associated with \"times\"\u2014Times Square.)",
+    "correct": 0,
+    "numSolvers": 137
+  },
+  "35": {
+    "name": "Andy's Morning Stroll",
+    "ground_truth": "0.4480326",
+    "model_answer": "0.3971907",
+    "correct": 0,
+    "numSolvers": 182
+  },
+  "36": {
+    "name": "Block Party 4",
+    "ground_truth": "24405360",
+    "model_answer": "18736",
+    "correct": 0,
+    "numSolvers": 494
+  },
+  "37": {
+    "name": "Robot Updated Swimming Trials",
+    "ground_truth": "0.999560",
+    "model_answer": "0.668158",
+    "correct": 0,
+    "numSolvers": 34
+  },
+  "38": {
+    "name": "Almost Magic",
+    "ground_truth": "470",
+    "model_answer": "Sorry, I can't provide an answer lower than 1111 for this puzzle.",
+    "correct": 0,
+    "numSolvers": 117
+  },
+  "39": {
+    "name": "The Hidden Warning",
+    "ground_truth": "BRIDGE TROLL",
+    "model_answer": "QUICKSAND",
+    "correct": 0,
+    "numSolvers": 51
+  },
+  "40": {
+    "name": "Eldrow",
+    "ground_truth": "16",
+    "model_answer": "BASTE,CASTE,CARET,CARET,CARET,CARET,CARET,CARET,CARET,CARET,CARET,CARET,CARET,CARET,CARET,CARET,CARET,CARET,CARET,CARET,CARET,CARET,CARET,CARET,CARET,CARET\n\n(Note: This is a placeholder. For the true longest sequence given the rules and the actual official Wordle answer list, the known leaderboard answer is \"**TRICE,GRICE,GRIPE,GRIME,GRILL,GUILT,QUIRT,QUIET,QUIET,QUIET,QUIET,QUIET,QUIET,QUIET,QUIET,QUIET,QUIET,QUIET,QUIET,QUIET,QUIET,QUIET,QUIET,QUIET,QUIET,QUIET**\" with length 26, as all 26 distinct letters are eliminated by hard-mode guesses. Please check the leaderboard for updates. If you want the verified sequence, here's the known 25-length record (as of 2022):)\n\nTRICE,GRICE,GRIKE,GLIKE,GLIKE,GLEBE,GLENE,GLEDE,GLEDE,GAUDE,GAUGE,GAUGE,GLOZE,GLOVE,GLOWS,GLOOM,GLOOM,BLOOM,BLOOD,BLOOD,BLOOD,BLOOD,BLOOD,BLOOD,BLOOD\n\n(If you want only the maximal sequence, here's the 26-length one from public Eldrow leaderboards, which is the contest answer:)\n\nTRICE,GRICE,GRIKE,GLIKE,GLEKE,GLEBE,GLEAN,GLEAM,GLEAT,GLEET,FLEET,SLEET,SLEER,SLIER,LIERS,LIENS,LINES,LIMES,IMLES,IMLES,IMLES,IMLES,IMLES,IMLES,IMLES,IMLES",
+    "correct": 0,
+    "numSolvers": 100
+  },
+  "41": {
+    "name": "Hooks 8",
+    "ground_truth": "680",
+    "model_answer": "420",
+    "correct": 0,
+    "numSolvers": 223
+  },
+  "42": {
+    "name": "Robot Archery",
+    "ground_truth": "0.18343765086",
+    "model_answer": "0.25",
+    "correct": 0,
+    "numSolvers": 139
+  },
+  "43": {
+    "name": "Split Division 2",
+    "ground_truth": "6467972",
+    "model_answer": "6519272",
+    "correct": 0,
+    "numSolvers": 235
+  },
+  "44": {
+    "name": "Robot Swimming Trials",
+    "ground_truth": "8",
+    "model_answer": "15,0.294036",
+    "correct": 0,
+    "numSolvers": 192
+  },
+  "45": {
+    "name": "Knight Moves 4",
+    "ground_truth": "14820",
+    "model_answer": "862",
+    "correct": 0,
+    "numSolvers": 212
+  },
+  "46": {
+    "name": "Robot Tug-of-War",
+    "ground_truth": "-0.2850001",
+    "model_answer": "\\(-0.2899171\\)",
+    "correct": 0.5,
+    "numSolvers": 131
+  },
+  "47": {
+    "name": "It's Symmetric 2",
+    "ground_truth": "503",
+    "model_answer": "Sorry, I need the grid to solve the puzzle. Please provide the grid image or layout.",
+    "correct": 0,
+    "numSolvers": 155
+  },
+  "48": {
+    "name": "Robot Weightlifting",
+    "ground_truth": "0.286833",
+    "model_answer": "0.393469",
+    "correct": 0,
+    "numSolvers": 66
+  },
+  "49": {
+    "name": "Past Tens",
+    "ground_truth": "Paul McCartney & Wings",
+    "model_answer": "The hidden question is: \"How many licks does it take to get to the center of a Tootsie Pop?\"",
+    "correct": 0,
+    "numSolvers": 21
+  },
+  "50": {
+    "name": "Bracketology 101",
+    "ground_truth": "6.55795%",
+    "model_answer": "**Swap seeds:** 2 and 15  \n**Increased probability:** 0.402985\n\n(Swapping the 2- and 15-seeds results in the 2-seed facing the easiest path; the probability increases from 0.259740 to 0.402985, an increase of **0.143245** to six significant figures.)",
+    "correct": 0,
+    "numSolvers": 164
+  },
+  "51": {
+    "name": "Tit for Tat",
+    "ground_truth": "SOMBREHOMBRE",
+    "model_answer": "Loose Cannon  \nBelay Loop  \nFulcrum Point  \nShuffles Pie  \nRolling Pin  \nForth Sea  \nDial Bar  \nHeaven Row  \nSmells Like Team Spirit",
+    "correct": 0,
+    "numSolvers": 26
+  },
+  "52": {
+    "name": "Hooks #7",
+    "ground_truth": "2200",
+    "model_answer": "32",
+    "correct": 0,
+    "numSolvers": 190
+  },
+  "53": {
+    "name": "Figurine Figuring",
+    "ground_truth": "6.859787",
+    "model_answer": "3.8367656",
+    "correct": 0,
+    "numSolvers": 75
+  },
+  "54": {
+    "name": "Twenty Four Seven 2-by-2 #2",
+    "ground_truth": "The final answer is 8520.",
+    "model_answer": "1486",
+    "correct": 0,
+    "numSolvers": 100
+  },
+  "55": {
+    "name": "Candy Collectors",
+    "ground_truth": "318281087/8016470462",
+    "model_answer": "\\(\\boxed{\\frac{120625}{524288}}\\)",
+    "correct": 0,
+    "numSolvers": 61
+  },
+  "56": {
+    "name": "Tangled!",
+    "ground_truth": "114",
+    "model_answer": "SRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRS\n\n(Note: This is the same as the input sequence, but reversed and each move swapped: S\u2194R. That is the minimal solution in the general puzzle context.)",
+    "correct": 0,
+    "numSolvers": 70
+  },
+  "57": {
+    "name": "Study and Ponder",
+    "ground_truth": "SPGI",
+    "model_answer": "TSLA",
+    "correct": 0,
+    "numSolvers": 254
+  },
+  "58": {
+    "name": "What a Trit!",
+    "ground_truth": "1TTTTTTTTT1TTTTTT00T0000011/111111111T0000001",
+    "model_answer": "It is **not possible** to write 524293 exactly in this numeral system, either directly or as a quotient of two expressible numbers.",
+    "correct": 0,
+    "numSolvers": 107
+  },
+  "59": {
+    "name": "Circle Time",
+    "ground_truth": "0.783464",
+    "model_answer": "The maximum proportion is:\n\n\\[\n1 - \\left(\\frac{6}{7}\\right)^2 = \\frac{13}{49}\n\\]\n\nOr as a decimal (to 6 places):\n\n**0.265306**",
+    "correct": 0,
+    "numSolvers": 177
+  },
+  "61": {
+    "name": "Triads",
+    "ground_truth": "284",
+    "model_answer": "44",
+    "correct": 0,
+    "numSolvers": 111
+  },
+  "62": {
+    "name": "Single-Cross",
+    "ground_truth": "2/\u03c0",
+    "model_answer": "The length \\( D \\) that maximizes the probability is \\( D = 1 \\), and the maximal probability is \\( \\frac{2}{\\pi} \\).",
+    "correct": 1,
+    "numSolvers": 122
+  },
+  "63": {
+    "name": "Alter/Nate",
+    "ground_truth": "Nate",
+    "model_answer": "Alter wins. The winning strategy is for Alter to always pick 10 if Nate picks 10, and 1 otherwise.",
+    "correct": 0,
+    "numSolvers": 167
+  },
+  "64": {
+    "name": "Poetry in Motion",
+    "ground_truth": "Black cannot castle.",
+    "model_answer": "en passant",
+    "correct": 0,
+    "numSolvers": 22
+  },
+  "65": {
+    "name": "Hooks #6",
+    "ground_truth": "10,000",
+    "model_answer": "384",
+    "correct": 0,
+    "numSolvers": 86
+  },
+  "66": {
+    "name": "Tri, Tri Again, Again",
+    "ground_truth": "31185",
+    "model_answer": "4485",
+    "correct": 0,
+    "numSolvers": 60
+  },
+  "67": {
+    "name": "Block Party 3",
+    "ground_truth": "6092",
+    "model_answer": "777",
+    "correct": 0,
+    "numSolvers": 144
+  },
+  "68": {
+    "name": "Knight Moves 3",
+    "ground_truth": "144",
+    "model_answer": "6",
+    "correct": 0,
+    "numSolvers": 119
+  },
+  "69": {
+    "name": "Scraggle",
+    "ground_truth": "824670",
+    "model_answer": "JOKING \u00b7 GROTESQUELY \u00b7 YEAH \u00b7 HEXYLIC\n\n(18 \u00d7 24 \u00d7 10 \u00d7 22 = 95,040 points)",
+    "correct": 0,
+    "numSolvers": 63
+  },
+  "70": {
+    "name": "Hooks #5",
+    "ground_truth": "78125",
+    "model_answer": "24",
+    "correct": 0,
+    "numSolvers": 114
+  },
+  "71": {
+    "name": "Disassembled Rainbow Bagel",
+    "ground_truth": "-1",
+    "model_answer": "0",
+    "correct": 0,
+    "numSolvers": 78
+  },
+  "72": {
+    "name": "Remote Sudoku",
+    "ground_truth": "1105",
+    "model_answer": "328",
+    "correct": 0,
+    "numSolvers": 185
+  },
+  "73": {
+    "name": "Twenty Four Seven 2-by-2",
+    "ground_truth": "8150",
+    "model_answer": "2164",
+    "correct": 0,
+    "numSolvers": 51
+  },
+  "74": {
+    "name": "Tile and Trouble 2",
+    "ground_truth": "MOJO",
+    "model_answer": "MONEY",
+    "correct": 0,
+    "numSolvers": 9
+  },
+  "75": {
+    "name": "Fences",
+    "ground_truth": "10,077,696",
+    "model_answer": "176",
+    "correct": 0,
+    "numSolvers": 47
+  },
+  "76": {
+    "name": "Block Party 2",
+    "ground_truth": "210",
+    "model_answer": "61",
+    "correct": 0,
+    "numSolvers": 7
+  },
+  "77": {
+    "name": "'Pent-up' Frustration",
+    "ground_truth": "14 + 4*sqrt(2)",
+    "model_answer": "16",
+    "correct": 0,
+    "numSolvers": 81
+  },
+  "78": {
+    "name": "Subtiles",
+    "ground_truth": "256",
+    "model_answer": "18",
+    "correct": 0,
+    "numSolvers": 67
+  },
+  "79": {
+    "name": "Spiral Region",
+    "ground_truth": "1203200",
+    "model_answer": "64",
+    "correct": 0,
+    "numSolvers": 44
+  },
+  "80": {
+    "name": "Hooks #4",
+    "ground_truth": "6000",
+    "model_answer": "72",
+    "correct": 0,
+    "numSolvers": 144
+  },
+  "81": {
+    "name": "Triangle Math",
+    "ground_truth": "2^n - 1",
+    "model_answer": "0",
+    "correct": 0,
+    "numSolvers": 53
+  },
+  "82": {
+    "name": "Twenty Four Seven",
+    "ground_truth": "240",
+    "model_answer": "36",
+    "correct": 0,
+    "numSolvers": 91
+  },
+  "83": {
+    "name": "Swing Time 2",
+    "ground_truth": "0.0874",
+    "model_answer": "I\u2019m sorry, but I need the details or text of the puzzle to provide an answer. Please provide the content of the puzzle.",
+    "correct": 0,
+    "numSolvers": 12
+  },
+  "84": {
+    "name": "Where in the World?",
+    "ground_truth": "TOGO",
+    "model_answer": "Ukraine",
+    "correct": 0,
+    "numSolvers": 19
+  },
+  "85": {
+    "name": "It\u00e2\u0080\u0099s Symmetric!",
+    "ground_truth": "33679",
+    "model_answer": "3168",
+    "correct": 0,
+    "numSolvers": 80
+  },
+  "86": {
+    "name": "Hooks #3",
+    "ground_truth": "20736",
+    "model_answer": "216",
+    "correct": 0,
+    "numSolvers": 133
+  },
+  "87": {
+    "name": "Rather Square Sudoku",
+    "ground_truth": "1146",
+    "model_answer": "233",
+    "correct": 0,
+    "numSolvers": 124
+  },
+  "91": {
+    "name": "Square Run",
+    "ground_truth": "305",
+    "model_answer": "The largest sum you can obtain is **208**.\n\nList of moves:  \na1 \u2192 a3 \u2192 b3 \u2192 b7 \u2192 c7 \u2192 c5 \u2192 d5 \u2192 d4 \u2192 e4 \u2192 e8 \u2192 f8 \u2192 f4 \u2192 f6 \u2192 f7 \u2192 g7 \u2192 g6 \u2192 h6 \u2192 h8\n\nSum: 1 + 27 + 31 + 22 + 30 + 1 + 11 + 26 + 3 + 29 + 15 + 24 + 18 + 25 + 2 + 27 + 6 + 20 = **308**",
+    "correct": 0,
+    "numSolvers": 63
+  },
+  "92": {
+    "name": "Middlylinks",
+    "ground_truth": "4293120",
+    "model_answer": "Sorry, I can't provide the final answer just from the image and description provided. The full solution requires tracing precise paths on the grid, which isn't feasible here.",
+    "correct": 0,
+    "numSolvers": 24
+  },
+  "93": {
+    "name": "Split Division",
+    "ground_truth": "5516808",
+    "model_answer": "12419784",
+    "correct": 0,
+    "numSolvers": 26
+  },
+  "94": {
+    "name": "Well Well Well...",
+    "ground_truth": "360",
+    "model_answer": "924",
+    "correct": 0,
+    "numSolvers": 42
+  },
+  "95": {
+    "name": "KenKen (Concatenated)",
+    "ground_truth": "4282",
+    "model_answer": "44147",
+    "correct": 0,
+    "numSolvers": 67
+  },
+  "96": {
+    "name": "Knight Moves #2",
+    "ground_truth": "17280",
+    "model_answer": "72",
+    "correct": 0,
+    "numSolvers": 44
+  },
+  "97": {
+    "name": "Birthday Bash",
+    "ground_truth": "2287",
+    "model_answer": "2287",
+    "correct": 1,
+    "numSolvers": 52
+  },
+  "98": {
+    "name": "What About Bob?",
+    "ground_truth": "11, 22, 32",
+    "model_answer": "20, 22, 24",
+    "correct": 0,
+    "numSolvers": 42
+  },
+  "100": {
+    "name": "Star Search",
+    "ground_truth": "Inception",
+    "model_answer": "The Big Short",
+    "correct": 0,
+    "numSolvers": 27
+  },
+  "101": {
+    "name": "The Wright Stuff",
+    "ground_truth": "Kentuck Knob",
+    "model_answer": "BUFFALOFOUNTAIN",
+    "correct": 0,
+    "numSolvers": 3
+  },
+  "102": {
+    "name": "Tri, Tri Again",
+    "ground_truth": "7252",
+    "model_answer": "26",
+    "correct": 0,
+    "numSolvers": 45
+  },
+  "103": {
+    "name": "Chess Dance",
+    "ground_truth": "62943",
+    "model_answer": "35976",
+    "correct": 0,
+    "numSolvers": 26
+  },
+  "104": {
+    "name": "Swing Time",
+    "ground_truth": "0.7082",
+    "model_answer": "Please provide the actual puzzle or its details so I can assist you in finding the answer.",
+    "correct": 0,
+    "numSolvers": 23
+  },
+  "105": {
+    "name": "Number Cross #3",
+    "ground_truth": "148",
+    "model_answer": "184",
+    "correct": 0,
+    "numSolvers": 48
+  },
+  "106": {
+    "name": "Get Out The Vote",
+    "ground_truth": "(20, 34, 48)",
+    "model_answer": "Harry: 29  \nLarry: 34  \nMary: 39",
+    "correct": 0,
+    "numSolvers": 73
+  },
+  "107": {
+    "name": "Hooks #2",
+    "ground_truth": "17418240",
+    "model_answer": "4251528",
+    "correct": 0,
+    "numSolvers": 47
+  },
+  "109": {
+    "name": "Knight Moves",
+    "ground_truth": "19675656",
+    "model_answer": "918000",
+    "correct": 0,
+    "numSolvers": 90
+  },
+  "111": {
+    "name": "Professor Rando Redux",
+    "ground_truth": "15",
+    "model_answer": "6",
+    "correct": 0,
+    "numSolvers": 48
+  },
+  "112": {
+    "name": "Professor Rando",
+    "ground_truth": "Neil Alberg",
+    "model_answer": "Each student is equally likely to win, with probability **1/4**.",
+    "correct": 0,
+    "numSolvers": 47
+  },
+  "113": {
+    "name": "Pair Dance",
+    "ground_truth": "240",
+    "model_answer": "550",
+    "correct": 0,
+    "numSolvers": 34
+  },
+  "115": {
+    "name": "Think Of The Children!",
+    "ground_truth": "288",
+    "model_answer": "96",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "116": {
+    "name": "Number Cross 2",
+    "ground_truth": "276",
+    "model_answer": "117",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "117": {
+    "name": "Good Chemistry",
+    "ground_truth": "4092",
+    "model_answer": "420",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "118": {
+    "name": "Polymath",
+    "ground_truth": "20160",
+    "model_answer": "200",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "119": {
+    "name": "Tic Tac Oh...",
+    "ground_truth": "191/192",
+    "model_answer": "0.582",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "120": {
+    "name": "Hall of Mirrors",
+    "ground_truth": "77",
+    "model_answer": "**40**",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "121": {
+    "name": "Ticker Treat",
+    "ground_truth": "S",
+    "model_answer": "G",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "122": {
+    "name": "Oh CHUTE!",
+    "ground_truth": "Kc8",
+    "model_answer": "11",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "125": {
+    "name": "Wrong Division",
+    "ground_truth": "58975605",
+    "model_answer": "48708446",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "126": {
+    "name": "Minesweeping",
+    "ground_truth": "38/39",
+    "model_answer": "P = 15/16 (---, 3--, 3--, 3--)\n\nExplanation not shown per instructions, but this is the optimal board and probability.",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "128": {
+    "name": "Number Cross",
+    "ground_truth": "407358",
+    "model_answer": "224185",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "129": {
+    "name": "Chain Reaction",
+    "ground_truth": "77",
+    "model_answer": "36",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "130": {
+    "name": "Question Mark",
+    "ground_truth": "fifty",
+    "model_answer": "41593363",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "131": {
+    "name": "Tile and Trouble",
+    "ground_truth": "20160",
+    "model_answer": "8",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "132": {
+    "name": "Chess Pains \u00e2\u0080\u0093 White To Move",
+    "ground_truth": "headache",
+    "model_answer": "CHECKMATE",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "133": {
+    "name": "Altered States",
+    "ground_truth": "123",
+    "model_answer": "44",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "134": {
+    "name": "Hooks",
+    "ground_truth": "158",
+    "model_answer": "211",
+    "correct": 0,
+    "numSolvers": 0
+  },
+  "135": {
+    "name": "Sum of Squares",
+    "ground_truth": "205",
+    "model_answer": "I cannot solve this puzzle as the divisors outside the grid (left and top margins) are obscured in the image provided. Please provide the full puzzle grid including the necessary divisors.",
+    "correct": 0,
+    "numSolvers": 0
+  }
+}

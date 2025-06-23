@@ -1,0 +1,9 @@
+{
+  "46": {
+    "name": "Robot Tug-of-War",
+    "ground_truth": "-0.2850001",
+    "model_answer": "\\(-0.2899171\\)",
+    "correct": 0.5,
+    "numSolvers": 131
+  }
+}

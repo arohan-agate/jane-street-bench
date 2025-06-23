@@ -1,0 +1,100 @@
+{
+  "2": {
+    "name": "Sum One, Somewhere",
+    "ground_truth": "0.5306035754",
+    "model_answer": "0.5306035754",
+    "correct": 1,
+    "numSolvers": 1160
+  },
+  "16": {
+    "name": "Some Off Square",
+    "ground_truth": "1 - \u03c0/6",
+    "model_answer": "1 \u2212 \u03c0\u20446",
+    "correct": 1,
+    "numSolvers": 386
+  },
+  "22": {
+    "name": "Single-Cross 2",
+    "ground_truth": "0.5095346021",
+    "model_answer": "0.7452572091,0.5095346021",
+    "correct": 1,
+    "numSolvers": 155
+  },
+  "31": {
+    "name": "'Pent-up' Frustration 2",
+    "ground_truth": "sqrt(65/8 - (29 * sqrt(5))/8)",
+    "model_answer": "0.1387572",
+    "correct": 1,
+    "numSolvers": 99
+  },
+  "44": {
+    "name": "Robot Swimming Trials",
+    "ground_truth": "8",
+    "model_answer": "8,0.334578",
+    "correct": 1,
+    "numSolvers": 192
+  },
+  "46": {
+    "name": "Robot Tug-of-War",
+    "ground_truth": "-0.2850001",
+    "model_answer": "-0.2849998",
+    "correct": 1,
+    "numSolvers": 131
+  },
+  "59": {
+    "name": "Circle Time",
+    "ground_truth": "0.783464",
+    "model_answer": "0.783464",
+    "correct": 1,
+    "numSolvers": 177
+  },
+  "62": {
+    "name": "Single-Cross",
+    "ground_truth": "2/\u03c0",
+    "model_answer": "D = 1, with maximal probability 2 \u2044 \u03c0",
+    "correct": 1,
+    "numSolvers": 122
+  },
+  "78": {
+    "name": "Subtiles",
+    "ground_truth": "256",
+    "model_answer": "256",
+    "correct": 1,
+    "numSolvers": 67
+  },
+  "97": {
+    "name": "Birthday Bash",
+    "ground_truth": "2287",
+    "model_answer": "2287",
+    "correct": 1,
+    "numSolvers": 52
+  },
+  "98": {
+    "name": "What About Bob?",
+    "ground_truth": "11, 22, 32",
+    "model_answer": "11, 22, 32",
+    "correct": 1,
+    "numSolvers": 42
+  },
+  "113": {
+    "name": "Pair Dance",
+    "ground_truth": "240",
+    "model_answer": "240",
+    "correct": 1,
+    "numSolvers": 34
+  },
+  "115": {
+    "name": "Think Of The Children!",
+    "ground_truth": "288",
+    "model_answer": "288",
+    "correct": 1,
+    "numSolvers": 0
+  },
+  "117": {
+    "name": "Good Chemistry",
+    "ground_truth": "4092",
+    "model_answer": "4092",
+    "correct": 1,
+    "numSolvers": 0
+  }
+}

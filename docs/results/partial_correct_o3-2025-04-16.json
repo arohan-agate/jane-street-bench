@@ -1,0 +1,51 @@
+{
+  "14": {
+    "name": "Robot Capture-the-Flag",
+    "ground_truth": "0.166186486474004",
+    "model_answer": "0.1666666667",
+    "correct": 0.5,
+    "numSolvers": 233
+  },
+  "42": {
+    "name": "Robot Archery",
+    "ground_truth": "0.18343765086",
+    "model_answer": "0.1890216070",
+    "correct": 0.5,
+    "numSolvers": 139
+  },
+  "50": {
+    "name": "Bracketology 101",
+    "ground_truth": "6.55795%",
+    "model_answer": "Swap seeds 3 and 16; increase \u2248 0.065193",
+    "correct": 0.5,
+    "numSolvers": 164
+  },
+  "81": {
+    "name": "Triangle Math",
+    "ground_truth": "2^n - 1",
+    "model_answer": "If n = 2p (even):\n\u2003answer = 2^{p+1} \u2212 2 + \u03a3_{k=1}^{\u230a(p\u22121)/3\u230b} 2^{\\,p \u2212 3k \u2212 1}\n\nIf n = 2p + 1 (odd):\n\u2003answer = 2^{p+1} \u2212 1 + \u03a3_{k=1}^{\u230a(p+1)/3\u230b} 2^{\\,p \u2212 3k + 1}",
+    "correct": 0.5,
+    "numSolvers": 53
+  },
+  "87": {
+    "name": "Rather Square Sudoku",
+    "ground_truth": "1146",
+    "model_answer": "1140",
+    "correct": 0.5,
+    "numSolvers": 124
+  },
+  "106": {
+    "name": "Get Out The Vote",
+    "ground_truth": "(20, 34, 48)",
+    "model_answer": "21, 34, 48",
+    "correct": 0.5,
+    "numSolvers": 73
+  },
+  "135": {
+    "name": "Sum of Squares",
+    "ground_truth": "205",
+    "model_answer": "(204,9899999998999999969669890)",
+    "correct": 0.5,
+    "numSolvers": 0
+  }
+}

@@ -1,0 +1,2606 @@
+{
+  "0": {
+    "name": "Some Ones, Somewhere",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "THE PIECES ARE FALLING INTO PLACE",
+        "prompt_tokens": 424,
+        "completion_tokens": 3122,
+        "total_tokens": 3546
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG",
+        "prompt_tokens": 424,
+        "completion_tokens": 2463,
+        "total_tokens": 2887
+      }
+    ]
+  },
+  "1": {
+    "name": "Number Cross 5",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0",
+        "prompt_tokens": 1127,
+        "completion_tokens": 6739,
+        "total_tokens": 7866
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "74003",
+        "prompt_tokens": 1127,
+        "completion_tokens": 4193,
+        "total_tokens": 5320
+      }
+    ]
+  },
+  "2": {
+    "name": "Sum One, Somewhere",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.5306035715",
+        "prompt_tokens": 795,
+        "completion_tokens": 14424,
+        "total_tokens": 15219
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.5306035754",
+        "prompt_tokens": 795,
+        "completion_tokens": 12824,
+        "total_tokens": 13619
+      }
+    ]
+  },
+  "3": {
+    "name": "Hall of Mirrors 3",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "280665360",
+        "prompt_tokens": 575,
+        "completion_tokens": 923,
+        "total_tokens": 1498
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "3217890646304",
+        "prompt_tokens": 575,
+        "completion_tokens": 15459,
+        "total_tokens": 16034
+      }
+    ]
+  },
+  "4": {
+    "name": "Top Score (Give or Take)",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Seven of Nine",
+        "prompt_tokens": 717,
+        "completion_tokens": 28188,
+        "total_tokens": 28905
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Seven of Nine",
+        "prompt_tokens": 717,
+        "completion_tokens": 21100,
+        "total_tokens": 21817
+      }
+    ]
+  },
+  "5": {
+    "name": "Somewhat Square Sudoku",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "506172348",
+        "prompt_tokens": 838,
+        "completion_tokens": 23637,
+        "total_tokens": 24475
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "341257068",
+        "prompt_tokens": 838,
+        "completion_tokens": 27989,
+        "total_tokens": 28827
+      }
+    ]
+  },
+  "6": {
+    "name": "Games Night!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "MISCHIEF",
+        "prompt_tokens": 754,
+        "completion_tokens": 3245,
+        "total_tokens": 3999
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "PUZZLED",
+        "prompt_tokens": 754,
+        "completion_tokens": 10261,
+        "total_tokens": 11015
+      }
+    ]
+  },
+  "7": {
+    "name": "Beside the Point",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.5820748760",
+        "prompt_tokens": 793,
+        "completion_tokens": 28376,
+        "total_tokens": 29169
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.2853981634",
+        "prompt_tokens": 793,
+        "completion_tokens": 10776,
+        "total_tokens": 11569
+      }
+    ]
+  },
+  "8": {
+    "name": "Knight Moves 6",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Impossible",
+        "prompt_tokens": 953,
+        "completion_tokens": 16723,
+        "total_tokens": 17676
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "NO ANSWER",
+        "prompt_tokens": 953,
+        "completion_tokens": 3861,
+        "total_tokens": 4814
+      }
+    ]
+  },
+  "9": {
+    "name": "Fences 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "117649",
+        "prompt_tokens": 660,
+        "completion_tokens": 2260,
+        "total_tokens": 2920
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "117649",
+        "prompt_tokens": 660,
+        "completion_tokens": 1685,
+        "total_tokens": 2345
+      }
+    ]
+  },
+  "10": {
+    "name": "Tree-edge Triage",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "$\\displaystyle \\frac{3}{2^{5/3}}$",
+        "prompt_tokens": 985,
+        "completion_tokens": 5536,
+        "total_tokens": 6521
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "$\\displaystyle \\frac{3}{2^{5/3}}$",
+        "prompt_tokens": 985,
+        "completion_tokens": 5536,
+        "total_tokens": 6521
+      }
+    ]
+  },
+  "11": {
+    "name": "Many Happy Returns",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Melvil Dewey",
+        "prompt_tokens": 150,
+        "completion_tokens": 3224,
+        "total_tokens": 3374
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Melvil Dewey",
+        "prompt_tokens": 150,
+        "completion_tokens": 6617,
+        "total_tokens": 6767
+      }
+    ]
+  },
+  "12": {
+    "name": "Altered States 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "thoainesl",
+        "prompt_tokens": 1013,
+        "completion_tokens": 1621,
+        "total_tokens": 2634
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "UNSOLVED",
+        "prompt_tokens": 1013,
+        "completion_tokens": 4309,
+        "total_tokens": 5322
+      }
+    ]
+  },
+  "13": {
+    "name": "Number Cross 4",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "124655",
+        "prompt_tokens": 905,
+        "completion_tokens": 7891,
+        "total_tokens": 8796
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "246913",
+        "prompt_tokens": 905,
+        "completion_tokens": 6932,
+        "total_tokens": 7837
+      }
+    ]
+  },
+  "14": {
+    "name": "Robot Capture-the-Flag",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.3372065908",
+        "prompt_tokens": 296,
+        "completion_tokens": 20965,
+        "total_tokens": 21261
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.1666666667",
+        "prompt_tokens": 296,
+        "completion_tokens": 24286,
+        "total_tokens": 24582
+      }
+    ]
+  },
+  "15": {
+    "name": "Hooks 10",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "28",
+        "prompt_tokens": 926,
+        "completion_tokens": 27373,
+        "total_tokens": 28299
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "35",
+        "prompt_tokens": 926,
+        "completion_tokens": 12563,
+        "total_tokens": 13489
+      }
+    ]
+  },
+  "16": {
+    "name": "Some Off Square",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "1 \u2212 \u03c0\u204424",
+        "prompt_tokens": 763,
+        "completion_tokens": 5658,
+        "total_tokens": 6421
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "1 \u2212 \u03c0\u20446",
+        "prompt_tokens": 763,
+        "completion_tokens": 3034,
+        "total_tokens": 3797
+      }
+    ]
+  },
+  "17": {
+    "name": "Some F Squares",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "[No Answer]",
+        "prompt_tokens": 550,
+        "completion_tokens": 6678,
+        "total_tokens": 7228
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "420",
+        "prompt_tokens": 550,
+        "completion_tokens": 5803,
+        "total_tokens": 6353
+      }
+    ]
+  },
+  "19": {
+    "name": "Knight Moves 5",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "UNSOLVED",
+        "prompt_tokens": 1166,
+        "completion_tokens": 5717,
+        "total_tokens": 6883
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "17",
+        "prompt_tokens": 1166,
+        "completion_tokens": 2899,
+        "total_tokens": 4065
+      }
+    ]
+  },
+  "20": {
+    "name": "A Weird Tour",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Achilles' heel",
+        "prompt_tokens": 414,
+        "completion_tokens": 21664,
+        "total_tokens": 22078
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "UNDERGROUND",
+        "prompt_tokens": 414,
+        "completion_tokens": 27103,
+        "total_tokens": 27517
+      }
+    ]
+  },
+  "21": {
+    "name": "Getting from a to b",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "17",
+        "prompt_tokens": 559,
+        "completion_tokens": 10027,
+        "total_tokens": 10586
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "59",
+        "prompt_tokens": 559,
+        "completion_tokens": 13867,
+        "total_tokens": 14426
+      }
+    ]
+  },
+  "22": {
+    "name": "Single-Cross 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.7452572091,0.5095346021",
+        "prompt_tokens": 559,
+        "completion_tokens": 10027,
+        "total_tokens": 10586
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.7452572091,0.5095346021",
+        "prompt_tokens": 559,
+        "completion_tokens": 13867,
+        "total_tokens": 14426
+      }
+    ]
+  },
+  "23": {
+    "name": "Choco Banana",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "UNKNOWN",
+        "prompt_tokens": 489,
+        "completion_tokens": 3667,
+        "total_tokens": 4156
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "UNSOLVED",
+        "prompt_tokens": 489,
+        "completion_tokens": 5333,
+        "total_tokens": 5822
+      }
+    ]
+  },
+  "24": {
+    "name": "Hooks 9",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "40320",
+        "prompt_tokens": 938,
+        "completion_tokens": 15258,
+        "total_tokens": 16196
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Unable",
+        "prompt_tokens": 938,
+        "completion_tokens": 13221,
+        "total_tokens": 14159
+      }
+    ]
+  },
+  "25": {
+    "name": "Game Night!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "DRESSCODE",
+        "prompt_tokens": 481,
+        "completion_tokens": 4309,
+        "total_tokens": 4790
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "BITMASK",
+        "prompt_tokens": 481,
+        "completion_tokens": 8404,
+        "total_tokens": 8885
+      }
+    ]
+  },
+  "26": {
+    "name": "Arc-edge Acreage",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "576",
+        "prompt_tokens": 826,
+        "completion_tokens": 7125,
+        "total_tokens": 7951
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "36",
+        "prompt_tokens": 826,
+        "completion_tokens": 16339,
+        "total_tokens": 17165
+      }
+    ]
+  },
+  "27": {
+    "name": "Robot Long Jump",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.175639365",
+        "prompt_tokens": 404,
+        "completion_tokens": 20183,
+        "total_tokens": 20587
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.000000000",
+        "prompt_tokens": 404,
+        "completion_tokens": 30103,
+        "total_tokens": 30507
+      }
+    ]
+  },
+  "28": {
+    "name": "Twenty Four Seven (Four-in-One)",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "120",
+        "prompt_tokens": 953,
+        "completion_tokens": 7059,
+        "total_tokens": 8012
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "35280",
+        "prompt_tokens": 953,
+        "completion_tokens": 10708,
+        "total_tokens": 11661
+      }
+    ]
+  },
+  "29": {
+    "name": "Lesses More",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "9999998;9999999;10000000;0",
+        "prompt_tokens": 1097,
+        "completion_tokens": 13151,
+        "total_tokens": 14248
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0;1;2;4",
+        "prompt_tokens": 1097,
+        "completion_tokens": 11737,
+        "total_tokens": 12834
+      }
+    ]
+  },
+  "30": {
+    "name": "Die Agony",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0",
+        "prompt_tokens": 909,
+        "completion_tokens": 18963,
+        "total_tokens": 19872
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "6003",
+        "prompt_tokens": 909,
+        "completion_tokens": 17748,
+        "total_tokens": 18657
+      }
+    ]
+  },
+  "31": {
+    "name": "'Pent-up' Frustration 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.1387572",
+        "prompt_tokens": 186,
+        "completion_tokens": 21913,
+        "total_tokens": 22099
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.1755705",
+        "prompt_tokens": 186,
+        "completion_tokens": 20695,
+        "total_tokens": 20881
+      }
+    ]
+  },
+  "32": {
+    "name": "The Marshy Mess",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "20963833/7937669495",
+        "prompt_tokens": 667,
+        "completion_tokens": 10464,
+        "total_tokens": 11131
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "1/13",
+        "prompt_tokens": 667,
+        "completion_tokens": 5653,
+        "total_tokens": 6320
+      }
+    ]
+  },
+  "33": {
+    "name": "Pair Dance 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "(19,15,18,18,25)",
+        "prompt_tokens": 260,
+        "completion_tokens": 27233,
+        "total_tokens": 27493
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "(7, 6, 8, 18, 3, 6, 2)",
+        "prompt_tokens": 260,
+        "completion_tokens": 19433,
+        "total_tokens": 19693
+      }
+    ]
+  },
+  "34": {
+    "name": "New York Minute",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Grand Central Oyster Bar \u2014 for happy hour",
+        "prompt_tokens": 812,
+        "completion_tokens": 16297,
+        "total_tokens": 17109
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Times Square \u2013 to watch the nightly three-minute \u201cMidnight Moment\u201d display",
+        "prompt_tokens": 812,
+        "completion_tokens": 22638,
+        "total_tokens": 23450
+      }
+    ]
+  },
+  "35": {
+    "name": "Andy's Morning Stroll",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.6564634",
+        "prompt_tokens": 505,
+        "completion_tokens": 13975,
+        "total_tokens": 14480
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.5038866",
+        "prompt_tokens": 505,
+        "completion_tokens": 16152,
+        "total_tokens": 16657
+      }
+    ]
+  },
+  "36": {
+    "name": "Block Party 4",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "3265920",
+        "prompt_tokens": 792,
+        "completion_tokens": 4885,
+        "total_tokens": 5677
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0",
+        "prompt_tokens": 792,
+        "completion_tokens": 4179,
+        "total_tokens": 4971
+      }
+    ]
+  },
+  "37": {
+    "name": "Robot Updated Swimming Trials",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.952240",
+        "prompt_tokens": 550,
+        "completion_tokens": 18518,
+        "total_tokens": 19068
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.952240",
+        "prompt_tokens": 550,
+        "completion_tokens": 30615,
+        "total_tokens": 31165
+      }
+    ]
+  },
+  "38": {
+    "name": "Almost Magic",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "pass",
+        "prompt_tokens": 747,
+        "completion_tokens": 14419,
+        "total_tokens": 15166
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "50,72,16,12,46,80,75,53,77,76,20,43,69,96,1,58,114,85,64,59,95,40,39,88,137,111,90,62",
+        "prompt_tokens": 747,
+        "completion_tokens": 25481,
+        "total_tokens": 26228
+      }
+    ]
+  },
+  "39": {
+    "name": "The Hidden Warning",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "EARTHQUAKES",
+        "prompt_tokens": 82,
+        "completion_tokens": 16985,
+        "total_tokens": 17067
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "SMOKESCREEN",
+        "prompt_tokens": 82,
+        "completion_tokens": 25493,
+        "total_tokens": 25575
+      }
+    ]
+  },
+  "40": {
+    "name": "Eldrow",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "TIGHT,SIGHT,RIGHT,NIGHT,MIGHT,LIGHT,FIGHT,EIGHT",
+        "prompt_tokens": 726,
+        "completion_tokens": 9061,
+        "total_tokens": 9787
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "VEXED,HUMPH,CIGAR,BLOWN,BOOTY,BOOBY,BOOZY",
+        "prompt_tokens": 726,
+        "completion_tokens": 23403,
+        "total_tokens": 24129
+      }
+    ]
+  },
+  "41": {
+    "name": "Hooks 8",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "20160",
+        "prompt_tokens": 608,
+        "completion_tokens": 14036,
+        "total_tokens": 14644
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "20160",
+        "prompt_tokens": 608,
+        "completion_tokens": 13268,
+        "total_tokens": 13876
+      }
+    ]
+  },
+  "42": {
+    "name": "Robot Archery",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.1102079080",
+        "prompt_tokens": 318,
+        "completion_tokens": 36248,
+        "total_tokens": 36566
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.1890216070",
+        "prompt_tokens": 318,
+        "completion_tokens": 46680,
+        "total_tokens": 46998
+      }
+    ]
+  },
+  "43": {
+    "name": "Split Division 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Invalid",
+        "prompt_tokens": 486,
+        "completion_tokens": 2988,
+        "total_tokens": 3474
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Unable to answer",
+        "prompt_tokens": 486,
+        "completion_tokens": 12654,
+        "total_tokens": 13140
+      }
+    ]
+  },
+  "44": {
+    "name": "Robot Swimming Trials",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "9,0.350245",
+        "prompt_tokens": 659,
+        "completion_tokens": 26969,
+        "total_tokens": 27628
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "8,0.334578",
+        "prompt_tokens": 659,
+        "completion_tokens": 31512,
+        "total_tokens": 32171
+      }
+    ]
+  },
+  "45": {
+    "name": "Knight Moves 4",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "91285",
+        "prompt_tokens": 846,
+        "completion_tokens": 6228,
+        "total_tokens": 7074
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "53421",
+        "prompt_tokens": 846,
+        "completion_tokens": 10202,
+        "total_tokens": 11048
+      }
+    ]
+  },
+  "46": {
+    "name": "Robot Tug-of-War",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "-0.2849998",
+        "prompt_tokens": 298,
+        "completion_tokens": 39710,
+        "total_tokens": 40008
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "-0.2850129",
+        "prompt_tokens": 298,
+        "completion_tokens": 33624,
+        "total_tokens": 33922
+      }
+    ]
+  },
+  "47": {
+    "name": "It's Symmetric 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "324",
+        "prompt_tokens": 183,
+        "completion_tokens": 1427,
+        "total_tokens": 1610
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "131",
+        "prompt_tokens": 183,
+        "completion_tokens": 2067,
+        "total_tokens": 2250
+      }
+    ]
+  },
+  "48": {
+    "name": "Robot Weightlifting",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.500000",
+        "prompt_tokens": 285,
+        "completion_tokens": 8982,
+        "total_tokens": 9267
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.500000",
+        "prompt_tokens": 285,
+        "completion_tokens": 10966,
+        "total_tokens": 11251
+      }
+    ]
+  },
+  "49": {
+    "name": "Past Tens",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "42",
+        "prompt_tokens": 459,
+        "completion_tokens": 3370,
+        "total_tokens": 3829
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "42",
+        "prompt_tokens": 459,
+        "completion_tokens": 1811,
+        "total_tokens": 2270
+      }
+    ]
+  },
+  "50": {
+    "name": "Bracketology 101",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Swap seeds 3 and 16; increase \u2248 0.065193",
+        "prompt_tokens": 689,
+        "completion_tokens": 21220,
+        "total_tokens": 21909
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Swap seeds 3 and 16; increase \u2248 0.0660063",
+        "prompt_tokens": 689,
+        "completion_tokens": 27812,
+        "total_tokens": 28501
+      }
+    ]
+  },
+  "51": {
+    "name": "Tit for Tat",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "OPTION B",
+        "prompt_tokens": 149,
+        "completion_tokens": 23513,
+        "total_tokens": 23662
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "NUMBER 1",
+        "prompt_tokens": 149,
+        "completion_tokens": 17749,
+        "total_tokens": 17898
+      }
+    ]
+  },
+  "52": {
+    "name": "Hooks #7",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "65536",
+        "prompt_tokens": 917,
+        "completion_tokens": 10388,
+        "total_tokens": 11305
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "32768",
+        "prompt_tokens": 917,
+        "completion_tokens": 6944,
+        "total_tokens": 7861
+      }
+    ]
+  },
+  "53": {
+    "name": "Figurine Figuring",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "7.770620",
+        "prompt_tokens": 215,
+        "completion_tokens": 28183,
+        "total_tokens": 28398
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "7.5384615",
+        "prompt_tokens": 215,
+        "completion_tokens": 36440,
+        "total_tokens": 36655
+      }
+    ]
+  },
+  "54": {
+    "name": "Twenty Four Seven 2-by-2 #2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "2464",
+        "prompt_tokens": 937,
+        "completion_tokens": 3168,
+        "total_tokens": 4105
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "7936",
+        "prompt_tokens": 937,
+        "completion_tokens": 7506,
+        "total_tokens": 8443
+      }
+    ]
+  },
+  "55": {
+    "name": "Candy Collectors",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "3/195312500",
+        "prompt_tokens": 223,
+        "completion_tokens": 32599,
+        "total_tokens": 32822
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "1/210",
+        "prompt_tokens": 223,
+        "completion_tokens": 14101,
+        "total_tokens": 14324
+      }
+    ]
+  },
+  "56": {
+    "name": "Tangled!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "RRSRSSSRSSRSRSSRSRSSSR",
+        "prompt_tokens": 442,
+        "completion_tokens": 24989,
+        "total_tokens": 25431
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "SRRSSRSS",
+        "prompt_tokens": 442,
+        "completion_tokens": 16789,
+        "total_tokens": 17231
+      }
+    ]
+  },
+  "57": {
+    "name": "Study and Ponder",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "TSLA",
+        "prompt_tokens": 527,
+        "completion_tokens": 13591,
+        "total_tokens": 14118
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "TSLA",
+        "prompt_tokens": 527,
+        "completion_tokens": 8852,
+        "total_tokens": 9379
+      }
+    ]
+  },
+  "58": {
+    "name": "What a Trit!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Impossible",
+        "prompt_tokens": 285,
+        "completion_tokens": 9619,
+        "total_tokens": 9904
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Impossible",
+        "prompt_tokens": 285,
+        "completion_tokens": 22995,
+        "total_tokens": 23280
+      }
+    ]
+  },
+  "59": {
+    "name": "Circle Time",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0.783163",
+        "prompt_tokens": 620,
+        "completion_tokens": 7446,
+        "total_tokens": 8066
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0.783464",
+        "prompt_tokens": 620,
+        "completion_tokens": 22998,
+        "total_tokens": 23618
+      }
+    ]
+  },
+  "61": {
+    "name": "Triads",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "266",
+        "prompt_tokens": 565,
+        "completion_tokens": 21011,
+        "total_tokens": 21576
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "525",
+        "prompt_tokens": 565,
+        "completion_tokens": 15897,
+        "total_tokens": 16462
+      }
+    ]
+  },
+  "62": {
+    "name": "Single-Cross",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "D = 1, with maximal probability 2 \u2044 \u03c0",
+        "prompt_tokens": 94,
+        "completion_tokens": 11618,
+        "total_tokens": 11712
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "D = 1,\u2003maximum probability = 2 \u2044 \u03c0",
+        "prompt_tokens": 94,
+        "completion_tokens": 11108,
+        "total_tokens": 11202
+      }
+    ]
+  },
+  "63": {
+    "name": "Alter/Nate",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Alter wins \u2013 after each Nate pick k he plays 12 \u2212 k (or 2 if k = 1), which forces Nate to make the losing move.",
+        "prompt_tokens": 275,
+        "completion_tokens": 13305,
+        "total_tokens": 13580
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Alter",
+        "prompt_tokens": 275,
+        "completion_tokens": 21267,
+        "total_tokens": 21542
+      }
+    ]
+  },
+  "64": {
+    "name": "Poetry in Motion",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "hxg6 e.p.#",
+        "prompt_tokens": 150,
+        "completion_tokens": 23960,
+        "total_tokens": 24110
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "en passant",
+        "prompt_tokens": 150,
+        "completion_tokens": 27159,
+        "total_tokens": 27309
+      }
+    ]
+  },
+  "65": {
+    "name": "Hooks #6",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "40320",
+        "prompt_tokens": 952,
+        "completion_tokens": 10004,
+        "total_tokens": 10956
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "245",
+        "prompt_tokens": 952,
+        "completion_tokens": 8025,
+        "total_tokens": 8977
+      }
+    ]
+  },
+  "66": {
+    "name": "Tri, Tri Again, Again",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "1",
+        "prompt_tokens": 543,
+        "completion_tokens": 2795,
+        "total_tokens": 3338
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "45",
+        "prompt_tokens": 543,
+        "completion_tokens": 2835,
+        "total_tokens": 3378
+      }
+    ]
+  },
+  "67": {
+    "name": "Block Party 3",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "475",
+        "prompt_tokens": 538,
+        "completion_tokens": 5907,
+        "total_tokens": 6445
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "1900",
+        "prompt_tokens": 538,
+        "completion_tokens": 8340,
+        "total_tokens": 8878
+      }
+    ]
+  },
+  "68": {
+    "name": "Knight Moves 3",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "8",
+        "prompt_tokens": 574,
+        "completion_tokens": 11603,
+        "total_tokens": 12177
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "36",
+        "prompt_tokens": 574,
+        "completion_tokens": 14163,
+        "total_tokens": 14737
+      }
+    ]
+  },
+  "69": {
+    "name": "Scraggle",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "JOKING GROTESQUELY YEAH HEXYLIC",
+        "prompt_tokens": 743,
+        "completion_tokens": 4127,
+        "total_tokens": 4870
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "JOKING GROTESQUELY YEAH HEXYLIC",
+        "prompt_tokens": 743,
+        "completion_tokens": 5155,
+        "total_tokens": 5898
+      }
+    ]
+  },
+  "70": {
+    "name": "Hooks #5",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "36",
+        "prompt_tokens": 923,
+        "completion_tokens": 12505,
+        "total_tokens": 13428
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "88",
+        "prompt_tokens": 923,
+        "completion_tokens": 8364,
+        "total_tokens": 9287
+      }
+    ]
+  },
+  "71": {
+    "name": "Disassembled Rainbow Bagel",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0",
+        "prompt_tokens": 485,
+        "completion_tokens": 10859,
+        "total_tokens": 11344
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0",
+        "prompt_tokens": 485,
+        "completion_tokens": 5203,
+        "total_tokens": 5688
+      }
+    ]
+  },
+  "72": {
+    "name": "Remote Sudoku",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Unable to determine answer",
+        "prompt_tokens": 833,
+        "completion_tokens": 8175,
+        "total_tokens": 9008
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "576",
+        "prompt_tokens": 833,
+        "completion_tokens": 7635,
+        "total_tokens": 8468
+      }
+    ]
+  },
+  "73": {
+    "name": "Twenty Four Seven 2-by-2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "10120",
+        "prompt_tokens": 983,
+        "completion_tokens": 3162,
+        "total_tokens": 4145
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "6986",
+        "prompt_tokens": 983,
+        "completion_tokens": 11478,
+        "total_tokens": 12461
+      }
+    ]
+  },
+  "74": {
+    "name": "Tile and Trouble 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "LUGGAGE",
+        "prompt_tokens": 110,
+        "completion_tokens": 7192,
+        "total_tokens": 7302
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "MIND",
+        "prompt_tokens": 110,
+        "completion_tokens": 22425,
+        "total_tokens": 22535
+      }
+    ]
+  },
+  "75": {
+    "name": "Fences",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "24",
+        "prompt_tokens": 612,
+        "completion_tokens": 6611,
+        "total_tokens": 7223
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "6",
+        "prompt_tokens": 612,
+        "completion_tokens": 4883,
+        "total_tokens": 5495
+      }
+    ]
+  },
+  "76": {
+    "name": "Block Party 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "102",
+        "prompt_tokens": 515,
+        "completion_tokens": 5675,
+        "total_tokens": 6190
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "82",
+        "prompt_tokens": 515,
+        "completion_tokens": 15571,
+        "total_tokens": 16086
+      }
+    ]
+  },
+  "77": {
+    "name": "'Pent-up' Frustration",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "24",
+        "prompt_tokens": 222,
+        "completion_tokens": 10963,
+        "total_tokens": 11185
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "24",
+        "prompt_tokens": 222,
+        "completion_tokens": 15443,
+        "total_tokens": 15665
+      }
+    ]
+  },
+  "78": {
+    "name": "Subtiles",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "256",
+        "prompt_tokens": 858,
+        "completion_tokens": 3475,
+        "total_tokens": 4333
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "136",
+        "prompt_tokens": 858,
+        "completion_tokens": 5267,
+        "total_tokens": 6125
+      }
+    ]
+  },
+  "79": {
+    "name": "Spiral Region",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "840",
+        "prompt_tokens": 474,
+        "completion_tokens": 4179,
+        "total_tokens": 4653
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "384",
+        "prompt_tokens": 474,
+        "completion_tokens": 5483,
+        "total_tokens": 5957
+      }
+    ]
+  },
+  "80": {
+    "name": "Hooks #4",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "36",
+        "prompt_tokens": 605,
+        "completion_tokens": 18411,
+        "total_tokens": 19016
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "40320",
+        "prompt_tokens": 605,
+        "completion_tokens": 21716,
+        "total_tokens": 22321
+      }
+    ]
+  },
+  "81": {
+    "name": "Triangle Math",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "n",
+        "prompt_tokens": 111,
+        "completion_tokens": 23764,
+        "total_tokens": 23875
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "If n = 2p (even):\n\u2003answer = 2^{p+1} \u2212 2 + \u03a3_{k=1}^{\u230a(p\u22121)/3\u230b} 2^{\\,p \u2212 3k \u2212 1}\n\nIf n = 2p + 1 (odd):\n\u2003answer = 2^{p+1} \u2212 1 + \u03a3_{k=1}^{\u230a(p+1)/3\u230b} 2^{\\,p \u2212 3k + 1}",
+        "prompt_tokens": 111,
+        "completion_tokens": 27854,
+        "total_tokens": 27965
+      }
+    ]
+  },
+  "82": {
+    "name": "Twenty Four Seven",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "90",
+        "prompt_tokens": 833,
+        "completion_tokens": 15123,
+        "total_tokens": 15956
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "336",
+        "prompt_tokens": 833,
+        "completion_tokens": 15379,
+        "total_tokens": 16212
+      }
+    ]
+  },
+  "83": {
+    "name": "Swing Time 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Please provide the full text of this month\u2019s puzzle so I can solve it.",
+        "prompt_tokens": 43,
+        "completion_tokens": 418,
+        "total_tokens": 461
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Please provide the full text or details of the puzzle.",
+        "prompt_tokens": 43,
+        "completion_tokens": 349,
+        "total_tokens": 392
+      }
+    ]
+  },
+  "84": {
+    "name": "Where in the World?",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Ukraine",
+        "prompt_tokens": 71,
+        "completion_tokens": 851,
+        "total_tokens": 922
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "UKRAINE",
+        "prompt_tokens": 71,
+        "completion_tokens": 2581,
+        "total_tokens": 2652
+      }
+    ]
+  },
+  "85": {
+    "name": "It\u00e2\u0080\u0099s Symmetric!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "1729",
+        "prompt_tokens": 597,
+        "completion_tokens": 5844,
+        "total_tokens": 6441
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "2476523",
+        "prompt_tokens": 597,
+        "completion_tokens": 5910,
+        "total_tokens": 6507
+      }
+    ]
+  },
+  "86": {
+    "name": "Hooks #3",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "360",
+        "prompt_tokens": 930,
+        "completion_tokens": 9439,
+        "total_tokens": 10369
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "30",
+        "prompt_tokens": 930,
+        "completion_tokens": 6444,
+        "total_tokens": 7374
+      }
+    ]
+  },
+  "87": {
+    "name": "Rather Square Sudoku",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "1140",
+        "prompt_tokens": 805,
+        "completion_tokens": 16852,
+        "total_tokens": 17657
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "992",
+        "prompt_tokens": 805,
+        "completion_tokens": 17939,
+        "total_tokens": 18744
+      }
+    ]
+  },
+  "91": {
+    "name": "Square Run",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "239: a1, c3, c7, d8, d1, g4, h3, a3, g3, e1, h4, g5, b5, e8, e5, b5, c4, f4, d4, h8",
+        "prompt_tokens": 900,
+        "completion_tokens": 31951,
+        "total_tokens": 32851
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "UNSOLVED",
+        "prompt_tokens": 900,
+        "completion_tokens": 13653,
+        "total_tokens": 14553
+      }
+    ]
+  },
+  "92": {
+    "name": "Middlylinks",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "41472",
+        "prompt_tokens": 673,
+        "completion_tokens": 7573,
+        "total_tokens": 8246
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "73728000",
+        "prompt_tokens": 673,
+        "completion_tokens": 4821,
+        "total_tokens": 5494
+      }
+    ]
+  },
+  "93": {
+    "name": "Split Division",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "10913312",
+        "prompt_tokens": 486,
+        "completion_tokens": 16917,
+        "total_tokens": 17403
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "21987342",
+        "prompt_tokens": 486,
+        "completion_tokens": 10413,
+        "total_tokens": 10899
+      }
+    ]
+  },
+  "94": {
+    "name": "Well Well Well...",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "593",
+        "prompt_tokens": 850,
+        "completion_tokens": 23384,
+        "total_tokens": 24234
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "903",
+        "prompt_tokens": 850,
+        "completion_tokens": 7059,
+        "total_tokens": 7909
+      }
+    ]
+  },
+  "95": {
+    "name": "KenKen (Concatenated)",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "28174",
+        "prompt_tokens": 848,
+        "completion_tokens": 28180,
+        "total_tokens": 29028
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "6236",
+        "prompt_tokens": 848,
+        "completion_tokens": 8212,
+        "total_tokens": 9060
+      }
+    ]
+  },
+  "96": {
+    "name": "Knight Moves #2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "1",
+        "prompt_tokens": 830,
+        "completion_tokens": 5349,
+        "total_tokens": 6179
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "216",
+        "prompt_tokens": 830,
+        "completion_tokens": 9171,
+        "total_tokens": 10001
+      }
+    ]
+  },
+  "97": {
+    "name": "Birthday Bash",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "2287",
+        "prompt_tokens": 199,
+        "completion_tokens": 3988,
+        "total_tokens": 4187
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "2295",
+        "prompt_tokens": 199,
+        "completion_tokens": 7765,
+        "total_tokens": 7964
+      }
+    ]
+  },
+  "98": {
+    "name": "What About Bob?",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "11, 22, 32",
+        "prompt_tokens": 260,
+        "completion_tokens": 34650,
+        "total_tokens": 34910
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "11, 22, 33",
+        "prompt_tokens": 260,
+        "completion_tokens": 27609,
+        "total_tokens": 27869
+      }
+    ]
+  },
+  "100": {
+    "name": "Star Search",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Eternal Sunshine of the Spotless Mind",
+        "prompt_tokens": 420,
+        "completion_tokens": 498,
+        "total_tokens": 918
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "The Color Purple",
+        "prompt_tokens": 420,
+        "completion_tokens": 16791,
+        "total_tokens": 17211
+      }
+    ]
+  },
+  "101": {
+    "name": "The Wright Stuff",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "LINCOLNFARM",
+        "prompt_tokens": 820,
+        "completion_tokens": 26140,
+        "total_tokens": 26960
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "OLDFaithful",
+        "prompt_tokens": 820,
+        "completion_tokens": 25888,
+        "total_tokens": 26708
+      }
+    ]
+  },
+  "102": {
+    "name": "Tri, Tri Again",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "890",
+        "prompt_tokens": 509,
+        "completion_tokens": 7891,
+        "total_tokens": 8400
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "127",
+        "prompt_tokens": 509,
+        "completion_tokens": 8723,
+        "total_tokens": 9232
+      }
+    ]
+  },
+  "103": {
+    "name": "Chess Dance",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "1526447",
+        "prompt_tokens": 936,
+        "completion_tokens": 20693,
+        "total_tokens": 21629
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "5220935",
+        "prompt_tokens": 936,
+        "completion_tokens": 23130,
+        "total_tokens": 24066
+      }
+    ]
+  },
+  "104": {
+    "name": "Swing Time",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Could you please provide the full text of the August puzzle (rules, scoring, etc.) so I can work on a solution?",
+        "prompt_tokens": 89,
+        "completion_tokens": 1260,
+        "total_tokens": 1349
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "INSUFFICIENT_INFORMATION",
+        "prompt_tokens": 89,
+        "completion_tokens": 1175,
+        "total_tokens": 1264
+      }
+    ]
+  },
+  "105": {
+    "name": "Number Cross #3",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "0",
+        "prompt_tokens": 514,
+        "completion_tokens": 18487,
+        "total_tokens": 19001
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "42",
+        "prompt_tokens": 514,
+        "completion_tokens": 20755,
+        "total_tokens": 21269
+      }
+    ]
+  },
+  "106": {
+    "name": "Get Out The Vote",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "21, 34, 48",
+        "prompt_tokens": 301,
+        "completion_tokens": 26201,
+        "total_tokens": 26502
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Harry 21, Larry 34, Mary 48",
+        "prompt_tokens": 301,
+        "completion_tokens": 9117,
+        "total_tokens": 9418
+      }
+    ]
+  },
+  "107": {
+    "name": "Hooks #2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "1632960",
+        "prompt_tokens": 887,
+        "completion_tokens": 20117,
+        "total_tokens": 21004
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "66134880",
+        "prompt_tokens": 887,
+        "completion_tokens": 15125,
+        "total_tokens": 16012
+      }
+    ]
+  },
+  "109": {
+    "name": "Knight Moves",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "3775200",
+        "prompt_tokens": 899,
+        "completion_tokens": 21909,
+        "total_tokens": 22808
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "190466640",
+        "prompt_tokens": 899,
+        "completion_tokens": 14677,
+        "total_tokens": 15576
+      }
+    ]
+  },
+  "111": {
+    "name": "Professor Rando Redux",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "yes",
+        "prompt_tokens": 311,
+        "completion_tokens": 15891,
+        "total_tokens": 16202
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "yes",
+        "prompt_tokens": 311,
+        "completion_tokens": 4115,
+        "total_tokens": 4426
+      }
+    ]
+  },
+  "112": {
+    "name": "Professor Rando",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Daphne 6/25, Max 16/25, Mindy 3/25, Sam 0",
+        "prompt_tokens": 218,
+        "completion_tokens": 14569,
+        "total_tokens": 14787
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Daphne 8%, Max 4%, Mindy 4%, Sam 84%",
+        "prompt_tokens": 218,
+        "completion_tokens": 11559,
+        "total_tokens": 11777
+      }
+    ]
+  },
+  "113": {
+    "name": "Pair Dance",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "240",
+        "prompt_tokens": 484,
+        "completion_tokens": 16595,
+        "total_tokens": 17079
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "126",
+        "prompt_tokens": 484,
+        "completion_tokens": 26003,
+        "total_tokens": 26487
+      }
+    ]
+  },
+  "115": {
+    "name": "Think Of The Children!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "288",
+        "prompt_tokens": 190,
+        "completion_tokens": 25556,
+        "total_tokens": 25746
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "288",
+        "prompt_tokens": 190,
+        "completion_tokens": 29973,
+        "total_tokens": 30163
+      }
+    ]
+  },
+  "116": {
+    "name": "Number Cross 2",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "216",
+        "prompt_tokens": 528,
+        "completion_tokens": 25043,
+        "total_tokens": 25571
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "180",
+        "prompt_tokens": 528,
+        "completion_tokens": 21460,
+        "total_tokens": 21988
+      }
+    ]
+  },
+  "117": {
+    "name": "Good Chemistry",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "3906",
+        "prompt_tokens": 116,
+        "completion_tokens": 34134,
+        "total_tokens": 34250
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "4092",
+        "prompt_tokens": 116,
+        "completion_tokens": 15195,
+        "total_tokens": 15311
+      }
+    ]
+  },
+  "118": {
+    "name": "Polymath",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "282",
+        "prompt_tokens": 474,
+        "completion_tokens": 8020,
+        "total_tokens": 8494
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "21,826",
+        "prompt_tokens": 474,
+        "completion_tokens": 4909,
+        "total_tokens": 5383
+      }
+    ]
+  },
+  "119": {
+    "name": "Tic Tac Oh...",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "47/48",
+        "prompt_tokens": 132,
+        "completion_tokens": 20117,
+        "total_tokens": 20249
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "91.3%",
+        "prompt_tokens": 132,
+        "completion_tokens": 19030,
+        "total_tokens": 19162
+      }
+    ]
+  },
+  "120": {
+    "name": "Hall of Mirrors",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "118",
+        "prompt_tokens": 898,
+        "completion_tokens": 6943,
+        "total_tokens": 7841
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "87",
+        "prompt_tokens": 898,
+        "completion_tokens": 3563,
+        "total_tokens": 4461
+      }
+    ]
+  },
+  "121": {
+    "name": "Ticker Treat",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "Y",
+        "prompt_tokens": 48,
+        "completion_tokens": 2067,
+        "total_tokens": 2115
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "Z",
+        "prompt_tokens": 48,
+        "completion_tokens": 531,
+        "total_tokens": 579
+      }
+    ]
+  },
+  "122": {
+    "name": "Oh CHUTE!",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "CHUTES",
+        "prompt_tokens": 756,
+        "completion_tokens": 1900,
+        "total_tokens": 2656
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "PARACHUTE",
+        "prompt_tokens": 756,
+        "completion_tokens": 14420,
+        "total_tokens": 15176
+      }
+    ]
+  },
+  "125": {
+    "name": "Wrong Division",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "47370216",
+        "prompt_tokens": 432,
+        "completion_tokens": 18145,
+        "total_tokens": 18577
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "69262516",
+        "prompt_tokens": 432,
+        "completion_tokens": 1965,
+        "total_tokens": 2397
+      }
+    ]
+  },
+  "126": {
+    "name": "Minesweeping",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "P = 19/20  (-4--, -S--, --7-, ----)",
+        "prompt_tokens": 682,
+        "completion_tokens": 23913,
+        "total_tokens": 24595
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "P=16/17 (--4-, -S--, 4---, ----)",
+        "prompt_tokens": 682,
+        "completion_tokens": 31524,
+        "total_tokens": 32206
+      }
+    ]
+  },
+  "128": {
+    "name": "Number Cross",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "360444",
+        "prompt_tokens": 506,
+        "completion_tokens": 17300,
+        "total_tokens": 17806
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "0",
+        "prompt_tokens": 506,
+        "completion_tokens": 14740,
+        "total_tokens": 15246
+      }
+    ]
+  },
+  "129": {
+    "name": "Chain Reaction",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "97, 1, 2, 58, 29, 87, 3, 39, 78, 26, 13, 52, 4, 68, 34, 17, 85, 5, 10, 100, 50, 25, 75, 15, 30, 90, 45, 9, 81, 27, 54, 18, 6, 12, 36, 72, 24, 48, 96, 32, 64, 16, 8, 56, 28, 84, 42, 14, 70, 7, 77, 11, 44, 88, 22, 66, 33, 99",
+        "prompt_tokens": 133,
+        "completion_tokens": 37566,
+        "total_tokens": 37699
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "97, 1, 86, 2, 34, 68, 17, 51, 3, 39, 78, 13, 26, 52, 4, 8, 16, 32, 96, 48, 24, 72, 36, 12, 84, 42, 6, 18, 54, 27, 81, 9, 99, 33, 66, 22, 44, 88, 11, 77, 7, 49, 98, 14, 70, 35, 5, 25, 75, 15, 45, 90, 30, 60, 10, 50, 100, 20, 40, 80",
+        "prompt_tokens": 133,
+        "completion_tokens": 42564,
+        "total_tokens": 42697
+      }
+    ]
+  },
+  "130": {
+    "name": "Question Mark",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "26769769",
+        "prompt_tokens": 95,
+        "completion_tokens": 36632,
+        "total_tokens": 36727
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "989",
+        "prompt_tokens": 95,
+        "completion_tokens": 20437,
+        "total_tokens": 20532
+      }
+    ]
+  },
+  "131": {
+    "name": "Tile and Trouble",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "42",
+        "prompt_tokens": 437,
+        "completion_tokens": 18707,
+        "total_tokens": 19144
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "377",
+        "prompt_tokens": 437,
+        "completion_tokens": 35603,
+        "total_tokens": 36040
+      }
+    ]
+  },
+  "132": {
+    "name": "Chess Pains \u00e2\u0080\u0093 White To Move",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "TIMELESS",
+        "prompt_tokens": 724,
+        "completion_tokens": 17580,
+        "total_tokens": 18304
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "ARBITERS",
+        "prompt_tokens": 724,
+        "completion_tokens": 17559,
+        "total_tokens": 18283
+      }
+    ]
+  },
+  "133": {
+    "name": "Altered States",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "43",
+        "prompt_tokens": 795,
+        "completion_tokens": 12371,
+        "total_tokens": 13166
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "UNSOLVED",
+        "prompt_tokens": 795,
+        "completion_tokens": 7317,
+        "total_tokens": 8112
+      }
+    ]
+  },
+  "134": {
+    "name": "Hooks",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "221",
+        "prompt_tokens": 809,
+        "completion_tokens": 22291,
+        "total_tokens": 23100
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "143",
+        "prompt_tokens": 809,
+        "completion_tokens": 10963,
+        "total_tokens": 11772
+      }
+    ]
+  },
+  "135": {
+    "name": "Sum of Squares",
+    "answers": [
+      {
+        "attempt": 1,
+        "temperature": 0.25,
+        "answer": "(203,9999999998999999869668890)",
+        "prompt_tokens": 544,
+        "completion_tokens": 26335,
+        "total_tokens": 26879
+      },
+      {
+        "attempt": 2,
+        "temperature": 0.3,
+        "answer": "(204,9899999998999999969669890)",
+        "prompt_tokens": 544,
+        "completion_tokens": 14623,
+        "total_tokens": 15167
+      }
+    ]
+  }
+}

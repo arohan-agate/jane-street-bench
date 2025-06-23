@@ -1,0 +1,9 @@
+{
+  "100": {
+    "name": "Star Search",
+    "ground_truth": "Inception",
+    "model_answer": "Inception",
+    "correct": 1,
+    "numSolvers": 27
+  }
+}

@@ -95,7 +95,7 @@ def process_model(model_name: str, gt_df: pd.DataFrame):
 
     for pid_str, rec in results.items():
         try:
-            pid_int = int(pid_str) + 1
+            pid_int = int(pid_str)
         except ValueError:
             continue
 

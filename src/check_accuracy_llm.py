@@ -67,8 +67,7 @@ for model_name in model_names:
 
     for pid_str, rec in results.items():
         pid_int = int(pid_str)
-        # adjust index: JSON pid 0 → row index 1
-        csv_idx = pid_int + 1
+        csv_idx = pid_int
         if csv_idx < 0 or csv_idx >= len(df):
             continue
 
