@@ -1,0 +1,137 @@
+id,name,math,probability,geometry,logic_puzzle,image_only,text_only,mixed_input,language,abstract
+0,"Some Ones, Somewhere",0,0,1,1,1,0,0,0,1
+1,Number Cross 5,1,0,0,1,0,0,1,0,0
+2,"Sum One, Somewhere",1,1,0,0,0,0,1,0,0
+3,Hall of Mirrors 3,1,0,1,1,0,0,1,0,0
+4,Top Score (Give or Take),0,0,0,0,1,0,0,1,0
+5,Somewhat Square Sudoku,1,0,0,1,0,0,1,0,0
+6,Games Night!,0,0,0,0,1,0,0,0,1
+7,Beside the Point,1,1,1,0,0,0,1,0,0
+8,Knight Moves 6,1,0,0,0,0,0,1,0,0
+9,Fences 2,0,0,1,1,0,0,1,0,0
+10,Tree-edge Triage,1,1,0,0,0,0,1,0,0
+11,Many Happy Returns,0,0,0,0,0,1,0,1,0
+12,Altered States 2,0,0,0,0,0,0,1,1,0
+13,Number Cross 4,1,0,0,1,0,0,1,0,0
+14,Robot Capture-the-Flag,1,1,1,0,0,1,0,0,0
+15,Hooks 10,1,0,1,1,0,0,1,0,0
+16,Some Off Square,1,1,1,0,0,1,,0,0
+17,Some F Squares,1,0,1,1,0,0,1,0,0
+18,Hall of Mirrors 2,1,0,1,1,0,0,1,0,0
+19,Knight Moves 5,1,0,0,0,0,0,1,0,0
+20,A Weird Tour,0,0,0,0,0,1,0,1,0
+21,Getting from a to b,1,0,0,1,0,0,1,0,0
+22,Single-Cross 2,1,1,1,0,0,1,0,0,0
+23,Choco Banana,1,0,1,1,0,0,1,0,0
+24,Hooks 9,1,0,1,1,0,0,1,0,0
+25,Game Night!,0,0,0,1,0,0,1,1,0
+26,Arc-edge Acreage,1,1,1,0,0,0,1,0,0
+27,Robot Long Jump,1,1,0,0,0,1,0,0,0
+28,Twenty Four Seven (Four-in-One),1,0,0,1,0,0,1,0,0
+29,Lesses More,1,0,1,0,0,0,1,0,0
+30,Die Agony,1,0,1,1,0,0,1,0,0
+31,'Pent-up' Frustration 2,1,0,1,0,0,0,1,0,0
+32,The Marshy Mess,1,0,0,1,0,0,1,0,0
+33,Pair Dance 2,0,0,0,1,0,1,0,1,0
+34,New York Minute,0,0,0,1,0,0,1,1,0
+35,Andy's Morning Stroll,1,1,0,1,0,0,1,0,0
+36,Block Party 4,1,0,0,1,0,0,1,0,0
+37,Robot Updated Swimming Trials,1,1,0,0,0,1,0,0,0
+38,Almost Magic,1,0,0,1,0,0,1,0,0
+39,The Hidden Warning,0,0,0,0,0,1,0,1,1
+40,Eldrow,0,0,0,1,0,1,0,1,0
+41,Hooks 8,1,0,1,1,0,0,1,0,0
+42,Robot Archery,1,1,0,0,0,1,0,0,0
+43,Split Division 2,1,0,0,0,0,0,1,0,0
+44,Robot Swimming Trials,1,1,0,1,0,1,0,0,0
+45,Knight Moves 4,1,0,0,0,0,0,1,0,0
+46,Robot Tug-of-War,1,1,0,0,0,1,0,0,0
+47,It's Symmetric 2,1,0,1,1,0,0,1,0,0
+48,Robot Weightlifting,1,1,0,0,0,1,0,0,0
+49,Past Tens,0,0,0,1,1,0,0,0,1
+50,Bracketology 101,1,1,0,1,0,0,1,0,0
+51,Tit for Tat,0,0,0,0,0,1,0,1,1
+52,Hooks #7,1,0,1,1,0,0,1,0,0
+53,Figurine Figuring,1,1,0,0,0,1,0,0,0
+54,Twenty Four Seven 2-by-2 #2,1,0,0,1,0,0,1,0,0
+55,Candy Collectors,1,1,0,0,0,1,0,0,0
+56,Tangled!,1,0,0,1,0,1,0,1,0
+57,Study and Ponder,0,0,0,,0,1,0,1,1
+58,What a Trit!,1,0,0,0,0,1,0,0,0
+59,Circle Time,1,0,1,0,0,0,1,0,0
+60,Expelled,1,0,0,1,1,0,0,0,1
+61,Triads,1,0,1,0,0,0,1,0,0
+62,Single-Cross,1,1,1,0,0,1,0,0,0
+63,Alter/Nate,0,0,0,1,0,1,0,0,0
+64,Poetry in Motion,0,0,0,0,0,1,0,1,0
+65,Hooks #6,1,0,1,1,0,0,1,0,0
+66,"Tri, Tri Again, Again",1,0,1,0,0,0,1,0,0
+67,Block Party 3,1,0,0,1,0,0,1,0,0
+68,Knight Moves 3,1,0,0,0,0,0,1,0,0
+69,Scraggle,,0,0,1,0,0,1,1,0
+70,Hooks #5,1,0,1,1,0,0,1,0,0
+71,Disassembled Rainbow Bagel,1,0,1,0,0,0,1,0,0
+72,Remote Sudoku,1,0,0,1,0,0,1,0,0
+73,Twenty Four Seven 2-by-2,1,0,0,1,0,0,1,0,0
+74,Tile and Trouble 2,0,0,0,0,0,1,0,1,0
+75,Fences,0,0,1,1,0,0,1,0,0
+76,Block Party 2,1,0,0,1,0,0,1,0,0
+77,'Pent-up' Frustration,1,0,1,0,0,0,1,0,0
+78,Subtiles,1,0,0,1,0,0,1,0,0
+79,Spiral Region,1,0,1,0,0,0,1,0,0
+80,Hooks #4,1,0,1,1,0,0,1,0,0
+81,Triangle Math,1,0,1,0,0,1,0,0,0
+82,Twenty Four Seven,0,0,0,1,0,0,1,0,0
+83,Swing Time 2,1,0,1,1,0,0,1,0,0
+84,Where in the World?,0,0,0,0,0,0,1,1,0
+85,Itâs Symmetric!,1,0,1,1,0,0,1,0,0
+86,Hooks #3,1,0,1,1,0,0,1,0,0
+87,Rather Square Sudoku,1,0,0,1,0,0,1,0,0
+88,Crosswords,0,0,1,1,1,0,0,0,1
+89,Block Party,1,0,0,1,0,0,1,0,0
+90,Turn-based Strategy Game,0,0,0,1,1,0,0,0,1
+91,Square Run,1,0,0,1,0,0,1,0,0
+92,Middlylinks,0,0,0,1,0,0,1,0,0
+93,Split Division,1,0,0,0,0,0,1,0,0
+94,Well Well Well...,1,0,0,0,0,0,1,0,0
+95,KenKen (Concatenated),0,0,0,1,0,0,1,0,0
+96,Knight Moves #2,1,0,0,0,0,0,1,0,0
+97,Birthday Bash,1,1,0,0,0,1,0,0,0
+98,What About Bob?,1,0,0,1,0,1,0,0,0
+99,Hex-agony #2,1,0,1,0,0,0,1,0,0
+100,Star Search,0,0,0,0,1,0,0,1,1
+101,The Wright Stuff,0,0,0,1,0,0,1,1,0
+102,"Tri, Tri Again",1,0,1,0,0,0,1,0,0
+103,Chess Dance,1,0,0,1,0,0,1,0,0
+104,Swing Time,1,0,1,1,0,0,1,0,0
+105,Number Cross #3,1,0,0,1,0,0,1,0,0
+106,Get Out The Vote,1,0,0,0,0,1,0,0,0
+107,Hooks #2,1,0,1,1,0,0,1,0,0
+108,Long. Journey,1,0,0,1,1,0,0,1,0
+109,Knight Moves,1,0,0,0,0,0,1,0,0
+110,Travel Agent,1,0,0,1,1,0,0,0,1
+111,Professor Rando Redux,1,1,0,0,0,1,0,0,0
+112,Professor Rando,1,1,0,0,0,1,0,0,0
+113,Pair Dance,1,1,1,0,0,0,1,0,0
+114,Hex-agony,1,0,1,0,0,0,1,0,0
+115,Think Of The Children!,1,0,0,1,0,1,0,0,0
+116,Number Cross 2,1,0,0,1,0,0,1,0,0
+117,Good Chemistry,1,0,0,0,0,1,0,0,1
+118,Polymath,1,0,1,0,0,0,1,0,0
+119,Tic Tac Oh...,1,1,0,1,0,1,0,0,0
+120,Hall of Mirrors,1,0,1,1,0,0,1,0,0
+121,Ticker Treat,0,0,0,0,0,1,0,1,1
+122,Oh CHUTE!,0,0,0,1,1,0,0,0,1
+123,OH SHOOT!,0,0,0,1,1,0,0,0,1
+124,Deck the Cards,1,1,0,0,1,0,0,0,0
+125,Wrong Division,1,0,0,0,0,0,1,0,0
+126,Minesweeping,1,1,0,0,0,0,1,0,0
+127,Superflip,0,0,0,0,1,0,0,1,1
+128,Number Cross,1,0,0,1,0,0,1,0,0
+129,Chain Reaction,1,0,0,0,0,1,0,0,0
+130,Question Mark,1,0,0,0,0,1,0,0,1
+131,Tile and Trouble,0,0,0,0,0,1,0,1,0
+132,Chess Pains â White To Move,0,0,0,1,0,0,1,0,0
+133,Altered States,0,0,0,0,0,0,1,1,0
+134,Hooks,1,0,1,1,0,0,1,0,0
+135,Sum of Squares,1,0,0,1,0,0,1,0,0
