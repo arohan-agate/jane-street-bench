@@ -1,9 +1,0 @@
-{
-  "34": {
-    "name": "Andy's Morning Stroll",
-    "ground_truth": "0.4480326",
-    "model_answer": "0.4444444",
-    "correct": 0.5,
-    "numSolvers": 182
-  }
-}

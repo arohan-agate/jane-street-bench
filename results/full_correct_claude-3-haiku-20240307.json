@@ -1,9 +1,0 @@
-{
-  "62": {
-    "name": "Alter/Nate",
-    "ground_truth": "Nate",
-    "model_answer": "Nate wins.\n\nNate's strategy should be to always pick the number that makes the running total as close to 50 as possible, without going over 50. This way, Alter will never be able to make the running total reach 100 or more.",
-    "correct": 1,
-    "numSolvers": 167
-  }
-}

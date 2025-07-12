@@ -1,9 +1,0 @@
-{
-  "61": {
-    "name": "Single-Cross",
-    "ground_truth": "2/\u03c0",
-    "model_answer": "2/\\pi",
-    "correct": 1,
-    "numSolvers": 122
-  }
-}

@@ -56,7 +56,7 @@ async function getTotalPuzzlesPerDifficulty() {
   });
 }
 
-async function getModelAccuracy(model, totalByDifficulty) {
+async function getModelAccuracy(model, totalByDifficulty, categoryMap) {
   const correctUrl = `results/full_correct_${model}.json`;
   const partialCorrectUrl = `results/partial_correct_${model}.json`;
   const resultsUrl = `results/results_${model}.json`;
@@ -97,16 +97,33 @@ async function getModelAccuracy(model, totalByDifficulty) {
       "Very Hard": 0
     };
 
+    const categoryCounts = {
+      math: 0,
+      probability: 0,
+      geometry: 0,
+      logic_puzzle: 0,
+      image_only: 0,
+      text_only: 0,
+      mixed_input: 0,
+      language: 0,
+      abstract: 0
+    };
+
     for (const problemId in correctData) {
       const problem = correctData[problemId];
       const diff = classifyDifficulty(problem.numSolvers);
       difficultyCounts[diff]++;
+
+      const cat = categoryMap[problemId];
+      if (cat) {
+        for (const key in categoryCounts) {
+          if (cat[key] === "1") categoryCounts[key]++;
+        }
+      }
     }
 
     const breakdown = {};
-    const totalPuzzles = (totalByDifficulty["Medium"] || 0)
-                       + (totalByDifficulty["Hard"] || 0)
-                       + (totalByDifficulty["Very Hard"] || 0);
+    const totalPuzzles = Object.values(totalByDifficulty).reduce((a, b) => a + b, 0);
     const unattempted = totalPuzzles - totalCount;
 
     breakdown["Medium"]    = `${difficultyCounts["Medium"]} / ${totalByDifficulty["Medium"] || 0}`;
@@ -122,6 +139,7 @@ async function getModelAccuracy(model, totalByDifficulty) {
       percentCorrect,
       percentPartialCorrect,
       difficultyCounts: breakdown,
+      categoryCounts,
       correctData,
       partialCorrectData
     };
@@ -138,7 +156,11 @@ async function getModelAccuracy(model, totalByDifficulty) {
         "Medium": `0 / ${totalByDifficulty["Medium"] || 0}`,
         "Hard": `0 / ${totalByDifficulty["Hard"] || 0}`,
         "Very Hard": `0 / ${totalByDifficulty["Very Hard"] || 0}`,
-        "Unattempted": `${((totalByDifficulty["Medium"]||0) + (totalByDifficulty["Hard"]||0) + (totalByDifficulty["Very Hard"]||0))}`
+        "Unattempted": `${(totalByDifficulty["Medium"]||0)+(totalByDifficulty["Hard"]||0)+(totalByDifficulty["Very Hard"]||0)}`
+      },
+      categoryCounts: {
+        math: 0, probability: 0, geometry: 0, logic_puzzle: 0,
+        image_only: 0, text_only: 0, mixed_input: 0, language: 0, abstract: 0
       },
       correctData: {},
       partialCorrectData: {},
@@ -146,6 +168,7 @@ async function getModelAccuracy(model, totalByDifficulty) {
     };
   }
 }
+
 
 function createTableRow(rank, data) {
   const {
@@ -157,6 +180,7 @@ function createTableRow(rank, data) {
     percentPartialCorrect,
     error,
     difficultyCounts = {},
+    categoryCounts = {},
     correctData = {},
     partialCorrectData = {}
   } = data;
@@ -164,23 +188,21 @@ function createTableRow(rank, data) {
   if (error) {
     return `
       <tr>
-        <td colspan="9" class="text-danger">Model ${model} not available yet</td>
+        <td colspan="18" class="text-danger">Model ${model} not available yet</td>
       </tr>
     `;
   }
 
   const collapseId = `collapse-${rank}`;
-  const correctList = Object.values(correctData)
-    .map(p => `<code>${p.name}</code>`)
-    .join(", ") || "<em>None</em>";
-  const partialList = Object.values(partialCorrectData)
-    .map(p => `<code>${p.name}</code>`)
-    .join(", ") || "<em>None</em>";
+  const correctList = Object.values(correctData).map(p => `<code>${p.name}</code>`).join(", ") || "<em>None</em>";
+  const partialList = Object.values(partialCorrectData).map(p => `<code>${p.name}</code>`).join(", ") || "<em>None</em>";
+
+  const displayModelName = model.replace(/-(\d{4}-\d{2}-\d{2}|\d{8})$/, "").replace(/-\d{8}$/, "");
 
   const summaryRow = `
     <tr data-bs-toggle="collapse" data-bs-target="#${collapseId}" style="cursor: pointer;">
       <td>${rank}</td>
-      <td>${model}</td>
+      <td>${displayModelName}</td>
       <td>${correctCount} (${percentCorrect}%)</td>
       <td>${partialCorrectCount} (${percentPartialCorrect}%)</td>
       <td>${difficultyCounts["Medium"]}</td>
@@ -188,12 +210,21 @@ function createTableRow(rank, data) {
       <td>${difficultyCounts["Very Hard"]}</td>
       <td>${totalCount}</td>
       <td>${difficultyCounts["Unattempted"]}</td>
+      <td>${categoryCounts.math}</td>
+      <td>${categoryCounts.probability}</td>
+      <td>${categoryCounts.geometry}</td>
+      <td>${categoryCounts.logic_puzzle}</td>
+      <td>${categoryCounts.image_only}</td>
+      <td>${categoryCounts.text_only}</td>
+      <td>${categoryCounts.mixed_input}</td>
+      <td>${categoryCounts.language}</td>
+      <td>${categoryCounts.abstract}</td>
     </tr>
   `;
 
   const detailRow = `
     <tr>
-      <td colspan="9" style="padding: 0; border: none;">
+      <td colspan="18" style="padding: 0; border: none;">
         <div class="collapse" id="${collapseId}">
           <div class="p-3">
             <strong>Correct:</strong> ${correctList}<br>
@@ -207,13 +238,29 @@ function createTableRow(rank, data) {
   return summaryRow + detailRow;
 }
 
+
 async function displayResults() {
   const container = document.getElementById("resultsContainer");
   const totalByDifficulty = await getTotalPuzzlesPerDifficulty();
 
+  // Parse category data
+  const categoryMap = await new Promise((resolve, reject) => {
+    Papa.parse("data/categories.csv", {
+      download: true,
+      header: true,
+      skipEmptyLines: true,
+      complete: (results) => {
+        const map = {};
+        results.data.forEach(row => map[row.id] = row);
+        resolve(map);
+      },
+      error: err => reject(err)
+    });
+  });
+
   let statsArray = [];
   for (const model of models) {
-    const stats = await getModelAccuracy(model, totalByDifficulty);
+    const stats = await getModelAccuracy(model, totalByDifficulty, categoryMap);
     statsArray.push(stats);
   }
 
@@ -224,32 +271,38 @@ async function displayResults() {
   });
 
   let html = `
-    <table class="table table-striped">
-      <thead>
-        <tr>
-          <th>Rank</th>
-          <th>Model</th>
-          <th># Correct</th>
-          <th># Partially Correct</th>
-          <th>Medium</th>
-          <th>Hard</th>
-          <th>Very Hard</th>
-          <th>Attempted puzzles</th>
-          <th>Unattempted puzzles</th>
-        </tr>
-      </thead>
-      <tbody>
+    <div style="overflow-x:auto;">
+      <table class="table table-striped table-sm">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Model</th>
+            <th># Correct</th>
+            <th># Partially Correct</th>
+            <th>Medium</th>
+            <th>Hard</th>
+            <th>Very Hard</th>
+            <th>Attempted</th>
+            <th>Unattempted</th>
+            <th>Math</th>
+            <th>Prob</th>
+            <th>Geo</th>
+            <th>Logic</th>
+            <th>Image</th>
+            <th>Text</th>
+            <th>Mixed</th>
+            <th>Lang</th>
+            <th>Abstract</th>
+          </tr>
+        </thead>
+        <tbody>
   `;
 
   statsArray.forEach((stat, idx) => {
     html += createTableRow(idx + 1, stat);
   });
 
-  html += `
-      </tbody>
-    </table>
-  `;
-
+  html += `</tbody></table></div>`;
   container.innerHTML = html;
 }
 
